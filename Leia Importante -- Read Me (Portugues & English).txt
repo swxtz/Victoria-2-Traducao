@@ -4,3 +4,14 @@
 -- abrir o jogo e se divertir 
 
 OBS: A Tradução nao vai traduzir mods pos nao fazem parte do jogo base
+
+======
+
+English Version
+
+-- To install the translation you must go to the folder where the game is located.
+-- then locate the "localization" folder
+-- copy the translated files to the "localization" folder
+-- open the game and have fun
+
+NOTE: Translation will not translate mods as they are not part of the base game
