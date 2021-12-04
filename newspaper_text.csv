@@ -1,0 +1,357 @@
+KEYNAME;TEXT;;TEXT;;;;;;;;;;;x
+news1;O governo de $TAG_2_0$ ofereceu a paz com os seguintes termos: $STRING_0_1$;;Die Regierung von $TAG_2_0$ bot unter folgenden Bedingungen Frieden an: $STRING_0_1$;;;;;;;;;;;x
+battle_we_win_title_large;GLORIOSA VITÓRIA EM $STRING_0_3$!;;GLORREICHER SIEG IN $STRING_0_3$!;;;;;;;;;;;x
+battle_we_win_large;On $DATE_LONG_0$ our unrivalled army was, once again, victorious in the battle of $STRING_0_3$! $VALUE_INT_0_1$ of our men bravely gave $VALUE_INT_0_3$ $TAG_0_3_ADJ$ troops a sound seeing to, and while $VALUE_INT_0_2$ of our fearless troops lost their lives, over $VALUE_INT_0_4$ $TAG_0_3_ADJ$ scoundrels were killed and the field was left in our hands. After a defeat like this, $TAG_0_3$ surely must soon seek peace terms!;;Am $DATE_LONG_0$ war unsere ungeschlagene Armee in der Schlacht von $STRING_0_3$ erneut siegreich! $VALUE_INT_0_1$ unserer tapferen Männer gaben $VALUE_INT_0_3$ $TAG_0_3_ADJ$ Truppen Saures und auch wenn $VALUE_INT_0_2$ unserer tapferen Mannen ihr Leben ließen, wurden mehr als $VALUE_INT_0_4$ $TAG_0_3_ADJ$ Schurken getötet. Nach einer solchen Niederlage, wird $TAG_0_3$ sicherlich um Frieden ersuchen!;;;;;;;;;;;x
+battle_we_win_title_medium;Vitória em $STRING_0_3$!;;Sieg in $STRING_0_3$!;;;;;;;;;;;x
+battle_we_win_medium;Em $DATE_LONG_0$ nós derrotamos $VALUE_INT_0_3$ tropas $TAG_0_3_ADJ$ em $STRING_0_3$, à custa de $VALUE_INT_0_2$ vidas perdidas.;;Am $DATE_LONG_0$ besiegten wir $VALUE_INT_0_3$ $TAG_0_3_ADJ$ Truppen in $STRING_0_3$, zum Preis von $VALUE_INT_0_2$ Leben.;;;;;;;;;;;x
+battle_we_win_title_small;Vitória!;;Sieg!;;;;;;;;;;;x
+battle_we_win_small;Em $DATE_LONG_0$ nós derrotamos $VALUE_INT_0_3$ tropas $TAG_0_3_ADJ$ em $STRING_0_3$.;;Am $DATE_LONG_0$ besiegten wir $VALUE_INT_0_3$ $TAG_0_3_ADJ$ Truppen in $STRING_0_3$.;;;;;;;;;;;x
+battle_we_lose_title_large;A FALHA MILITAR CONDUZ O DESASTRE EM $STRING_0_3$!;;MILITÄRISCHER PATZER FÜHRT ZU DESASTER IN $STRING_0_3$!;;;;;;;;;;;x
+battle_we_lose_large;Em $DATE_LONG_0$ nosso alto comando incompetente chocantemente enviou $VALUE_INT_0_4$ dos nossos bravos soldados para a morte em $STRING_0_3$ contra as forças de  $TAG_0_2$. Our $VALUE_INT_0_3$ fine troops faced $VALUE_INT1$ $TAG_0_2_ADJ$ soldiers, and despite poor leadership and the enemy's underhanded tactics managed to inflict $VALUE_INT_0_2$ casualties upon them. Este artigo expressa graves preocupações sobre a direção que o alto comando está tomando nesta guerra, e instou fortemente o governo a tomar medidas para corrigi-lo antes que seja tarde demais!;;Am $DATE_LONG_0$ sendete unser unfähiges Oberkommando schockierenderweise $VALUE_INT_0_4$ unserer tapferen Soldaten in $STRING_0_3$ gegen die Truppen von $TAG_0_2$ in den Tod. $VALUE_INT_0_3$ feine Soldaten stellten sich $VALUE_INT1$ $TAG_0_2_ADJ$ Mann und konnten trotz schlechter Führung und der Hinterlist des Gegners $VALUE_INT_0_2$ Opfer mit sich nehmen. Wir bringen unsere große Sorge über die Richtung des Oberkommandos in diesem Krieg zum Ausdruck und fordern die Regierung dazu auf, das Ruder herumzureißen, bevor es zu spät ist!;;;;;;;;;;;x
+battle_we_lose_title_medium;Defeat in $STRING_0_3$;;Niederlage in $STRING_0_3$;;;;;;;;;;;x
+battle_we_lose_medium;On $DATE_LONG_0$ we lost the battle of $STRING_0_3$, losing $VALUE_INT_0_4$ men and leaving $TAG_0_2$ in control of the field.;;Am $DATE_LONG_0$ verloren wir die Schlacht von $STRING_0_3$, $VALUE_INT_0_4$ Männer und die Kontrolle des Feldes an $TAG_0_2$.;;;;;;;;;;;x
+battle_we_lose_title_small;Desastre em $STRING_0_3$;;Desaster in $STRING_0_3$;;;;;;;;;;;x
+battle_we_lose_small;Em $DATE_LONG_0$ nós perdemos a batalha de $STRING_0_3$, perdendo $VALUE_INT_0_4$ homens e saindo de $TAG_0_2$ sem o controle do campo.;;Am $DATE_LONG_0$ verloren wir die Schlacht von $STRING_0_3$, $VALUE_INT_0_4$ Männer und die Kontrolle des Feldes an $TAG_0_2$.;;;;;;;;;;;x
+gwar_we_win_large_title;$TAG_3_0_UPPER$ DESISTE!;;$TAG_3_0_UPPER$ GIBT AUF!;;;;;;;;;;;x
+gwar_we_win_large_desc;On $DATE_LONG_1$ the Great War between $TAG_0_0$ and $TAG_1_0$ ended in our glorious victory. The war, known as $STRING_0_0$, raged from $DATE_SHORT_0$ over $STRING_9_0$, and in the end the result was $STRINGS_LIST_4$.;;Am $DATE_LONG_1$ endete der Große Krieg zwischen $TAG_0_0$ und $TAG_1_0$ mit unserem glorreichen Sieg. Der Krieg, bekannt als $STRING_0_0$, wütete von $DATE_SHORT_0$ über $STRING_9_0$, an dessen Ende das Ergebis feststand: $STRINGS_LIST_4$.;;;;;;;;;;;x
+gwar_we_win_medium_title;ARMISTÍCIO ASSINADO!\n VITÓRIA!;;WAFFENRUHE UNTERZEICHNET!\n SIEG!;;;;;;;;;;;x
+gwar_we_win_medium_desc;Em $DATE_LONG_1$, a Grande Guerra entre $TAG_0_0$ e $TAG_1_0$ terminou com a nossa gloriosa vitória. A guerra, conhecida como $STRING_0_0$, durou de $DATE_SHORT_0$ até $STRING_9_0$.;;Am $DATE_LONG_1$ endete der Große Krieg zwischen $TAG_0_0$ und $TAG_1_0$ mit unserem glorreichen Sieg. Der Krieg, bekannt als $STRING_0_0$, wütete von $DATE_SHORT_0$ über $STRING_9_0$.;;;;;;;;;;;x
+gwar_we_win_small_title;Vitória sobre $TAG_3_0$!;;Sieg über $TAG_3_0$!;;;;;;;;;;;x
+gwar_we_win_small_desc;$STRING_0_0$  terminou com a derrota de $TAG_3_0$.;;$STRING_0_0$ endete mit der Niederlage von $TAG_3_0$.;;;;;;;;;;;x
+gwar_we_lose_large_title;UM DIA VERGONHOSO.\nPAZ COM $TAG_2_0_UPPER$ FOI ASSINADO!;;EIN TAG DER SCHANDE.\nFRIEDEN MIT $TAG_2_0_UPPER$ UNTERZEICHNET!;;;;;;;;;;;x
+gwar_we_lose_large_desc;Em $DATE_LONG_1$, a grande guerra contra $TAG_2_0$ terminou na nossa derrota vergonhosa. A guerra, conhecida como $STRING_0_0$, durou de $DATE_SHORT_0$ a mais de $STRING_9_0$ e, no final, o resultado foi de $STRINGS_LIST_4$.;;Am $DATE_LONG_1$ endete der  Krieg gegen $TAG_2_0$ mit unserer schändlichen Niederlage. Der Krieg, $STRING_0_0$, wütete von $DATE_SHORT_0$ über $STRING_9_0$ und am Ende stand $STRINGS_LIST_4$.;;;;;;;;;;;x
+gwar_we_lose_medium_title;PAZ COM $TAG_2_0_UPPER$!;;FRIEDEN MIT $TAG_2_0_UPPER$!;;;;;;;;;;;x
+gwar_we_lose_medium_desc;Em $DATE_LONG_1$, a Grande Guerra entre $TAG_0_0$ e $TAG_1_0$ terminou na nossa derrota vergonhosa. A guerra, conhecida como $STRING_0_0$, durou de $DATE_SHORT_0$ sobre $STRING_9_0$.;;Am $DATE_LONG_1$ endete der Krieg zwischen $TAG_0_0$ und $TAG_1_0$ mit unserem Sieg. Der Krieg, bekannt als $STRING_0_0$, wütete von $DATE_SHORT_0$ über $STRING_9_0$.;;;;;;;;;;;x
+gwar_we_lose_small_title;Paz com $TAG_2_0$;;Frieden mit $TAG_2_0$;;;;;;;;;;;x
+gwar_we_lose_small_desc;$STRING_0_0$ terminou com a nossa derrota nas mãos de $TAG_2_0$;;$STRING_0_0$ endete mit unserer Niederlage durch $TAG_2_0$;;;;;;;;;;;x
+war_we_win_large_title;ARMISTÍCIO ASSINADO!\n $TAG_3_0_UPPER$ DESISTE;;WAFFENRUHE!\n $TAG_3_0_UPPER$ GIBT AUF;;;;;;;;;;;x
+war_we_win_large_desc;Em $DATE_LONG_1$, a guerra entre $TAG_0_0$ e $TAG_1_0$ terminou com a nossa gloriosa vitória. A guerra, conhecida como $STRING_0_0$, durou de $DATE_SHORT_0$ a mais de $STRING_9_0$ e, no final, o resultado foi $STRINGS_LIST_4$.;;Am $DATE_LONG_1$ endete der Krieg zwischen $TAG_0_0$ und $TAG_1_0$ mit unserem glorreichen Sieg. $STRING_0_0$ wütete von $DATE_SHORT_0$ über $STRING_9_0$, das Ende war $STRINGS_LIST_4$.;;;;;;;;;;;x
+war_we_win_medium_title;ARMISTÍCIO ASSINADO!\n VITÓRIA!;;WAFFENRUHE!\n SIEG!;;;;;;;;;;;x
+war_we_win_medium_desc;Em $DATE_LONG_1$, a guerra entre $TAG_0_0$ e $TAG_1_0$ terminou com a nossa gloriosa vitória. A guerra, conhecida como $STRING_0_0$, durou de $DATE_SHORT_0$ até $ STRING_9_0 $.;;Am $DATE_LONG_1$ endete der Krieg zwischen $TAG_0_0$ und $TAG_1_0$ mit unserem Sieg. $STRING_0_0$ ging von $DATE_SHORT_0$ über $STRING_9_0$ und am Ende stand $STRINGS_LIST_4$.;;;;;;;;;;;x
+war_we_win_small_title;Vitória sobre $TAG_3_0$!;;Sieg gegen $TAG_3_0$!;;;;;;;;;;;x
+war_we_win_small_desc;$STRING_0_0$ terminou com a derrota de $TAG_3_0$.;;$STRING_0_0$ endete mit der Niederlage von $TAG_3_0$.;;;;;;;;;;;x
+war_we_lose_large_title;UM DIA VERGONHOSO.\NPAZ COM $TAG_2_0_UPPER$ ASSINADA!;;SCHANDE.\nFRIEDEN MIT $TAG_2_0_UPPER$ SPRUCHREIF!;;;;;;;;;;;x
+war_we_lose_large_desc;Em $DATE_LONG_1$, a guerra contra $TAG_2_0$ terminou na nossa derrota vergonhosa. A guerra, conhecida como $STRING_0_0$, durou de $DATE_SHORT_0$ a mais de $STRING_9_0$ e, no final, o resultado foi $STRINGS_LIST_4$.;;Am $DATE_LONG_1$ endete der Krieg mit $TAG_2_0$ in schämlicher Niederlage. $STRING_0_0$ wütete seit $DATE_SHORT_0$ über $STRING_9_0$, das Ergebnis war $STRINGS_LIST_4$.;;;;;;;;;;;x
+war_we_lose_medium_title;PAZ VERGONHOSA ASSINADA!;;FRIEDEN UNTERZEICHNET!;;;;;;;;;;;x
+war_we_lose_medium_desc;Em $DATE_LONG_1$, a guerra entre $TAG_0_0$ e $TAG_1_0$ terminou na nossa derrota vergonhosa. A guerra, conhecida como $STRING_0_0$, durou de $DATE_SHORT_0$ até $STRING_9_0$ e, no final, $TAG_2_0$ foi o vencedor.;;Am $DATE_LONG_1$ endete der Große Krieg zwischen $TAG_0_0$ und $TAG_1_0$ siegreich für uns. Der als $STRING_0_0$ bekannte Krieg dauerte seit $DATE_SHORT_0$ über $STRING_9_0$ an und endete mit $TAG_2_0$ als Sieger.;;;;;;;;;;;x
+war_we_lose_small_title;Paz com $TAG_2_0$;;Frieden mit $TAG_2_0$;;;;;;;;;;;x
+war_we_lose_small_desc;$STRING_0_0$ terminou com nossa derrota nas mãos de $TAG_2_0$;;$STRING_0_0$ endete mit unserer Niederlage durch $TAG_2_0$;;;;;;;;;;;x
+rebels_win_small_title;Revolução!;;Revolution!;;;;;;;;;;;x
+rebels_win_small_desc;$STRING_0_0$ derrotou o $TAG_0_0$ e quebrou o país, o que os $STRING_0_3$ e $STRING_0_4$ farão agora?;;$STRING_0_0$ haben $TAG_0_0$ besiegt und das Land liegt in Trümmern, was wird $STRING_0_3$ $STRING_0_4$ nun tun?;;;;;;;;;;;x
+KEYNAME;TEXT;;TEXT;;;;;;;;;;;x
+some_fake_1836_title_1;Notícias do ópio!;;Neues vom Opium!;;;;;;;;;;;x
+some_fake_1836_1;Mania do ópio assola a China, os comerciantes afirmam ser uma longa jornada, mas que vale a viagem.;;Opiumwelle in China, Händler sagen, die weite Reise lohnt sich.;;;;;;;;;;;x
+some_fake_1836_title_2;Mania do Éter;;Äther-Wahnsinn;;;;;;;;;;;x
+some_fake_1836_2;"Éter cada vez mais popular, os especialistas afirmam: ""É um gás!""";;Äther immer populärer, Experten behaupten: “Es ist ein Gas!”;;;;;;;;;;;x
+some_fake_1836_title_3;Doces Sonhos;;Süße Träume;;;;;;;;;;;x
+some_fake_1836_3;Primeiro uso de anestesia geral em uma operação, cirurgião nos EUA coloca o paciente para dormir para remoção do tumor.;;Erster Einsatz von Anästhesie bei Operation, Arzt in den USA läßt Patienten Tumor-Entfernung verschlafen.;;;;;;;;;;;x
+some_fake_1836_title_4;Palavras em código;;Codewörter;;;;;;;;;;;x
+some_fake_1836_4;Primeira mensagem telegráfica elétrica do mundo enviada nos EUA por Samuel Morse nos EUA.;;Erste elektr. telegrafische Nachricht der Welt von Samuel Morse in den USA gesendet.;;;;;;;;;;;x
+some_fake_1836_title_5;Filatelistas se alegram!;;Philatelisten jauchzet!;;;;;;;;;;;x
+some_fake_1836_5;"Selo postal introduzido no Reino Unido, conhecido como ""Penny Black"", apresenta uma imagem da jovem rainha, Victoria.";;"Neue Briefmarke ""Penny Black"", mit dem Antlitz der jungen Königin Victoria im Vereinigten Königreich im Umlauf.";;;;;;;;;;;x
+some_fake_1836_title_6;Dead Souls;;Jetzt neu!;;;;;;;;;;;x
+some_fake_1836_6;“Dead Souls”, lançado na Rússia, apresenta uma visão crítica e mordaz do sistema semi-feudal existente à época, com os servos vivendo em regime de escravidão.;;“Die Seelen der Toten” aus Russland, Kritiker: zu kompliziert.;;;;;;;;;;;x
+some_fake_1836_title_7;Woodwind or Brass?;;Holzbläser oder Blech?;;;;;;;;;;;x
+some_fake_1836_title_8;Corrida do ouro!;;Goldrausch!;;;;;;;;;;;x
+some_fake_1836_8;O ouro foi descoberto na Califórnia, uma corrida enorme de garimpeiros invade a região!;;Gold in Kalifornien entdeckt, Goldsucher überrennen das Land!;;;;;;;;;;;x
+some_fake_1836_title_9;"""O Corvo"" foi publicado";;“Der Rabe” veröffentlicht;;;;;;;;;;;x
+some_fake_1836_9;Sombrio! O último conto de Poe com certeza te causará arrepios.;;Eine düstere Glanzleistung, Poes neueste Kurzgeschichte sorgt für Gänsehaut.;;;;;;;;;;;x
+some_fake_1836_title_10;The bountiful female form;;Die üppige Form der Frau;;;;;;;;;;;x
+some_fake_1836_10;(Conteúdo Explícito) Cinturas finas e quadris largos são a regra. Continua na página 5.;;(Explizite Inhalte) Weibliche Taillen und Hüftgrößen scheinbar so schmal und auch breit wie nie zuvor. Mehr auf Seite 5;;;;;;;;;;;x
+some_fake_1836_title_11;Editorial;;Redaktionelles;;;;;;;;;;;x
+some_fake_1836_11;Este liberalismo irá destruir a civilização ocidental. Sem um governo forte, as pessoas vão morrer de fome e voltar ao barbarismo para sobreviver e alimentar seus filhos. (ver pág. 10);;Liberalismus zerstört westliche Zivilisation (mehr auf Seite 10)…;;;;;;;;;;;x
+some_fake_1850_title_1;Nossos ancestrais?;;Unsere Vorfahren?;;;;;;;;;;;x
+some_fake_1850_1;"Cientistas surpreendidos pela descoberta de fósseis de ""Homem de Neandertal"" na Alemanha.";;Forscher begeistert in Deutschland entdecktem Neandertaler-Fossil.;;;;;;;;;;;x
+some_fake_1850_title_2;Editorial:;;Redaktionelles:;;;;;;;;;;;x
+some_fake_1850_2;É a opinião assegurada deste jornal que a gordura animal é a substância perfeita para lubrificar cartuchos de balas. Veja como chegamos a essa conclusão inabalável. (veja a página 10);;Tierfette perfekt für das Einfetten von Patronenhülsen (siehe Seite 10)…;;;;;;;;;;;x
+some_fake_1850_title_3;Canais em declínio;;Kanäle zerfallen;;;;;;;;;;;x
+some_fake_1850_3;O outrora orgulhoso sistema de canais da nossa nação é visto em declínio abrupto. O que pode ser feito? Continua na página 4;;Einstmals stolzes Kanalsystem unserer Nation zerfällt rapide. Was kann man tun? Weiter auf Seite 4;;;;;;;;;;;x
+some_fake_1860_title_1;Lincoln foi assassinado;;Anschlag auf Lincoln;;;;;;;;;;;x
+some_fake_1860_1;Abraham Lincoln assassinado no teatro Ford por John Wilkes Booth, morto a tiros a curta distância.;;Abraham Lincoln in Ford's Theatre von John Wilkes Booth ermordet, Todesschuss aus kurzer Distanz.;;;;;;;;;;;x
+some_fake_1860_title_2;Lincoln fine;;Lincoln wohlauf;;;;;;;;;;;x
+some_fake_1860_2;Fracassada tentativa de assassinato de Abraham Lincoln por John Wilkes Booth, presidente atira assaltante da varanda do teatro Ford.;;Attentat auf Abraham Lincoln durch John Wilkes Booth fehlgeschlagen, Präsident stößt Attentäter vom Balkon im Ford's Theatre.;;;;;;;;;;;x
+some_fake_1860_title_3;Unsporting;;Unsportlich;;;;;;;;;;;x
+some_fake_1860_3;Military Submarine invented, globally agreed to be “unfair” and banned for all time.;;"Militärisches U-Boot erfunden, weltweit als “unfair"" eingestuft und für alle Zeiten verboten.";;;;;;;;;;;x
+some_fake_1860_title_4;Serviços de Saúde;;Gesundheitswesen;;;;;;;;;;;x
+some_fake_1860_4;Florence Nightingale fundou uma escola para enfermeiras no St Thomas Hospital, em Londres.;;Florence Nightingale gründet Schwesternschule am St Thomas' Hospital, London.;;;;;;;;;;;x
+some_fake_1860_title_5;Tabela Periódica;;Elemente geordnet;;;;;;;;;;;x
+some_fake_1860_5;Dmitri Mendeleev inventa a tabela periódica, listando todos os 56 elementos conhecidos.;;Dmitri Mendeleev erfindet Periodensystem, alle 56 Elemente aufgelistet.;;;;;;;;;;;x
+some_fake_1860_title_6;A tendência das duas rodas está aumentando;;Rad-Trend nimmt zu;;;;;;;;;;;x
+some_fake_1860_6;Mania de bicicleta contagia o mundo ocidental.;;Zweirad-Wahn erfasst westl. Welt, Stahlrösser sind ein Muss!;;;;;;;;;;;x
+some_fake_1860_title_7;Sombrero width at an all-time high;;Sombreros breit wie nie;;;;;;;;;;;x
+some_fake_1860_7;It is reported that the width of an average bandito’s sombrero has risen to an astounding 57 inches in Mexico.;;Laut Meldungen ist die durchschnittl. Sombrero-Breite von Banditen in Mexiko auf unglaubliche 56 Zoll angewachsen.;;;;;;;;;;;x
+some_fake_1860_title_8;Brigada de Incêndio estabelecida;;Brandwache eingerichtet;;;;;;;;;;;x
+some_fake_1860_8;Eles são novos, mas são bons.;;Neu und unglaublich gut.;;;;;;;;;;;x
+some_fake_1860_title_9;Futebol cada vez mais popular;;Fußball immer beliebter;;;;;;;;;;;x
+some_fake_1860_9;Os números de presença estão crescendo no futebol de clubes, e os espetáculos são especialmente populares entre os trabalhadores e os desempregados.;;Besucherzahlen im Vereins-Fußballsport wachsen, Spektakel besonders beliebt bei Arbeitern und Erwerbslosen.;;;;;;;;;;;x
+some_fake_1860_title_10;Editorial:;;Redaktionelles:;;;;;;;;;;;x
+some_fake_1860_10;Cuidado! Mulheres montadas em bicicletas, saiotes esvoaçantes com a brisa, tornozelos expostos para todos verem, levarão os homens a um frenesi demente (pg. 10).;;Vorsicht vor weiblicher Rad-Amazone (mehr auf Seite 10);;;;;;;;;;;x
+some_fake_1860_title_11;Pompéia e Herculano de volta à luz;;Pompeji und Herculaneum offengelegt;;;;;;;;;;;x
+some_fake_1860_11;Novos métodos de escavação  trazem à luz as cidades destruídas pela erupção do  Vesúvio em 79 dC.;;Neue Ausgrabungsmethoden bringen die 79 AD vom Vesuv zerstörten Städte der Welt zurück.;;;;;;;;;;;x
+some_fake_1870_title_1;Editorial:;;Redaktionelles:;;;;;;;;;;;x
+some_fake_1870_1;Os povos da África anseiam por nossa liderança benevolente (leia mais na página 10);;Rückständige Völker Afrikas ersehnen unsere gütige Führung (mehr auf Seite 10);;;;;;;;;;;x
+some_fake_1870_title_2;Literatura:;;Literatur:;;;;;;;;;;;x
+some_fake_1870_2;A Volta ao Mundo em 80 dias, revisado para o prazer e a educação do leitor.;;Um die Welt in 80 Tagen, für Lesespaß und Bildung unserer Leser rezensiert.;;;;;;;;;;;x
+some_fake_1870_title_3;Corset-related fainting;;Ohnmacht durch Korsett;;;;;;;;;;;x
+some_fake_1870_3;Em alta! Por causa do aperto causado pelos espartilhos, hospitais alcançam numeros recordes de atendimento.;;Rekordzahlen! Erneut werden die Bäder, Hospitäle und Chaiselongues von Opfern zu eng geschnürter Korsetts überrannt.;;;;;;;;;;;x
+some_fake_1880_title_1;Sucesso no voo;;Erfolge der Luftfahrt!;;;;;;;;;;;x
+some_fake_1880_1;Na France, um dirigível militar francês, torna-se o primeiro dirigível a fazer uma viagem de ida e volta com sucesso.;;"Franz. Militär-Luftschiff ""La France"" erstes Luftschiff mit Motorantrieb auf erfolgreicher Rundfahrt.";;;;;;;;;;;x
+some_fake_1880_title_2;Arranha-céus;;Hochhäuser;;;;;;;;;;;x
+some_fake_1880_2;“Arranha-céus” são construídos em toda América.;;“Sky-Scraper” in Amerika, massive stahl-ummantelte Hochhäuser überragen ihre Umgebung.;;;;;;;;;;;x
+some_fake_1880_title_3;Canudo!;;Mint Julep gerettet!;;;;;;;;;;;x
+some_fake_1880_3;Marvin C. Stone, nos EUA, inventa o “canudo”.;;Marvin C. Stone, USA, erfindet den “Strohhalm”.;;;;;;;;;;;x
+some_fake_1880_title_4;Nada pode dar errado aqui;;Da kann nichts schiefgehen;;;;;;;;;;;x
+some_fake_1880_4;Cura para o vício em morfina descoberto nos EUA: Vinho de coca!;;Heilung für Morphium-Sucht in USA entdeckt: Koka-Wein!;;;;;;;;;;;x
+some_fake_1880_title_5;Bismarck renuncia;;Bismarck tritt zurück;;;;;;;;;;;x
+some_fake_1880_5;Bismarck renuncia como chanceler da Alemanha.;;Bismarck tritt als Kanzler Deutschlands zurück, Schiff des Staates ohne Kapitän.;;;;;;;;;;;x
+some_fake_1880_title_6;Editorial:;;Redaktionelles:;;;;;;;;;;;x
+some_fake_1880_6;O socialismo destruirá a civilização ocidental (mais na página 10);;Sozialismus wird westliche Zivilisation zerstören (mehr auf Seite 10);;;;;;;;;;;x
+some_fake_1880_title_7;O governo americano deveria agir?;;Sollte die Regierung Amerikas handeln?;;;;;;;;;;;x
+some_fake_1880_7;Linchamentos de membros da raça negra tornaram-se comuns em todo o coração da América. A pergunta que fica: O Estado deve intervir para impedir essa prática?;;Lynchmorde unter den Schwarzen nehmen in den mittleren Staaten Amerikas zu. Wir stellen die Frage: Sollte der Staat eingreifen und dem ein Ende setzen?;;;;;;;;;;;x
+some_fake_1890_title_1;Decolar!;;Abheben!;;;;;;;;;;;x
+some_fake_1890_1;O Ader Éole, um motor a vapor mais pesado que o ar, completa um vôo curto perto de Paris.;;Die Ader Eole, ein dampfgetriebenes Gefährt schwerer als Luft, absolviert kurzen Flug nahe Paris.;;;;;;;;;;;x
+some_fake_1890_title_2;Voo bem sucedido!;;Erfolgreicher Flug!;;;;;;;;;;;x
+some_fake_1890_2;O Derwitzer Glider se torna a primeira aeronave tripulada bem-sucedida do mundo, cobrindo distâncias de vôo de até cerca de 20 metros perto de Derwitz em Brandenburg.;;Derwitzer Glider wird erstes erfolgreiches, bemanntes Fluggerät der Welt und überwindet bis zu 80 Fuß Distanz bei Derwitz in Brandenburg.;;;;;;;;;;;x
+some_fake_1890_title_3;Imagens em movimento!;;Bewegte Bilder!;;;;;;;;;;;x
+some_fake_1890_3;O Cinetoscópio surpreende os espectadores exibindo imagens em movimento no Brooklyn Institute of Arts and Sciences.;;Kinetoskop beeindruckt Publikum im Brooklyn Insitute of Arts and Sciences mit bewegten Bildern.;;;;;;;;;;;x
+some_fake_1890_title_4;Viva! São os gays dos anos 90;;Hurra! Hier sind die wilden 90er;;;;;;;;;;;x
+some_fake_1890_4;"Como um movimento gay mais notável nos últimos tempos, o corpo editorial respeitosamente sugere que a frase ""os gays dos anos 90"" deve entrar no léxico de nosso discurso diário.";;Eine wildere Zeit als diese hat es noch nie gegeben und wird es wohl nie wieder geben. Wir schlagen daher vor, den Begriff “Die Wilden 90er” ins Lexikon aufzunehmen.;;;;;;;;;;;x
+some_fake_1890_title_5;Poderia o homem um dia voar?;;Kann der Mensch eines Tages fliegen?;;;;;;;;;;;x
+some_fake_1890_5;Em toda a nossa nação, os sonhadores estão especulando que o homem poderia um dia chegar ao céu usando mecanismos mecânicos.;;Landesweit hoffen Träumer, dass der Mensch eines Tages mithilfe mechanischer Geräte den Himmel erobern wird.;;;;;;;;;;;x
+some_fake_1890_title_6;Editorial:;;Redaktionelles:;;;;;;;;;;;x
+some_fake_1890_6;Se Deus quisesse que voássemos, Ele nos daria asas, escreveu um leitor. (mais na página 10);;Wenn Gott wollte, das wir fliegen, hätte er uns Flügel gegeben (mehr auf Seite 10);;;;;;;;;;;x
+some_fake_1890_title_7;Extremidade errada?;;Falsches Ende gibt Ton an;;;;;;;;;;;x
+some_fake_1890_7;O renomado paleontólogo O.C Marsh revelou hoje que o famoso Elasmossauro montado pelo Professor Cope tem, de fato, sua cabeça presa ao final da cauda. O professor não estava presente para comentar.;;Angesehener Paläontologe O.C. Marsh enhüllt, dass der von Professor Cope zusammengesetzte Elasmosaurus seinen Kopf am Schwanz befestigt hat. Cope war nicht für einen Kommentar zu erreichen.;;;;;;;;;;;x
+some_fake_1900_title_1;Mais leve que o ar;;Leichter als Luft;;;;;;;;;;;x
+some_fake_1900_1;O primeiro voo do Zeppelin ocorre sobre o Lago Constance, perto de Friedrichshafen, na Alemanha.;;Der erste Zeppelinflug  über dem Bodensee in Deutschland, nahe Friedrichshafen.;;;;;;;;;;;x
+some_fake_1900_title_2;Desastre!;;Desaster!;;;;;;;;;;;x
+some_fake_1900_2;Um poderoso furacão atingiu Galveston, Texas, nos Estados Unidos, matando cerca de 8.000 pessoas.;;Zerstörerischer Orkan trifft Galveston, Texas, USA und tötet 8.000 Menschen.;;;;;;;;;;;x
+some_fake_1900_title_3;Desastre!;;Desaster!;;;;;;;;;;;x
+some_fake_1900_3;Na Martinica, o Monte Pelée entrou em erupção, destruindo a cidade de Saint-Pierre e matando mais de 30.000 pessoas.;;Mount Pelée in Martinique ausgebrochen, Stadt Saint-Pierre vollständig zerstört, über 30.000 Tote.;;;;;;;;;;;x
+some_fake_1900_title_4;Desastre!;;Desaster!;;;;;;;;;;;x
+some_fake_1900_4;O Monte Vesúvio entrou em erupção, devastando Nápoles.;;Der Vesuv ist ausgebrochen, Neapel in Schutt und Asche.;;;;;;;;;;;x
+some_fake_1900_title_6;Desastre!;;Desaster!;;;;;;;;;;;x
+some_fake_1900_6;Um terremoto e um tsunami atingiram Messina e a Calábria, na Sicília, matando mais de 70 mil pessoas.;;Erdbeben und Tsunami treffen Messina unnd Kalabrien in Sizilien, mehr als 70.000 tot.;;;;;;;;;;;x
+some_fake_1900_title_7;O capitão de Köpenick;;Der Hauptmann von Köpenick;;;;;;;;;;;x
+some_fake_1900_7;Um impostor disfarçado de oficial militar alemão conseguiu enganar soldados em Berlim, suspeito de forjar uma contabilidade incorreta, e roubar mais de 4.000 marcos.;;Hochstapler gibt sich als deutscher Militäroffizier aus, trickst Soldaten in Berlin aus und stiehlt mehr als 4000 Mark wegen angeblich falscher Buchführung. Er gab eine Quittung.;;;;;;;;;;;x
+some_fake_1910_title_1;Desastre!;;Desaster!;;;;;;;;;;;x
+some_fake_1910_1;O RMS Titanic, o maior navio já construído, afundou depois de atingir um iceberg no Atlântico Norte durante sua viagem inaugural. Acredita-se que mais de 1.500 pessoas tenham perecido no desastre.;;RMS Titanic, größtes jemals gebautes Schiff, nach Zusammenstoß mit Eisberg auf ihrer Jungfernfahrt im Nord-Atlantik gesunken. Mehr als 1.500 Tote erwartet.;;;;;;;;;;;x
+some_fake_1910_title_2;Desastre!;;Desaster!;;;;;;;;;;;x
+some_fake_1910_2;Tempestade sobre o Mar do Norte coloca a Holanda sob a água, estima-se que 10 mil foram mortos.;;Sturm über der Nordsee setzt Holland unter Wasser, 10.000 Tote erwartet.;;;;;;;;;;;x
+some_fake_1910_title_3;Descoberta!;;Entdeckung!;;;;;;;;;;;x
+some_fake_1910_3;Hiram Bingham descobre Machu Pichu, uma cidade Inca desconhecida.;;Hiram Bingham entdeckt Machu Pichu wieder, eine vormals unbekannte Inka-Stadt.;;;;;;;;;;;x
+some_fake_1910_title_4;Fumantes se alegram!;;Raucher frohlocket!;;;;;;;;;;;x
+some_fake_1910_4;Zipper inventado por Gideon Sundback.;;Gideon Sundback erfindet Reißverschluss.;;;;;;;;;;;x
+some_fake_1910_title_5;Café da manhã garantido;;Frühstück gesichert;;;;;;;;;;;x
+some_fake_1910_5;Charles Strite inventa a torradeira.;;Charles Strite erfindet den Brotröster.;;;;;;;;;;;x
+some_fake_1910_title_6;Deriva Continental;;Kontinentaldrift angenommen;;;;;;;;;;;x
+some_fake_1910_6;Alfred Wegener, um proeminente cientista alemão, apresentou a teoria de que os próprios continentes sobre os quais nos encontramos podem estar se movendo na superfície da Terra.;;Bekannter deutscher Wissenschaftler Alfred Wegener entwickelt Theorie, dass die Kontinente, auf denen wir wandeln, auf der Erdoberfläche schwimmen könnten.;;;;;;;;;;;x
+some_fake_1910_title_7;Relatividade geral;;Relativitätstheorie;;;;;;;;;;;x
+some_fake_1910_7;Albert Einstein publicou sua teoria da relatividade geral, um conjunto confuso e complicado de fórmulas que procura explicar a relação entre espaço, tempo, gravidade e uma miríade de outras forças.;;Albert Einstein veröffentlicht Relativitätstheorie, eine verwirrende und komplexe Formelsammlung, die Zusammenhänge in Raum, Zeit, Schwerkraft und einer Vielzahl anderer Kräfte erklären soll.;;;;;;;;;;;x
+some_fake_1910_title_8;Editorial:;;Redaktionelles:;;;;;;;;;;;x
+some_fake_1910_8;O feminismo destruirá a civilização ocidental (mais na página 10);;Der Feminismus wird westl. Zivilisation zerstören (mehr auf Seite 10);;;;;;;;;;;x
+some_fake_1910_title_9;Palavras Cruzadas;;Kostenlose Beilage:;;;;;;;;;;;x
+some_fake_1910_9;As 'palavras cruzadas', um agradável passatempo para que nossos leitores possam demonstrar sua engenhosidade.;;Ein 'Kreuzwort-Rätsel', ein netter Zeitvertreib, mit dem unsere Leser ihren Scharfsinn demonstrieren können.;;;;;;;;;;;x
+some_fake_1910_title_10;Sherlock Holmes - O Fim?;;Kontroverse zum Ende von Sherlock Holmes;;;;;;;;;;;x
+some_fake_1910_10;Depois de um enorme clamor dos fãs devido à morte agridoce do famoso detetive, Sir Arthur Conan Doyle, autor de Sherlock Holmes, decide trazê-lo de volta dos mortos, fornecendo esclarecimentos e um devido encerramento.;;Nach massivem Aufschrei der Fans zum bittersüßen Ende des berühmten Detektivs, entschließt sich Sir Arthur Conan Doyle ihn wiederzubeleben und verspricht Klarheit und Abschluss.;;;;;;;;;;;x
+some_fake_1920_title_1;Registro de vôo;;Flugrekord;;;;;;;;;;;x
+some_fake_1920_1;Charles Lindbergh se torna a primeira pessoa a voar sozinho pelo Oceano Atlântico (20 a 21 de maio de 1927), sem escalas, de Nova York a Paris.;;Charles Lindbergh überfliegt als erster Mann solo und nonstop den Atlantischen Ozean von New York nach Paris (20.-21. Mai 1927);;;;;;;;;;;x
+some_fake_1920_title_2;Para as estrelas!;;Zu den Sternen!;;;;;;;;;;;x
+some_fake_1920_2;O primeiro foguete do mundo com combustível líquido de Robert Goddard.;;Weltweit erster Raketenflug mit Flüssigtreibstoff von Robert Goddard.;;;;;;;;;;;x
+some_fake_1920_title_3;Um fim às barbas?;;Das Ende der Bärte?;;;;;;;;;;;x
+some_fake_1920_3;Primeiro barbeador elétrico patenteado pelo fabricante americano Col. Jacob Schick.;;Erster elektr. Rasierer vom amerikanischen Hersteller Col. Jacob Schick patentiert.;;;;;;;;;;;x
+some_fake_1920_title_4;O futuro da música;;Zukunftsmusik;;;;;;;;;;;x
+some_fake_1920_4;Automated Musical Instrument Company apresenta a primeira Jukebox com seleção musical.;;Erster Musikautomat mit Musikwahl von Automated Musical Instrument Company vorgestellt.;;;;;;;;;;;x
+some_fake_1920_title_5;Nós não sabemos porque;;Wir wissen nicht warum;;;;;;;;;;;x
+some_fake_1920_5;Pole sitting, prática de sentar em cima de um poste por longos períodos de tempo, assola o mundo ocidental.;;Pfahlsitzen-Marotte erobert westl. Welt.;;;;;;;;;;;x
+some_fake_1920_title_6;Editorial:;;Redaktionelles:;;;;;;;;;;;x
+some_fake_1920_6;TVs vão destruir a civilização ocidental (mais na página 10);;Fernseher werden westliche Zivilisation vernichten (mehr auf Seite 10);;;;;;;;;;;x
+some_fake_1920_title_7;Editorial:;;Redaktionelles:;;;;;;;;;;;x
+some_fake_1920_7;O jazz destruirá a civilização ocidental (continua na página 10);;Jazz wird westl. Zivilisation vernichten (weiter auf Seite 10);;;;;;;;;;;x
+some_fake_1920_title_8;A mania do jazz!;;Der Jazz-Wahn!;;;;;;;;;;;x
+some_fake_1920_8;Uma nova moda despertou as paixões dos ouvintes de música do país: danças frenéticas, infertilidade e mistura racial são subprodutos dessa falsa forma musical.;;Musikliebhaber von neuer Marotte erfasst: Frenetische Tänze, Zuchtlosigkeit und Rassenvermischung sind Nebenprodukte dieser falschen Musikform.;;;;;;;;;;;x
+some_fake_1920_title_9;Resumo literário: Ulisses;;Literatur-Übersicht: Ulysees;;;;;;;;;;;x
+some_fake_1920_9;O irlandês James Joyce descreve em Ulysees um dia na vida de um protagonista em Dublin e suas adversidades (leia mais na página 19);;Bekannter Ire James Joyce beschreibt in Ulysees einen Tag im Leben eines Protagonisten in Dublin und seinen Widrigkeiten (mehr auf Seite 19);;;;;;;;;;;x
+some_fake_1920_title_10;Para o Egito!;;Auf nach Ägypten!;;;;;;;;;;;x
+some_fake_1920_10;Mais descobertas arqueológicas surpreendentes ocorreram hoje na região do Nilo, ampliando ainda mais o fascínio internacional por todas as coisas orientais... (continuação na página 2);;Weitere erstaunliche, archäologische Entdeckungen in der Nil-Region befeuern Faszination mit dem Orientalischen … (weiter auf Seite 2);;;;;;;;;;;x
+some_fake_1920_title_11;Arquitetura Bauhaus;;Bauhaus-Architektur;;;;;;;;;;;x
+some_fake_1920_11;Um novo estilo arquitetônico futurista, conhecido como Bauhaus, ganhou destaque nas cidades de Weimar, Berlim e Dessau.;;Futuristischer, neuer Kunst-Architekturstil, bekannt als Bauhaus, erobert die Städte Weimar, Berlin und Dessau.;;;;;;;;;;;x
+some_fake_1920_title_12;Dupla do caos;;Verrücktes Duo erzeugt Chaos;;;;;;;;;;;x
+some_fake_1920_12;Dois homens, um gordo e outro magro, compareceram ao tribunal acusados de fraude e bufonaria geral. Devido à gravidade do crime, que envolveu a demolição de uma casa e o roubo de um asno, espera-se que os promotores busquem a pena de morte.;;Zwei Männer, einer dick, einer dünn, stehen wegen groben Unfugs und grober Clownerei vor Gericht. Aufgrund der Schwere der Vorwürfe, die die Zerstörung eines Hauses und Diebstahl umfassen, wird die Forderung der Todesstrafe durch Ankläger erwartet.;;;;;;;;;;;x
+some_fake_ANY_title_1;Cão morde uma criança.;;Hund beißt Kind.;;;;;;;;;;;x
+some_fake_ANY_1;Ataque animal raivoso deixa a comunidade em estado de choque, os pais preocupados com a segurança de seus filhos exigem uma resposta.;;Brutale Tierattacken schockieren Gemeinde, Eltern fürchten um die Sicherheit ihrer Kinder und fordern Taten.;;;;;;;;;;;x
+some_fake_ANY_title_2;Resfriamento global.;;Globale Abkühlung.;;;;;;;;;;;x
+some_fake_ANY_2;Cientistas alertam que outra Era do Gelo pode estar começando, já que as temperaturas registradas caem de ano para ano.;;Forscher warnen vor neuer Eiszeit, da Temperaturen jährlich fallen.;;;;;;;;;;;x
+some_fake_ANY_title_3;Criança desaparecida encontrada;;Vermisstes Kind gefunden;;;;;;;;;;;x
+some_fake_ANY_3;Ela estava escondida em um celeiro! O caso da criança desaparecida foi resolvido após uma extensa busca realizada por voluntários locais que descobriram que a criança estava se escondendo num prédio abandonado próximo.;;Versteckt in einer Scheune! Der Fall eines vermissten Kindes fand gutes Ende, nachdem engagierte Suchmannschaften es in einem nahen, verlassenen Gebäude fanden.;;;;;;;;;;;x
+some_fake_ANY_title_5;Donzela assassinada brutalmente;;Maid brutal ermordet;;;;;;;;;;;x
+some_fake_ANY_5;O cadáver de uma donzela horrivelmente mutilado foi descoberto ontem amarrado a uma pista de trem. O público é aconselhado a procurar um homem com um grande bigode, uma cartola e um manto negro de ópera.;;Entsetzlich entstellter Körper einer jungen Maid wurde gestern, an Eisenbahnschienen gefesselt, gefunden. Fahndung nach Mann mit Schnauzbart, Zylinder und schwarzem Umhang läuft.;;;;;;;;;;;x
+some_fake_ANY_title_6;Coelho emerge do chapéu;;Der Hase aus dem Hut;;;;;;;;;;;x
+some_fake_ANY_6;Um homem, que alegou possuir poderes místicos, foi visto retirando um coelho de uma cartola ontem. Ele está atualmente sendo investigado por suspeita de práticas não naturais.;;Ein Mann mit angeblich mystischen Kräften wurde gestern gesehen, als er einen Hasen aus dem Hut zauberte. Untersuchungen mit Verdacht auf unnatürliche Praktiken im Gange.;;;;;;;;;;;x
+some_fake_ANY_title_7;Um vislumbre do ano 2000;;Ein Blick in das Jahr 2000;;;;;;;;;;;x
+some_fake_ANY_7;"Um futurologista bem conhecido dá uma visão sobre o distante ano 2000 AD. Ele diz: ""No ano 2000, todos os cavalheiros terão pelo menos 5 balões de ar quente"".";;Ein bekannter Zukunftsforscher gibt Einblick in das ferne Jahr 2000 A.D. Er sagt: “Im Jahr 2000 besitzt jeder Gentleman wenigstens 5 Heißluftballons”.;;;;;;;;;;;x
+some_fake_ANY_title_8;News counterfeiting!;;Gefälschte Nachrichten!;;;;;;;;;;;x
+some_fake_ANY_8;Um irlandês, um polonês e um prussiano foram presos ontem como parte de uma investigação em andamento sobre uma Organização Secreta, suspeitos de criar notícias falsas e vender como fatos.;;Festnahmen gegen einen Iren, Polen und Preußen im Rahmen der Untersuchung einer Schattenorganisation, die der Erstellung falscher Nachrichten und deren Verkauf als Fakten verdächtigt werden.;;;;;;;;;;;x
+some_fake_ANY_title_9;12 mortos!;;12 aufgespießt!;;;;;;;;;;;x
+some_fake_ANY_9;Touro furioso matou 5 homens e 7 mulheres ontem. ;;Wütender Bulle tötete gestern 5 Männer und 7 Frauen. Das vormals als sanft bekannte Tier wurde von einem vorbeikommendem Schornsteinfeger enthauptet.;;;;;;;;;;;x
+some_fake_ANY_title_10;Ponte desmoronou!;;Brücke eingestürzt!;;;;;;;;;;;x
+some_fake_ANY_10;Um açougueiro morreu fora da nossa capital. O açougueiro localmente conhecido deixa para trás seu irmão e um filho.;;Ein Metzger wurde außerhalb unserer Hauptstadt in den Tod gerissen. Der lokal bekannte Metzger hinterlässt seinen Bruder, einen Bäcker und einen Sohn, der Kerzenhalter herstellt und verkauft.;;;;;;;;;;;x
+some_fake_ANY_title_11;Balcãs em paz;;Ruhe im Balkan;;;;;;;;;;;x
+some_fake_ANY_11;Sérvios, croatas, bósnios, turcos, búlgaros, romenos, albaneses e gregos se reuniram no domingo passado para celebrar a grande paz em que a península balcânica se banha atualmente.;;Serben, Kroaten, Bosnier, Türken, Bulgaren, Rumänen, Albaner und Griechen feierten letzten Sonntag den großen Frieden, der zur Zeit im Balkan herrscht.;;;;;;;;;;;x
+some_fake_ANY_title_12;Carta para o editor;;Brief an den Herausgeber;;;;;;;;;;;x
+some_fake_ANY_12;Um leitor chama a atenção para os pilotos de balsa descuidados que colocam vidas de passageiros em risco com suas imprudentes manobras de velocidade e arriscadas.;;Ein Leser warnt vor leichtsinnigen Fährenkapitänen, die mit rücksichtsloser Geschwindigkeit und riskanten Manövern das Leben ihrer Passagiere riskieren.;;;;;;;;;;;x
+some_fake_ANY_title_13;O clima;;Das Wetter;;;;;;;;;;;x
+some_fake_ANY_13;Probabilidades para a próxima semana: Nublado e chuvoso, com ventos norte e nordeste e temperaturas baixas.;;Aussichten für nächste Woche: Wolkig und Regen, mit Winden aus Nord und Nordost und niedrigen Temperaturen.;;;;;;;;;;;x
+some_fake_ANY_title_14;Tragic city fire;;Tragisches Feuer in Stadt;;;;;;;;;;;x
+some_fake_ANY_14;O Departamento de Bombeiros foi responsabilizado demonstrar falta de disciplina e eficiência, permitindo que o fogo se espalhasse por vários quarteirões, levando ao maior e mais trágico incêndio na cidade até o momento.;;Feuerwache wegen fehlender Disziplin und Effizienz für das Ausbreiten eines Feuers über mehrere Häuser verantwortlich gemacht, das zum größten Brand aller Zeiten in der Stadt führte.;;;;;;;;;;;x
+some_fake_ANY_title_15;Assalto a Banco local!;;Angel-Raub;;;;;;;;;;;x
+some_fake_ANY_15;A polícia relata o roubo de uma quantia considerável de dinheiro em um banco local. O suspeito usou um anzol de pesca, enquanto o cúmplice distraia o caixa.;;Die Polizei berichtet vom Raub eines beachtlichen Geldbetrags in lokaler Bank unter Verwendung eines Angelhakens und Stockes, während Komplize den Kassenbeamten ablenkte.;;;;;;;;;;x;
+some_fake_ANY_title_16;Deixe-os pular!;;Lasst sie springen!;;;;;;;;;;;x
+some_fake_ANY_16;Se as crianças precisam ficar quietas, é uma tortura para elas, afirmam os cientistas. O movimento rápido do corpo, sendo a expressão correta da alegria em idade muito jovem, deve ser encorajado e não desaprovado.;;Forscher bezeichnen das Stillsitzen müssen von Kindern Folter. Ausdauernde Bewegung ist wichtig zum Ausdruck von Freude für kleine Kinder und sollte nicht unterdrückt werden.;;;;;;;;;;;x
+some_fake_ANY_title_17;Madeira para pavimentação?;;Hölzerne Bürgersteige;;;;;;;;;;;x
+some_fake_ANY_17;Novas pesquisas revelam processos químicos para o endurecimento da madeira na construção. A cidade deve pavimentar estradas com madeira?;;Neue Untersuchung enthüllt chemische Prozesse zur Härtung von Holz im Bauwesen. Sollte die Stadt Straßen mit Holz pflastern?;;;;;;;;;;;x
+some_fake_ANY_title_18;A vida sem comida?;;Leben ohne Nahrung?;;;;;;;;;;;x
+some_fake_ANY_18;Um homem alegando que pode se abster de comida por pelo menos 30 dias e manter a aptidão física e mental completa desafia os médicos a submeter suas habilidades a um teste.;;Ein Mann behauptet, 30 Tage ohne Nahrung bei voller körperlicher und geistiger Stärke überleben zu können, und fordert Forscher heraus, ihn zu testen.;;;;;;;;;;;x
+some_fake_ANY_title_19;Febre mortal;;Fatales Fieber;;;;;;;;;;;x
+some_fake_ANY_19;Dois marinheiros retornando dos trópicos morreram de uma febre desconhecida. Os sintomas variam de calafrios a extrema sede e delírios.;;Zwei aus den Tropen heimkehrende Seefahrer sind an einem unbekannten Fieber gestorben. Die Symptome reichen von Schüttelfrost über extremen Durst bis hin zu Wahnvorstellungen.;;;;;;;;;;;x
+some_fake_ANY_title_20;Diamantes artificiais;;Künstliche Diamanten;;;;;;;;;;;x
+some_fake_ANY_20;Químico europeu afirma ter revestido um cristal normal usando um processo conhecido apenas por ele, o que o torna um diamante em todos os seus aspectos.;;Europäischer Chemiker behauptet, mit einem nur ihm bekannten Prozess einen normalen Kristall mit Material ummantelt zu haben, der ihn in allen Aspekten zum Diamanten macht.;;;;;;;;;;;x
+some_fake_ANY_title_22;Carta de Deus;;Brief von Gott;;;;;;;;;;;x
+some_fake_ANY_22;"Um dos membros pobres da nossa sociedade recebendo uma carta de caridade marcada como ""de Deus"" respondeu dando graças pelo dinheiro recebido, mas adverte a divindade contra a imposição de impostos e roubo de correios.";;Ein armes Mitglied unserer Gesellschaft dankt dem Sender eines Almosenbriefes “von Gott” für erhaltenes Geld, warnt Sender jedoch vor Steuerforderungen und Briefraub.;;;;;;;;;;;x
+some_fake_ANY_title_23;Notícias médicas;;Medizin-Neuheiten;;;;;;;;;;;x
+some_fake_ANY_23;Os principais médicos europeus suspeitam que a fumaça das fábricas é a causa do aumento da insuficiência respiratória em crianças.;;Führende europäische Ärzte verdächtigen Rauch aus Fabrikschloten als Ursache für Zunahme von Atemstörungen unter Kindern.;;;;;;;;;;;x
+some_fake_ANY_title_24;Histeria vampira;;Vampir-Hysterie;;;;;;;;;;;x
+some_fake_ANY_24;Um novo caso de vampiro na Romênia. Transeuntes supersticiosos esfregam os ombros com alho para proteção contra ataques.;;Ein neuer Fall von Vampir-Hysterie in Rumänien. Abergläubische Passanten schmieren Nacken mit Knoblauch ein, zum Schutz vor bösartigen Ghulen.;;;;;;;;;;;x
+some_fake_ANY_title_25;Lobos matam quatro;;Wölfe töten vier;;;;;;;;;;;x
+some_fake_ANY_25;Um bando de lobos invadiu uma cidade na Sibéria na semana passada e matou quatro dos habitantes. Policiais armados foram despachados para a área para caçar os animais lupinos.;;Ein Wolfsrudel überfiel letzte Woche ein Dorf in Sibirien und tötete vier Einwohner. Bewaffnete Polizeikräfte jagen die Bestien.;;;;;;;;;;;x
+some_fake_ANY_title_26;Fantoches horríveis;;Schreckliche Puppen;;;;;;;;;;;x
+some_fake_ANY_26;Bonecos terríveis encontram mais aceitação. Anormalidade mais recente é um menino de madeira sorridente e debil no estilo bimbo.;;Schreckliche Puppen finden mehr Akzeptanz. Neueste Abartigkeit ist ein debil grinsender Holzjunge im Bimbo-Stil.;;;;;;;;;;;x
+some_fake_ANY_title_27;Concurso de beber;;Trinkwettbewerb;;;;;;;;;;;x
+some_fake_ANY_27;"O irlandês Bill Whelan derrotou rivais da Rússia e da Escócia em um concurso de consumo de álcool em Nova York na semana passada. De sua cama de hospital, ele atribuiu sua vitória ao ""puro amor a bebida"".";;Der Ire Bill Whelan schlägt in New York Rivalen aus Russland und Schottland in einem Alkohol-Trinkwettbewerb. Den Sieg schrieb er vom Krankenbett aus der “Liebe zum Fusel” zu.;;;;;;;;;;;x
+some_fake_ANY_title_28;Homem mais velho;;Ältester Mann;;;;;;;;;;;x
+some_fake_ANY_28;O respeitado cavalheiro Jimmy Williams foi nomeado o homem vivo mais antigo. Williams, do sul da América, educadamente pediu aos nossos repórteres que deixassem seu país.;;Der respektierte Gentleman Jimmy Williams wurde zum ältesten lebenden Mann ernannt. Williams, aus dem tiefsten Süden Amerikas, bat unsere Reporter höflich, sein Land zu verlassen.;;;;;;;;;;;x
+some_fake_ANY_title_29;ASSALTO A BANCO!;;BANKRAUB!;;;;;;;;;;;x
+some_fake_ANY_29;Um banco local em $ANYPROVINCE$ foi invadido por uma gangue mascarada de gente mal-intencionada. A polícia está procurando os criminosos e está concedendo uma recompensa por qualquer informação que leve à sua captura.;;Lokale Bank in $ANYPROVINCE$ von maskierter Gang überfallen. Die Fahndung nach den Kriminellen läuft, eine Belohnung für Informationen, die zur Ergreifung führen, wurde ausgesprochen.;;;;;;;;;;;x
+some_fake_ANY_title_30;O Gato do Piano;;Klavierkatze auf Tour;;;;;;;;;;;x
+some_fake_ANY_30;O famoso pianista conhecido simplesmente como o Gato do Piano está programado para chegar em $OURCAPITAL$ esta semana. O artista é esperado para tocar uma série de peças clássicas.;;Die als Klavierkatze berühmte Katzenpianistin wird diese Woche in $OURCAPITAL$ ankommen. Sie soll eine Reihe klassischer Stücke spielen.;;;;;;;;;;;x
+some_fake_ANY_title_31;Palestras Especiais;;Spezial-Vorlesungen;;;;;;;;;;;x
+some_fake_ANY_31;O Conselho de Ciência de $OURCAPITAL$ deve apresentar uma série de palestras especiais sobre as origens da civilização no Crescente Fértil. Apresentações especiais de cacos de cerâmica de Tiro estão planejadas.;;Der Wissenschaftsrat von $OURCAPITAL$ wird eine Reihe von Spezial-Vorlesungen zu den Ursprüngen der Zivilisation im Fruchtbaren Halbmond halten. Eine Präsentiation von Tonscherben aus Tyros ist eingeplant.;;;;;;;;;;;x
+some_fake_ANY_title_32;GUARDA! GUARDA!;;ACHTUNG! ACHTUNG!;;;;;;;;;;;x
+some_fake_ANY_32;Uma tempestade de proporções gigantescas está chegando. As instruções dos oficiais de segurança pública são: Não varra nenhuma chaminé durante a tempestade. Acidentes podem ocorrer se este aviso não for atendido.;;Ein Sturm von gigantischem Ausmaß wird erwartet. Offizielle der öffentlichen Sicherheit raten: Reinigt keine Kamine während des Sturms, andernfalls drohen Unfälle.;;;;;;;;;;;x
+some_fake_ANY_title_34;Protecionista em pauta;;Handels-Gipfeltreffen;;;;;;;;;;;x
+some_fake_ANY_34;As atuais tarifas européias e internacionais, assim como as práticas protecionistas, serão discutidas na próxima quinta-feira em $OURCAPITAL$.;;Aktuelle europäische und internationale Zölle und Schutzmaßnahmen werden nächsten Donnerstag in $OURCAPITAL$ diskutiert.;;;;;;;;;;;x
+some_fake_ANY_title_35;Convenção Postal;;Tagung der Post;;;;;;;;;;;x
+some_fake_ANY_35;Hoje, $ OURCOUNTRY_ADJ $ e autoridades estrangeiras estão reunidas para discutir taxas de postagem para todas as cartas enviadas para o exterior.;;$OURCOUNTRY_ADJ$ und ausländische Offizielle diskutieren heute Postgebühren für Überseebriefe.;;;;;;;;;;;x
+some_fake_ANY_title_36;Comércio de carvão moderno;;Moderner Kohlehandel;;;;;;;;;;;x
+some_fake_ANY_36;O livre comércio de carvão para locomotivas ferroviárias e eventualmente navios marítimos no mundo ocidental está sendo discutido hoje na Câmara de Comércio local.;;Die Handelskammer diskutiert heute über den freien Kohlehandel für Lokomotiven und Schifffahrt in der westlichen Welt.;;;;;;;;;;;x
+some_fake_ANY_title_37;Improvável para se tornar cardeal;;Wird wohl nicht Kardinal;;;;;;;;;;;x
+some_fake_ANY_37;Comentários não-oficiais do círculo íntimo do papa, no Vaticano, denunciam os rumores da ascensão prematura do arcebispo.;;Inoffizielle Kommentare aus dem inneren Zirkel des Papstes im Vatikan nennen Gerüchte zu geplanter Beförderung des Erzbischofs vorschnell.;;;;;;;;;;;x
+some_fake_ANY_title_38;Funeral do general.;;General-Beerdigung;;;;;;;;;;;x
+some_fake_ANY_38;Um ex-general e banqueiro, que morreu em sua casa, está agora enterrado no círculo mais próximo de amigos.;;Ein Ii seinem Haus verstorbener, früherer General und Banker wird heute im engsten Freundeskreis beerdigt. ;;;;;;;;;;;x
+some_fake_ANY_title_39;Nascimento no pico da montanha;;Geburt auf Berggipfel;;;;;;;;;;;x
+some_fake_ANY_39;Uma mulher grávida, durante uma escalada ao topo de uma montanha, foi levada por seus dois companheiros para um abrigo a 4000 pés acima do nível do mar para dar à luz um menino saudável.;;Während Bergaufstiegs erkrankte Frau wird von zwei Begleitern zu Schutzhütte auf 4000 Metern gebracht und bringt gesunden Jungen zur Welt.;;;;;;;;;;;x
+some_fake_ANY_title_40;Expansão moral?;;Moralische Ausdehnung?;;;;;;;;;;;x
+some_fake_ANY_40;Podemos permitir que a história registre que esmagamos os sonhos de liberdade dos povos estrangeiros subjugando-os ao nosso governo? Podemos governá-los sem o consentimento deles?;;Ist es rechtens, den Traum nach Freiheit ausländischer Völker von unserer Regierung zu unterdrücken und sie ohne ihre Zustimmung zu regieren?;;;;;;;;;;;x
+some_fake_ANY_title_41;Chantagista preso.;;Erpresser verhaftet.;;;;;;;;;;;x
+some_fake_ANY_41;Um ex-ator e suposto desertor do exército foi preso por aborrecer uma famosa atriz com pedidos de dinheiro.;;Ehemaliger Schauspieler und mutmaßl. Deserteur der Armee heute verhaftet wegen Geldforderungen an bekannter Schauspielerin.;;;;;;;;;;;x
+some_fake_ANY_title_42;Contornando o mal;;Böse Rocklänge;;;;;;;;;;;x
+some_fake_ANY_42;A moda não deve levar as impurezas das ruas para dentro de casa. Os médicos pedem às mulheres, por motivos de saúde, que não se juntem à nova tendência das saias.;;Mode sollte den Staub der Straßen nicht ins Heim tragen. Mediziner fordert von Frauen aus Gesundheitsgründen, den neuen Trend der Schleppenröcke nicht mitzumachen.;;;;;;;;;;;x
+some_fake_ANY_title_43;Cura através da oração mata criança;;Heilung durch Gebet  tötet Kind;;;;;;;;;;;x
+some_fake_ANY_43;Uma menina de 12 anos morre no hospital depois que os pais substituem o médico da família pelo pregador.;;12 Jahre altes Mädchen stirbt in Krankenhaus, nachdem Eltern den Familienarzt durch Prediger ersetzen.;;;;;;;;;;;x
+some_fake_ANY_title_44;O respeito que merece!;;Respekt der Yardies verdient!;;;;;;;;;;;x
+some_fake_ANY_44;Um morador de $ANYPROVINCE$ reportou ter espancado alguns homens armados com rifles em um pub local. O homem alegou que os assaltantes se colocaram em vantagem usando armas.;;Einwohner von $ANYPROVINCE$ schlägt mit Gewehren bewaffnete Männer in Bar. Er behauptet, die Waffen waren ihr Nachteil.;;;;;;;;;;;x
+some_fake_ANY_title_45;Revisão do artigo;;Artikel-Review;;;;;;;;;;;x
+some_fake_ANY_45;Todos os artigos de jornal devem ser submetidos a uma revisão por um conselho especial para confirmar sua exatidão e veracidade. ;;Alle Nachrichten werden von einem speziellen Team auf Genauigkeit und Wahrheit geprüft. Davon unabhängig: Journalist, der von hölzernem Straßenbelag berichtete, wird vermisst.;;;;;;;;;;;x
+some_fake_ANY_title_46;Lei discutida;;Gesetz-Diskussion;;;;;;;;;;;x
+some_fake_ANY_46;Advogados de todo o país reuniram-se hoje em $OURCAPITAL$ para discutir eventuais atualizações do sistema judiciário do país em questões de direito civil e penal.;;Anwälte aus gesamtem Land trafen sich heute in $OURCAPITAL$, um mögliche Gesetzesaktualisierungen im zivilen und Straf-Recht zu diskutieren.;;;;;;;;;;;x
+some_fake_ANY_title_48;A história do(a) $OURCOUNTRY$;;Die Geschichte von $OURCOUNTRY$;;;;;;;;;;;x
+some_fake_ANY_48;Um trabalho definitivo de múltiplos volumes sobre a história da civilização do(a) $OURCOUNTRY_ADJ$ foi finalmente completado. Os principais historiadores proclamam que essa é a maior referência até o momento, fiel aos nossos feitos heróicos.;;Ein mehrere Bänder umfassendes Werk zur Geschichte der $OURCOUNTRY_ADJ$ Zivilisation wurde fertiggestellt. Führende Historiker nennen es die beste Referenz all unserer heroischen Taten.;;;;;;;;;;;x
+some_fake_ANY_title_49;Concerto de Bach;;Bach-Konzert;;;;;;;;;;;x
+some_fake_ANY_49;Uma pitada de nostalgia por todos os entusiastas da música. Uma coleção das peças mais famosas de Bach será tocada pela Orquestra Nacional do $OURCOUNTRY_ADJ$ na próxima semana no Grand Concert Hall de $OURCAPITAL$.;;Nostalgie für alle Musikliebhaber. Eine Sammlung von Bachs bekanntesten Werken wird nächste Woche vom $OURCOUNTRY_ADJ$ National-Orchester in der Konzerthalle von $OURCAPITAL$ aufgeführt.;;;;;;;;;;;x
+some_fake_ANY_title_50;Entrega de Blocos;;Stein geliefert;;;;;;;;;;;x
+some_fake_ANY_50;Moradores de $ ANYPROVINCE $ estão impressionados com uma remessa de blocos de mármore gigantes vindo do exterior. Há rumores de que um novo monumento magnífico será erguido no mercado da capital.;;Einwohner von $ANYPROVINCE$ beeindruckt von einer Lieferung gigantischer Marmorblöcke von Übersee. Gerüchten zufolge wird ein neues, grandioses Monument auf dem Marktplatz der Hauptstadt errichtet.;;;;;;;;;;;x
+some_fake_ANY_title_51;Engenhocas mecânicas;;Mechanische Geräte;;;;;;;;;;;x
+some_fake_ANY_51;Aparelhos de vários tipos irão desempenhar um papel cada vez mais importante na vida cotidiana, de acordo com um alto funcionário que dirige o departamento de engenharia do(a) $OURCAPITAL$.;;Wichtiger Wissenschaftler der Ingenieurs-Abteilung der Universität von $OURCAPITAL$ sieht verschiedene Neuheiten von großer Bedeutung für den Alltag.;;;;;;;;;;;x
+some_fake_ANY_title_52;Ferreiro morto;;Schmied tot;;;;;;;;;;;x
+some_fake_ANY_52;Um ferreiro foi chutado até a morte por um cavalo que ele estava tentando ajustar o casco em $ANYPROVINCE$ ontem.;;Schmied bei Hufanpassungen von Pferd in $ANYPROVINCE$ gestern zu Tode getreten.;;;;;;;;;;;x
+some_fake_ANY_title_53;Eclipse Solar;;Sonnenfinsternis;;;;;;;;;;;x
+some_fake_ANY_53;Um eclipse solar é esperado na próxima sexta-feira. O fenômeno não é motivo para pânico ou interrupções de trabalho.;;Kommenden Freitag wird eine Sonnenfinsternis erwartet. Das Phänomen ist kein Grund zu Panik oder Arbeitsausfällen.;;;;;;;;;;;x
+some_fake_ANY_title_54;Monóculos;;Monokel-Käufe auf Hochstand;;;;;;;;;;;x
+some_fake_ANY_54;As vendas de monóculos, que vêm subindo há décadas, parecem ter se estabilizado.;;In den letzten Jahrzehnten stetig wachsende Monokel-Käufe scheinbar stabilisiert. Aufträge im letzten Quartal konstant.;;;;;;;;;;;x
+some_fake_ANY_title_55;Viagem no tempo;;Zeitreise;;;;;;;;;;;x
+some_fake_ANY_55;Um famoso romancista desenvolve uma ideia de que as pessoas viajam no tempo e podem aparecer em vários momentos do passado e do futuro.;;Berühmter Groschenroman-Autor entwickelt Idee, das Menschen in der Zeit vor und zurück reisen und zu verschiedenen Zeiten in Vergangenheit und Zukunft erscheinen können.;;;;;;;;;;;x
+some_fake_ANY_title_56;Alfabetização;;Bildung;;;;;;;;;;;x
+some_fake_ANY_56;Notas máximos alcançadas em todo o mundo. A educação não é mais o privilégio do clero e da nobreza, até mesmo os trabalhadores não qualificados e as mulheres fazem parte desta nova fase.;;Neue Höchstwerte weltweit erreicht. Bildung nicht länger Privileg des Klerus und Adels, auch  ungelernte Arbeiter und das schöne Geschlecht nehmen teil.;;;;;;;;;;;x
+some_fake_ANY_title_57;Public ‘science’ lecture;;Öffentliche 'Forschungs'-Lesung;;;;;;;;;;;x
+some_fake_ANY_57;Aspiring natural philosophers são aconselhados que uma palestra sobre geologia, ou o estudo de formações rochosas, terá lugar no auditório do(a) $OURCAPITAL$ na terça-feira seguinte. A admissão é £1.;;Freunde der Naturphilosophie wird interessieren, dass nächsten Dienstag ein Vortrag zu Felsformationen und Geologie im Auditorium von $OURCAPITAL$ zum Eintrittspreis von  ¤1 stattfindet.;;;;;;;;;;;x
+some_fake_ANY_title_58;Reunião interrompida;;Gestörtes Treffen;;;;;;;;;;;x
+some_fake_ANY_58;Um clube político foi invadido por militantes da igualdade dos sexos ontem. Os maridos das mulheres foram repreendidos pela polícia por negligenciar o controle de suas esposas.;;Ein politischer Club wurde gestern von Aktivisten zur Gleichstellung der Geschlechter überrannt. Die Ehemänner wurden für die mangelnde Kontrolle ihrer Frauen von der Gendarmerie gemaßregelt.;;;;;;;;;;;x
+some_fake_ANY_title_59;O inglês;;Der Engländer;;;;;;;;;;;x
+some_fake_ANY_59;O Inglês é inflexível, tem um forte senso de justiça e defende a liberdade. Inventivo, elegante e espirituoso, ele se destaca entre as nacionalidades.;;Der Engländer ist unnachgiebig, hat einen ausgeprägten Gerechtigkeitssinn und verteidigt die Freiheit. Erfinderisch, elegant und geistreich ragt er unter den Nationalitäten heraus.;;;;;;;;;;;x
+some_fake_ANY_title_60;Surto de gripe;;Grippewelle;;;;;;;;;;;x
+some_fake_ANY_60;A gripe assola o(a) $OURCOUNTRY$. Já existem muitas infecções relatadas em todo o país. Os leigos temem que uma pandemia esteja chegando, enquanto os especialistas asseguram que é apenas uma ocorrência sazonal.;;Die Grippe beutelt $OURCOUNTRY$. Infektionen breiten sich aus. Laien fürchten eine Pandemie, Experten werten die Situation als saisonale Begebenheit.;;;;;;;;;;;x
+some_fake_ANY_title_61;Ouro!;;Goldschatz entdeckt;;;;;;;;;;;x
+some_fake_ANY_61;Os restos de um antigo tesouro foi encontrado em $ANYPROVINCE$ esta semana. Autoridades mencionam muitas moedas de ouro descobertas por um fazendeiro enquanto arava um campo depois das fortes chuvas.;;Die Reste eines alten Goldschatzes wurden diese Woche in $ANYPROVINCE$ entdeckt. Offizielle melden Unmenge an Goldmünzen, die von Bauern in der Feldarbeit im Regen ausgegraben wurden.;;;;;;;;;;;x
+some_fake_ANY_title_62;Absurdo métrico;;Metrischer Unsinn;;;;;;;;;;;x
+some_fake_ANY_62;"De acordo com um estadista britânico, o sistema de medidas em inglês é o futuro: ""Esse absurdo métrico francês nunca será adotado"".";;Laut einem britischen Staatsmann ist das englische Maßsystem die Zukunft: 'Dieser französische Metrik-Unsinn wird niemals Fuß fassen.';;;;;;;;;;;x
+GOODS_PRICE_UP_TITLE_LARGE;OS PREÇOS SUBIRAM!;;PREISE STEIGEN!;;;;;;;;;;;x
+GOODS_PRICE_UP_LARGE;Nos últimos $VALUE_INT_0_0$ meses, o preço de $STRING_0_1$ subiu constantemente. Capitalistas e artesãos em todo o mundo se esforçam para produzir mais $STRING_0_1$ para atender às crescentes demandas do mercado.;;In den letzten $VALUE_INT_0_0$ Monaten ist der Preis von $STRING_0_1$ konstant gestiegen. Kapitalisten und Handwerker rotieren weltweit, um mehr $STRING_0_1$ zu produzieren, um die Nachfrage zu befriedigen.;;;;;;;;;;;x
+GOODS_PRICE_UP_TITLE_MEDIUM;OS PREÇOS SUBIRAM!;;PREISE STEIGEN!;;;;;;;;;;;x
+GOODS_PRICE_UP_MEDIUM;Nos últimos $VALUE_INT_0_0$ meses, o preço de $STRING_0_1$ subiu constantemente. Capitalistas e artesãos em todo o mundo se esforçam para produzir mais $STRING_0_1$ para atender às crescentes demandas do mercado.;;In den letzten $VALUE_INT_0_0$ Monaten ist der Preis von $STRING_0_1$ konstant gestiegen. Kapitalisten und Handwerker rotieren weltweit, um mehr $STRING_0_1$ zu produzieren, um die Nachfrage zu befriedigen.;;;;;;;;;;;x
+GOODS_PRICE_UP_TITLE_SMALL;OS PREÇOS SUBIRAM!;;PREISE STEIGEN!;;;;;;;;;;;x
+GOODS_PRICE_UP_SMALL;Nos últimos $VALUE_INT_0_0$ meses, o preço de $STRING_0_1$ subiu constantemente!;;In den letzten $VALUE_INT_0_0$ Monaten ist der Preis von $STRING_0_1$ konstant gestiegen!;;;;;;;;;;;x
+GOODS_PRICE_DOWN_TITLE_LARGE;COLAPSO NOS PREÇOS!;;PREISE KOLLABIEREN!;;;;;;;;;;;x
+GOODS_PRICE_DOWN_LARGE;Nos últimos $VALUE_INT_0_0$ meses, o preço de $STRING_0_1$ caiu como uma rocha! Em todo o mundo, os produtores de $STRING_0_1$ estão tentando desesperadamente transferir sua produção para outros produtos para compensar suas perdas.;;In den letzten $VALUE_INT_0_0$ Monaten sind die Preise für $STRING_0_1$ rapide gesunken! Hersteller von $STRING_0_1$ versuchen weltweit verzweifelt, ihre Produktion auf andere Güter umzustellen, um Verluste abzufangen.;;;;;;;;;;;x
+GOODS_PRICE_DOWN_TITLE_MEDIUM;COLAPSO NOS PREÇOS!;;PREISE KOLLABIEREN!;;;;;;;;;;;x
+GOODS_PRICE_DOWN_MEDIUM;Nos últimos $VALUE_INT_0_0$ meses, o preço de $STRING_0_1$ caiu como uma rocha! Em todo o mundo, produtores de $STRING_0_1$ estão tentando desesperadamente transferir sua produção para outros produtos para compensar suas perdas;;In den letzten $VALUE_INT_0_0$ Monaten sind die Preise für $STRING_0_1$ rapide gesunken! Hersteller von $STRING_0_1$ versuchen weltweit verzweifelt, ihre Produktion auf andere Güter umzustellen, um Verluste abzufangen.;;;;;;;;;;;x
+GOODS_PRICE_DOWN_TITLE_SMALL;COLAPSO NOS PREÇOS!;;PREISE KOLLABIEREN!;;;;;;;;;;;x
+GOODS_PRICE_DOWN_SMALL;Nos últimos $VALUE_INT_0_0$ meses, o preço de $STRING_0_1$ caiu como uma rocha!;;In den letzten $VALUE_INT_0_0$ Monaten sind die Preise für $STRING_0_1$ rapide gesunken!;;;;;;;;;;;x
+REVOLUTION_NEWS_TITLE_LARGE;REVOLUÇÃO EM $TAG_0_0_UPPER$!;;REVOLUTION IN $TAG_0_0$_UPPER!;;;;;;;;;;;x
+REVOLUTION_NEWS_LARGE;"Uma revolução ocorreu em $TAG_0_0$! $STRING_0_0$ derrotaram as forças do governo e quebraram o país. $TAG_0_0$ agora está sob o controle dos $STRING_0_4$. ""À medida que assumimos o governo, os cidadãos podem esperar reformas imediatas que reflitam nossos valores de $STRING_0_3$"", anunciaram. ""Nós não somos um estado desoesto, só planejamos buscar relações mais iguais com nossos parceiros internacionais"", comentou um funcionário do governo, desafiando as intenções do novo partido no poder de recuar sobre os acordos e garantias emitidos pela administração anterior.";;Eine Revolution fand in $TAG_0_0$! $STRING_0_1$ statt, haben die Regierungskräfte besiegt und das Land zerschlagen. $TAG_0_0$ wird nun von $STRING_0_4$ $STRING_0_3$ kontrolliert.;;;;;;;;;;;x
+REVOLUTION_NEWS_TITLE_MEDIUM;REVOLUÇÃO EM $TAG_0_0_UPPER$!;;REVOLUTION IN $TAG_0_0$_UPPER!;;;;;;;;;;;x
+REVOLUTION_NEWS_MEDIUM;"Uma revolução ocorreu em $TAG_0_0$! $STRING_0_0$ derrotaram as forças do governo e quebraram o país. $TAG_0_0$ agora está sob o controle do $STRING_0_4$. ""Os cidadãos podem esperar reformas imediatas que reflitam nossos valores de $STRING_0_3$"", anunciaram.";;Eine Revolution fand in $TAG_0_0$! $STRING_0_1$ statt, haben die Regierungskräfte besiegt und das Land zerschlagen. $TAG_0_0$ wird nun von $STRING_0_4$ $STRING_0_3$ kontrolliert.;;;;;;;;;;;x
+REVOLUTION_NEWS_TITLE_SMALL;REVOLUÇÃO!;;REVOLUTION!;;;;;;;;;;;x
+REVOLUTION_NEWS_SMALL;Uma revolução ocorreu em $TAG_0_0$! $STRING_0_0$ derrotaram as forças do governo e quebraram o país.;;Eine Revolution fand in $TAG_0_0$! $STRING_0_1$ statt, haben die Regierungskräfte besiegt und das Land zerschlagen.;;;;;;;;;;;x 
+INVENTION_NEWS_TITLE_LARGE;INVENÇÃO!;;ERFINDUNG!;;;;;;;;;;;x
+INVENTION_NEWS_LARGE;Cientistas e engenheiros em $TAG_0_0$ inventaram $STRING_0_1$.;;Forscher und Ingenieure in $TAG_0_0$ haben lt. Meldungen $STRING_0_1$ erfunden. ;;;;;;;;;;;x
+INVENTION_NEWS_TITLE_MEDIUM;INVENÇÃO!;;ERFINDUNG!;;;;;;;;;;;x
+INVENTION_NEWS_MEDIUM;Cientistas e engenheiros em $TAG_0_0$ inventaram $STRING_0_1$.;;Forscher und Ingenieure in $TAG_0_0$ haben lt. Meldungen $STRING_0_1$ erfunden. ;;;;;;;;;;;x
+INVENTION_NEWS_TITLE_SMALL;Invenção!;;Erfindung!;;;;;;;;;;;x
+INVENTION_NEWS_SMALL;Cientistas e engenheiros em $TAG_0_0$ inventaram $STRING_0_1$.;;Forscher und Ingenieure in $TAG_0_0$ haben lt. Meldungen $STRING_0_1$ erfunden. ;;;;;;;;;;;x
+INVENTION_SUFFIX1;Progresso imparável!;;Fortschritt nicht aufzuhalten!;;;;;;;;;;;x
+INVENTION_SUFFIX2;Verdadeiramente a luz do futuro!;;Wahrhaft das Licht der Zukunft!;;;;;;;;;;;x
+INVENTION_SUFFIX3;Isso pode destruir todos nós!;;Dies kann uns alle vernichten!;;;;;;;;;;;x
+INVENTION_SUFFIX4;Boas notícias, pessoal!;;Gute Nachrichten!;;;;;;;;;;;x
+INVENTION_SUFFIX5;Este é o começo de uma nova era!;;Dies ist der Beginn eines neuen Zeitalters!;;;;;;;;;;;x
+INVENTION_SUFFIX6;O progresso de hoje foi o planejamento de ontem.;;Heutiger Fortschritt ist die Planung von gestern.;;;;;;;;;;;x
+INVENTION_SUFFIX7;Espero que esta seja uma boa aposta.;;Hoffentlich findet dies einen guten Einsatz.;;;;;;;;;;;x
+INVENTION_SUFFIX8;A ciência nunca dorme!;;Die Forschung schläft nie!;;;;;;;;;;;x
+INVENTION_SUFFIX_LONG1;A que preço?;;Zu welchem Preis?;;;;;;;;;;;x
+INVENTION_SUFFIX_LONG2;O que você vai inventar a seguir?;;Was werden sie als nächstes erfinden?;;;;;;;;;;;x
+INVENTION_SUFFIX_LONG3;Isso nunca será algo.;;Das wird nie was werden.;;;;;;;;;;;x
+INVENTION_SUFFIX_LONG4;Idéia roubada de nós.;;Idee ganz eindeutig von uns gestohlen.;;;;;;;;;;;x
+PARTY_NEWS_TITLE_LARGE;NOVO PARTIDO POLÍTICO EM $TAG_0_0_UPPER$;;NEUE PARTEI IN $TAG_0_0_UPPER$;;;;;;;;;;;x
+PARTY_NEWS_LARGE;"Um novo partido político $STRING_0_2$, os $STRING_0_0$, foi formado no(a) $TAG_0_0$. ""Estamos atualmente no processo de recrutar novos membros e organizar a estrutura de apoio que toda unidade política moderna exige"", comentou um funcionário do partido. Unindo ativistas descontentes e membros desiludidos de outros grupos, o novo partido anunciou que agendou uma convenção nacional, onde planeja eleger seus representantes e aprovar a plataforma. Eles afirmam manter-se otimistas sobre chegar ao poder apesar de todas as probabilidades.";;Neue $STRING_0_2$ politische Partei, namens STRING_0_0, wurde in $TAG_0_0$ gegründet. Sie sind zuversichtlich, dass sie die nächste Wahl gewinnen.;;;;;;;;;;;x
+PARTY_NEWS_TITLE_MEDIUM;NOVO PARTIDO POLÍTICO EM $TAG_0_0_UPPER$;;NEUE PARTEI IN $TAG_0_0_UPPER$;;;;;;;;;;;x
+PARTY_NEWS_MEDIUM;Um novo partido político $STRING_0_2$, os $STRING_0_0$, foi formado no(a) $TAG_0_0$. Unindo ativistas descontentes e membros desiludidos de outros grupos, o novo partido anunciou que agendou uma convenção nacional.;;Neue $STRING_0_2$ politische Partei, namens STRING_0_0, wurde in $TAG_0_0$ gegründet. Sie sind zuversichtlich, dass sie die nächste Wahl gewinnen.;;;;;;;;;;;x
+PARTY_NEWS_TITLE_SMALL;Novo Partido;;Neue Partei;;;;;;;;;;;x
+PARTY_NEWS_SMALL;Um novo partido político $STRING_0_2$, os $STRING_0_0$, foi formado no(a) $TAG_0_0$. Eles afirmam manter-se otimistas sobre chegar ao poder apesar de todas as probabilidades.;;Neue $STRING_0_2$ politische Partei, namens STRING_0_0, in $TAG_0_0$ gegründet.;;;;;;;;;;;x
+PROVINCE_NEWS_TITLE_LARGE;$TAG_0_1_UPPER$ ESTÁ SE EXPANDINDO!;;$TAG_0_1_UPPER$ DEHNT SICH AUS!;;;;;;;;;;;x
+PROVINCE_NEWS_LARGE;The province of $STRING_0_0$ now belongs to $TAG_0_1$. The foreign minister of $TAG_0_1$ has stated that '$STRING_0_0$ is an integral part of $TAG_0_1$' and that '$TAG_0_0$ has no claim to it now it is back in our rightful hands'.;;Die Provinz von $STRING_0_0$ gehört nun zu $TAG_0_1$. Der Außenminister von $TAG_0_1$ sagt, dass '$STRING_0_0$ ein integraler Teil von $TAG_0_1$' ist und '$TAG_0_0$ keinerlei Ansprüche auf die Provinz hat'.;;;;;;;;;;;x
+PROVINCE_NEWS_TITLE_MEDIUM;$TAG_0_1_UPPER$ ESTÁ SE EXPANDINDO!;;$TAG_0_1_UPPER$ DEHNT SICH AUS!;;;;;;;;;;;x
+PROVINCE_NEWS_MEDIUM;A província de $STRING_0_0$ agora pertence a $TAG_0_1$. O ministro das Relações Exteriores do(a) $TAG_0_1$ afirmou que '$STRING_0_0$ é parte integrante do(a) $TAG_0_1$'.;;Die Provinz von $STRING_0_0$ gehört nun zu $TAG_0_1$. Der Außenminister von $TAG_0_1$ sagt, dass '$STRING_0_0$ ein integraler Teil von $TAG_0_1$' ist.;;;;;;;;;;;x
+PROVINCE_NEWS_TITLE_SMALL;$TAG_0_1$ está se expandindo!;;$TAG_0_1$ dehnt sich aus!;;;;;;;;;;;x
+PROVINCE_NEWS_SMALL;A província de $STRING_0_0$ agora pertence a $TAG_0_1$. O ministro das Relações Exteriores do(a) $TAG_0_1$ pareceu bastante satisfeito em uma entrevista recente.;;Die Provinz von $STRING_0_0$ gehört nun zu $TAG_0_1$. Der Außenminister von $TAG_0_1$ wirkte im letzten Interview sehr zufrieden.;;;;;;;;;;;x
+RESEARCH_NEWS_TITLE_LARGE;$TAG_0_0_ADJ$ pesquisa concluída!;;$TAG_0_0_ADJ$ Forschung abgeschlossen!;;;;;;;;;;;x
+RESEARCH_NEWS_LARGE;Cientistas em $TAG_0_0$ concluíram recentemente uma pesquisa sobre $STRING_0_1$. Essa inovação certamente oferecerá muitas vantagens nos próximos dias, à medida que novas invenções ocorrerem nesse campo.;;Forscher in $TAG_0_0$ haben kürzlich die Forschung in $STRING_0_1$ abgeschlossen. Dieser Durchbruch wird $TAG_0_0$ in Zukunft viele Vorteile für weitere Erfindungen bringen.;;;;;;;;;;;x
+RESEARCH_NEWS_TITLE_MEDIUM;$TAG_0_0_ADJ$ pesquisa concluída!;;$TAG_0_0_ADJ$ Forschung abgeschlossen!;;;;;;;;;;;x
+RESEARCH_NEWS_MEDIUM;Cientistas em $TAG_0_0$ concluíram recentemente uma pesquisa sobre $STRING_0_1$. Essa inovação certamente oferecerá muitas vantagens nos próximos dias, à medida que novas invenções ocorrerem nesse campo.;;Forscher in $TAG_0_0$ haben kürzlich die Forschung in $STRING_0_1$ abgeschlossen. Dieser Durchbruch wird $TAG_0_0$ n Zukunft viele Vorteile für weitere Erfindungen bringen.;;;;;;;;;;;x
+RESEARCH_NEWS_TITLE_SMALL;$TAG_0_0_ADJ$ pesquisa concluída!;;$TAG_0_0_ADJ$ Forschung abgeschlossen!;;;;;;;;;;;x
+RESEARCH_NEWS_SMALL;Cientistas em $TAG_0_0$ concluíram recentemente uma pesquisa sobre $STRING_0_1$.;;Forscher in $TAG_0_0$ haben kürzlich die Forschung in $STRING_0_1$ abgeschlossen.;;;;;;;;;;;x
+WAR_NEWS_TITLE_LARGE;GUERRA ENTRE $TAG_0_0_UPPER$ E $TAG_0_1_UPPER$!;;KRIEG ZWISCHEN $TAG_0_0_UPPER$ UND $TAG_0_1_UPPER$!;;;;;;;;;;;x
+WAR_NEWS_LARGE;"Em $DATE_LONG_0$, o(a) $TAG_0_0$ declarou guerra a $TAG_0_1$. O ministro das Relações Exteriores do(a) $TAG_0_0$, quando questionado sobre as razões pelas quais a guerra foi declarada, afirmou a necessidade de '$STRING_0_1$'. ""Só pretendemos recuperar o que foi injustamente reivindicado antes e restaurar a paz e a ordem na região"", acrescentou. ""Esta agressão ilegal não ficará impune"", respondeu o $TAG_0_1$, exigindo que a comunidade internacional condenasse o agressor. Que Deus tenha piedade de todos eles.";;Am $DATE_LONG_0$ verkündete $TAG_0_0$, dass sie sich mit $TAG_0_1$ im Kriegszustand befinden. Der Außenminister von $TAG_0_0$ nannte als Grund '$STRING_0_1$'. Möge Gott ihnen allen gnädig sein. ;;;;;;;;;;;x
+WAR_NEWS_TITLE_MEDIUM;$TAG_0_0_UPPER$ VAI À GUERRA!!;;$TAG_0_0_UPPER$ ZIEHT IN KRIEG!;;;;;;;;;;;x
+WAR_NEWS_MEDIUM;"Em $DATE_LONG_0$ $TAG_0_0$ declarou guerra a $TAG_0_1$. O motivo declarado para esta declaração é '$STRING_0_1$'. ""Esta agressão ilegal não ficará assim"", comentou o ministro das Relações Exteriores do(a) $TAG_0_1$.";;Am $DATE_LONG_0$ verkündete $TAG_0_0$, dass sie sich mit $TAG_0_1$ im Kriegszustand befinden. Die angegebene Begründung: '$STRING_0_1$'. Möge Gott ihnen allen gnädig sein. ;;;;;;;;;;;x
+WAR_NEWS_TITLE_SMALL;$TAG_0_0_$ em guerra!;;$TAG_0_0_$ im Krieg!;;;;;;;;;;;x
+WAR_NEWS_SMALL;Em $DATE_LONG_0$ $TAG_0_0$ anunciou que agora existe um estado de guerra com $TAG_0_1$.;;Am $DATE_LONG_0$ verkündete $TAG_0_0$ den Kriegszustand mit $TAG_0_1$.;;;;;;;;;;;x 
+KEYNAME;TEXT;;TEXT;;;;;;;;;;;x

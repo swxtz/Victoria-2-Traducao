@@ -1,0 +1,835 @@
+MIL_FROM_TROOPS;Soldados e Exército;Soldats et Armée;Soldaten & Armee;;;;;;;;x;;;
+MIL_FROM_CAP_SHIPS;Capital Ships;Navires;Großkampfschiff;;;;;;;;x;;;
+MIL_FROM_LEADERS;Líderes;Dirigeants;Anführer;;;;;;;;x;;;
+OCCUPATION_SCORE;Ocupação:;Occupation : ;Besetzung:;;;;;;;;x;;;
+BLOCKADE_SCORE;Bloqueio:;Blocus : ;Blockade:;;;;;;;;x;;;
+OUTLINER_TOOLTIP_EMPLOYED;§Y$COUNT$§! Empregados em fábricas (§Y$PERC$§!%);§Y$COUNT$§ Employés en usines (§Y$PERC$§! %);§Y$COUNT$§! in (§Y$PERC$§!%) Fabriken eingestellt;;;;;;;;x;;;
+TRADE_SUPPLY_NEED_A;$VAL$ para abastecer o exército a cada dia.\n;$VAL$ à fournir à l'armée chaque jour.\n;$VAL$ zur täglichen Versorgung der Armee.\n;;;;;;;;x;;;
+TRADE_SUPPLY_NEED_N;$VAL$ para fornecer marinha a dia.\n;$VAL$ à fournir à la marine chaque jour.\n;$VAL$ zur täglichen Versorgung der Marine.\n;;;;;;;;x;;;
+DIPLOMACY_CANNOT_SET_PRIO_WAR;Não podemos influenciar esta nação enquanto estamos em guerra com eles.;Nous ne pouvons pas influencer cette nation tant que nous sommes en guerre contre elle.;Wir können diese Nation nicht beeinflussen, während wir einen Krieg gegen sie führen.;;;;;;;;x;;;
+DIPLOMACY_INFLUENCE_NOT_WORTH;Já estamos influenciando este país ao máximo e nenhum outro país o está influenciando. Nenhum ponto foi gasto no momento.;Nous influençons déjà ce pays au maximum et aucun autre pays ne l'influence. Aucun point n'est dépensé pour le moment.;Wir haben den Einfluss auf dieses Land bereits maximiert und kein anderes Land beeinflusst es. Es wurden keine Punkte ausgegeben.;;;;;;;;x;;;
+COLONY_ABORT_HEADER;Quando nossa colonização foi abortada.;Lorsque notre colonisation à été abandonnée;Sobald unsere Kolonisierung abgebrochen wurde.;;;;;;;;x;;;
+COLONY_ABORT_1;Colonização Abandonada!;Abandon de la colonisation !;Kolonisierung Abgebrochen!;;;;;;;;x;;;
+COLONY_ABORT_2;$MONARCHTITLE$, nossa colônia em;$MONARCHTITLE$, notre colonie en;$MONARCHTITLE$, unsere Kolonie in;;;;;;;;x;;;
+COLONY_ABORT_3;§Y$TARGET$§b.;§Y$TARGET$§b.;§Y$TARGET$§b.;;;;;;;;x;;;
+COLONY_ABORT_4;foi abandonada!;a été abandonnée !;wurde vorzeitig abgebrochen!;;;;;;;;x;;;
+COLONY_ABORT_5;Nós não podemos mais colonizar esta região.;Nous ne pouvons plus coloniser cette région.;Wir können diese Region nicht länger kolonisieren.;;;;;;;;x;;;
+COLONY_ABORT_6;*;*;*;*;*;*;*;;;;;;;x
+COLONY_ABORT_BTN1;OK;D'accord;OK;*;Aceptar;*;*;;;;;;;x
+COLONY_ABORT_BTN2;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+COLONY_ABORT_BTN3;Ir para;Voir;Gehe zu;;Ir allí;;;;;;;;;x
+COLONY_ABORT_MAP;Colônia Abandonada!;Colonie abandonnée !;Kolonie abgebrochen!;;;;;;;;x;;;
+COLONY_ABORT_SETUP;Quando a colonização é abandonada.;Quand la colonisation est abandonnée.;Wenn die Kolonisierung abgebrochen wird.;;;;;;;;x;;;
+COLONY_ABORT_LOG;Colonização de $TARGET$foi abandonada.;la colonisation de $TARGET$ a été abandonnée.;Kolonisierung von $TARGET$ wurde abgebrochen.;;;;;;;;x;;;
+DIPRELCH_VALID_CB;Casus Belli válido;Casus Belli valide;Gültiger Kriegsgrund;;;;;;;;x;;;
+BRIGADES_COMPARE_GREATER;O fator de comparação das brigadas de dois países é pelo menos §Y$VAL$§!;Le facteur de comparaison des brigades des deux pays est d'au moins §Y$VAL$§ !;Der Vergleichswert der Brigaden zweier Länder beträgt mindestens §Y$VAL$§!;;;;;;;;x;;;
+BRIGADES_COMPARE_SMALLER;O fator de comparação das brigadas de dois países é menor que §Y$VAL$§!;Le facteur de comparaison des brigades des deux pays est inférieur à §Y$VAL$§ !;Der Vergleichswert der Brigaden zweier Länder beträgt weniger als §Y$VAL$§!;;;;;;;;x;;;
+CONFIRM_CREATE_STATE_DESC2;(Todos os efeitos locais serão removidos.);(Tous les effets locaux seront supprimés.);(Alle lokalen Effekte werden entfernt.);;;;;;;;x;;;
+UNIT_ENABLE_REBEL_HUNT;Caça Rebeldes;Chasse aux rebelles;Jagt Rebellen;Cazar rebeldes;;;;;;;;;;x
+UNIT_DISABLE_REBEL_HUNT;(caçando rebeldes);(chasse des rebelles);(Rebellen jagen);(cazando rebeldes);;;;;;;;;;x
+UNIT_REBEL_HUNT_WILL_HUNT;§GO exército está pronto para a caça rebelde.§!;§GL'armée est prête pour la chasse aux rebelles.§!;§GDie Armee ist bereit, Rebellen zu jagen.§!;;;;;;;;;;;x
+UNIT_REBEL_HUNT_IS_BUSY;§RExército está atualmente ocupado, e não vai caçar nenhum rebelde agora.§!;§RL'armée est occupée et ne pourra pas chasser les rebelles tout de suite.§!;§RDie Armee ist derzeit beschäftigt und wird momentan keine Rebellen jagen.§!;;;;;;;;;;;x
+UNIT_REBEL_HUNT_LOW_MORALE;§RExército tem moral muito baixo, e não vai caçar nenhum rebelde agora.§!;§RL'armée a un moral trop faible et ne peut pas chasser les rebelles maintenant.§!;§RDie Moral der Armee ist zu gering und sie wird momentan keine Rebellen jagen.§!;;;;;;;;;;;x
+UNIT_REBEL_HUNT_NO_VALID;§ROs rebeldes inimigos foram detectados, mas nosso exército não os atacará, porque eles são fortes demais para nós ou não conseguirão encontrar um caminho seguro para chegar lá..§!;§RDes rebelles ont été détectés mais notre armée ne les attaquera pas parce qu'ils sont trop fort pour nous ou qu'on ne peut pas trouver un passage sûr pour aller vers eux.§!;§RFeindliche Rebellen wurden aufgespürt, aber unsere Armee weigert sich, sie anzugreifen, da sie viel zu stark für uns sind oder unsere Truppen keinen sicheren Weg zu ihnen finden konnten.§!;;;;;;;;;;;x
+NOT_RELEASE_AT_WAR;§R(Não é possível libertar nações quando em guerra.)§W;§R(Il n'est pas possible de libérer des nations en temps de guerre.)§W;§R(Es ist nicht möglich, während eines Krieges Nationen zu entlassen.)§W;;;;;;;;x;;;
+COLONY_SUCCESS_5;§Y$PRESTIGE$§! prestígio adquirido.;§Y$PRESTIGE$§! de prestige gagné.;§Y$PRESTIGE$§! Prestige gewonnen.;;;;;;;;;;;x
+COLONY_SUCCESS_6;(Valor base §Y$BASE$§! x §Y$PROV$§! províncias.);(Valeur de base §Y$BASE$§! x §Y$PROV$§! provinces.);(Grundwert §Y$BASE$§! x §Y$PROV$§! Provinzen.);;;;;;;;;;;x
+COUNTRY_PUPPETS_LIST;Fantoches:;Satellites : ;Marionetten:;;;;;;;;;;;x
+POLL_ESTIMATED_ELECTION;Em uma eleição, estimamos o seguinte resultado.;En cas d'élection, nous nous attendons au résultat suivant.;In einer Wahl erwarten wir die folgenden Ergebnisse.;;;;;;;;x;;;
+MODIFIER_MOVEMENT_COST;Custo de Movimento de Tropa;Coût du mouvement de troupe;Kosten der Truppenbewegung;;;;;;;;x;;;
+SPEED_IMPACT_ON_CB;A velocidade de geração foi alterada em §Y$VAL$§W.;La vitesse de génération change de §Y$VAL$§W.;Die Geschwindigkeit der Generationen hat sich um §Y$VAL$§W geändert.;;;;;;;;x;;;
+TERR_COMB_WIDTH_DEC;A área de combate é reduzida em §Y$VAL$§W% neste terreno.;L'ampleur du combat est réduite de §Y$VAL$§W % sur ce terrain.;Die Angriffsweite für dieses Terrain ist um §Y$VAL$§W% reduziert.;;;;;;;;x;;;
+MODIFIER_BOOST_STRONGEST_PARTY;Força do Partido Mais Forte;Force du plus fort parti;Stärke der stärksten Partei;;;;;;;;x;;;
+PEACEDEMANDDESC;$COUNTRY$ está exigindo paz nos seguintes termos:;$COUNTRY$ demande la paix selon les termes suivants :;$COUNTRY$ verlangt Frieden unter den folgenden Bedingungen:;;;;;;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_SETUP;Quando nosso processo de justificação de guerra não é mais válido.;Quand notre justification de guerre n'est plus valide.;Sobald unser Prozess der Kriegsrechtfertigung nicht länger gültig ist.;;;;;;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_HEADER;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_1;Justificativa de Guerra;Casus Belli;Kriegsrechtfertigung;;;;;;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_2;Nossa tentativa de justificar a guerra usando o ;Notre tentative de justifier la guerre par le;Unser Versuch, den Krieg zu rechtfertigen mittels;;;;;;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_3;Casus Belli §Y$CASUS$§! ;Casus Belli §Y$CASUS$§!;§Y$CASUS$§! Casus Belli;;;;;;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_4;contra;contre;gegen;;;;;;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_5;$TARGET$;$TARGET$;$TARGET$;;$TARGET$;;;;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_6;não é mais válido!;n'est plus valide !;ist nicht länger gültig!;;;;;;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_LOG;Nosso processo de justificativa de guerra contra o $TARGET$ não é mais válido.;La justification de notre guerre contre $TARGET$ n'est plus valide.;Unser Prozess der Kriegsrechtfertigung gegenüber $TARGET$ ist nicht länger gültig.;;;;;;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_BTN1;OK;D'accord;OK;OK;OK;OK;Rendben;OK;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_BTN2;OK;D'accord;OK;OK;OK;OK;Rendben;OK;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_BTN3;Ir para;Voir;Gehe zu;IdŸ do;Ir allí;Andare;Ugrás;Pøejít na;;;;;;x
+CB_JUSTIFY_NO_LONGER_VALID_MAP;*;*;*;*;*;*;*;;;;;;;x
+NO_ALLOWED_COUNTRIES;(Nenhum país aplicável).;(Pas de pays applicable).;(Es gibt kein geeignetes Land).;;;;;;;;;;;x
+NO_ALLOWED_STATES;(Não há estados aplicáveis).;(Pas d'État applicable).;(Es gibt keine geeigneten Staaten).;;;;;;;;;;;x
+HAS_LESS_STATE_THAN;Número de estados < ;Nombre d'États <;besitzt eine Staatsanzahl von <;;;;;;;;;;;x
+HAS_STATES_GREATER_EQ;Número de estados >= ;Nombre d'États >= ;besitzt eine Staatsanzahl von >=;;;;;;;;;;;x
+HAVE_MORE_SUBSTATES_THEN;Tem mais subestados do que;Nombre de sous-états supérieur à ;Besitze mehr Unterstaaten als;;;;;;;;;;;x
+HAVE_LESS_SUBSTATES_THEN;Tem menos subestados do que;Nombre de sous-états inférieur à ;Besitze weniger Unterstaaten als;;;;;;;;;;;x
+HAVE_MORE_VASSALS_THAN;Tem mais fantoches do que;Nous avons plus de satellites que ;Besitze mehr Marionetten als;;;;;;;;;;;x
+HAS_UNION_TAG;tem união cultural;a la culture syndicale;besitzt kulturelle Unionen;;;;;;;;;;;x
+HAS_NO_UNION_TAG;não tem união cultural;n'a pas de culture syndicale;besitzt KEINE kulturellen Unionen;;;;;;;;;;;x
+HAS_CULTURE_UNION;Tem união de cultura;A la culture syndicale;Besitzt kulturelle Unionen;;;;;;;;;;;x
+HAS_NOT_CULTURE_UNION;NÃO tem união cultural;N'a pas de culture syndicale;Besitzt KEINE kulturellen Unionen;;;;;;;;;;;x
+IS_STATE_CAPITAL;é capital do estado;est la capitale de l'État;ist Landeshauptstadt;;;;;;;;;;;x
+IS_NOT_STATE_CAPITAL;NÃO é capital do estado;n'est pas la capitale de l'État;ist KEINE Landeshauptstadt;;;;;;;;;;;x
+SUBSIDIZE_ALL_TOOLTIP;Subsidiar todas as fábricas na lista.;Subventionner toutes les usines de la liste.;Alle Fabrikanlagen von dieser Liste werden bezuschusst.;;;;;;;;;;;x
+UNSUBSIDIZE_ALL_TOOLTIP;Cancelar subsídios para todas as fábricas da lista.;Annuler les subventions pour toutes les usines de la liste.;Bezuschussung aller Fabrikanlagen von dieser Liste abbrechen.;;;;;;;;;;;x
+OPEN_ALL_TOOLTIP;Abra todas as fábricas na lista.;Ouvrir toutes les usines de la liste.;Alle Fabrikanlagen von dieser Liste öffnen.;;;;;;;;;;;x
+CLOSE_ALL_TOOLTIP;Feche todas as fábricas na lista.;Fermer toutes les usines de la liste.;Alle Fabrikanlagen von dieser Liste schließen.;;;;;;;;;;;x
+ON_ENACT_UNCIV_REFORM;Quando foi promulgado:;Lorsqu'elle a été promulguée :;Sobald beschlossen:;;;;;;;;;;;x
+EFFECT_BUILD_IN_CAPITAL_DESC;§Y$BLD$§! a construção ocorrerá em: §Y$PROVS$§!;§Y$BLD$§! constructions sont prévues en §Y$PROVS$§!;§Y$BLD$§! Bau wird in: §Y$PROVS$§! beginnen;;;;;;;;;;;x
+TRIGGER_BUILD_IN_CAPITAL_DESC;§RConstrução não é permitida por enquanto.§!;§RLa construction n'est pas autorisée pour le moment.§!;§RBau ist derzeit nicht gestattet.§!;;;;;;;;;;;x
+DIPLOMACY_CB_INFO;Justificativa de Guerra;Casus Belli;Kriegsrechtfertigung;;;;;;;;;;;x
+COLONIZE_MAX_SLOTS;Não mais que §Y$NUM$§! países podem competir pela colonização da província.;Pas plus de §Y$NUM$§! pays peuvent être en concurrencer pour la colonisation de la province.;Es können nicht mehr als §Y$NUM$§! Länder um die Kolonisierung einer Provinz kämpfen.;;;;;;;;;;;x
+RIGHT_CLICK_TO_REMOVE_NF;§YRight mouse click§! para remover o foco atual.;§YClic droit§! pour supprimer la cause nationale actuelle;§YRechte Maustaste klicken§!, um den gegenwärtigen Fokus zu entfernen. ;;;;;;;;;;;x
+CONFIRM_REMOVE_COLONY_NF_TITLE;Remover o foco nacional da colonização;Supprimer la cause nationale de colonisation;Den nationalen Fokus der Kolonisierung entfernen ;;;;;;;;;;;x
+CONFIRM_REMOVE_COLONY_NF_DESC;Seu progresso de colonização será perdido. Você quer remover o foco nacional?;La progression de votre colonisation va être perdue. Voulez-vous supprimer la cause nationale ?;Euer Kolonisierungs-Prozess wird verloren gehen. Möchtet Ihr den nationalen Fokus entfernen?;;;;;;;;;;;x
+CB_ALLOWED_INSTALL_COMMUNIST_GOV_TYPE;Instale o governo comunista;Installer un gouvernement communiste;Kommunistische Regierung einsetzen;;;;;;;;;;;x
+po_install_communist_gov_type;Instale o governo comunista;Installer un gouvernement communiste;Kommunistische Regierung einsetzen;;;;;;;;;;x;
+install_communist_gov_cb;Instale o comunismo;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+install_communist_gov_cb_desc;Instale o governo comunista.;Installer le gouvernement communiste.;Setzt die kommunistische Regierung ein.;;;;;;;;;;;x
+install_communist_gov_cb_setup;Instale o governo comunista. Se alcançado, o país será automaticamente adicionado em nossa esfera.;Installer le gouvernement communiste. En cas de réussite, le pays sera automatiquement ajouté à notre sphère d'influence.;Setzt die kommunistische Regierung ein. Sobald dies erreicht wurde, wird das Land automatisch unserer Sphäre zugefügt. ;;;;;;;;;;;x
+install_communist_gov_cb_short;Instale o comunismo;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+CB_ALLOWED_UNINSTALL_COMMUNIST_GOV_TYPE;Revogar o governo comunista;Révoquer le gouvernement communiste;Kommunistische Regierung absetzen;;;;;;;;;;;x
+po_uninstall_communist_gov_type;Revogar o governo comunista;Révoquer le gouvernement communiste;Kommunistische Regierung absetzen;;;;;;;;;;x;
+uninstall_communist_gov_cb;Revogar o comunismo;Révoquer le Communisme;Kommunismus absetzen;;;;;;;;;;;x
+uninstall_communist_gov_cb_desc;Revogue o governo comunista.;Révoquer le gouvernement communiste.;Die kommunistische Regierung absetzen.;;;;;;;;;;;x
+uninstall_communist_gov_cb_setup;Revogue o governo comunista.;Révoquer le gouvernement communiste.;Die kommunistische Regierung absetzen.;;;;;;;;;;;x
+uninstall_communist_gov_cb_short;Revogue o comunismo.;Révoquer le Communisme.;Kommunismus absetzen;;;;;;;;;;;x
+NF_OVERWRITE_HEADER;Para definir o novo foco nacional §Y$NF$§! você deve remover outro.;Pour adopter la nouvelle cause nationale §Y$NF$§! vous devez en supprimer une autre.;Um den neuen nationalen Fokus auf §Y$NF$§! setzen zu können, müsst Ihr einen anderen entfernen. ;;;;;;;;;;;x
+NF_OVERWRITE_ENTRY;§Y$NF$§!\nin §G$STATE$§!;§Y$NF$§!\nen §G$STATE$§!;§Y$NF$§!\nin §G$STATE$§!;;;;;;;;;;;x
+PRESTIGE_MORALE_BONUS;Bônus de Moral: §Y$VAL$§!;Bonus du moral : §Y$VAL$§!;Moral-Bonus: §Y$VAL$§!;;;;;;;;;;;x
+PRESTIGE_MAX_ORG_BONUS;Bônus de organização: §Y$VAL$§!;Bonus pour l''organisation : §Y$VAL$§!;Organizationsbonus: §Y$VAL$§!;;;;;;;;;;;x
+PRESTIGE_PENALTY_ON_LEADER_TRANSFER_TITLE;Penalidade de prestígio.;Pénalité de prestige.;Prestige-Strafe.;;;;;;;;;;;x
+PRESTIGE_PENALTY_ON_LEADER_TRANSFER_DESC;Nosso país sofrerá §R$VAL$§! de perda de prestígio, se desmarcarmos o líder atual §Y$NAME$§! daquela unidade, enquanto estiver em guerra.\nVocê ainda quer fazer isso?;Notre pays perdra §R$VAL$§! de prestige si nous retirons le commandant actuel §Y$NAME$§! de cette unité en temps la guerre.\nVoulez-vous vraiment le faire ?;Unser Land wird einen Prestige-Verlust von §R$VAL$§! erleiden, wenn wir den derzeitigen Führer §Y$NAME$§! dieser Einheit während des Krieges entfernen.\nMöchtet Ihr dennoch fortfahren?;;;;;;;;;;;x
+REORG_PANEL_BALANCE_UNITS;Equilíbrio;Équilibre;Guthaben;;;;;;;;;;;x
+INVEST_PROJECT_NOT_ENOUGH_MONEY;§RNós não temos fundos suficientes para fazer isso.§!;§RNous n'avons pas assez de fonds pour ça.§!;§RWir haben keine ausreichenden Mittel, um dies zu tun.§!;;;;;;;;;;;x
+INVEST_PROJECT_SHORTCUT_MAX;§RCtrl + Left mouse click§! para investir a qtd. máxima neste projeto. (§Y$AMOUNT$§!¤);§RCtrl + Clic gauche§! pour investir le montant maximum dans ce projet (§Y$AMOUNT$§! ¤);§RCtrl + Linke Maustaste klicken§!, um die maximale Summe in dieses Projekt zu investieren. (§Y$AMOUNT$§!¤);;;;;;;;;;;x
+INVEST_PROJECT_SHORTCUT_MAX_ALL;§RShift + Left mouse click§! para investir o valor máximo em todos os projetos. (§Y$AMOUNT$§!¤);§RMaj + Clic gauche§! pour investir le montant maximum dans tous les projets (§Y$AMOUNT$§! ¤);§RShift + Linke Maustaste klicken§!, um die maximale Summe in alle Projekte zu investieren. (§Y$AMOUNT$§!¤);;;;;;;;;;;x
+INVEST_PROJECT_CONFIRM;Investir;Investissement;Investieren;;;;;;;;;;;x
+INVEST_PROJECT_MAX;Máximo;Maximum;Max.;;;;;;;;;;;x
+INVEST_PROJECT_TITLE;"Invista no projeto: ""§Y$PROJ$§!"" para §Y$LOC$§!";"Investir dans le projet : """"§Y$PROJ$§!"""" à §Y$LOC$§!";"In dieses Projekt investieren: ""§Y$PROJ$§!"" bei §Y$LOC$§!";;;;;;;;;;;x
+INVEST_PROJECT_TOOLTIP_YOUR_BUDGET;Seu orçamento atual.;Votre budget actuel.;Euer derzeitiges Budget.;;;;;;;;;;;x
+INVEST_PROJECT_TOOLTIP_PROJECT_BUDGET;Orçamento do projeto é §Y$BUD$§! de §Y$TOT$§! necessário.\nVocê decidiu investir §Y$INV$§! para este projeto.;Le budget du projet est §Y$BUD$§! sur les §Y$TOT$§! nécessaires.\nVous décidez d'investir  §Y$INV$§! dans ce projet.;Projektbudget beträgt §Y$BUD$§! von §Y$TOT$§! benötigt.\nIhr entscheidet euch dazu, §Y$INV$§! in dieses Projekt zu investieren.;;;;;;;;;;;x
+INVEST_PROJECT_TOOLTIP_APPLY;Aplique seu investimento.;Appliquer votre investissement.;Eure Investierung abschließen.;;;;;;;;;;;x
+MIL_MULTI_CONSTRUCTION_TOOLTIP;§YLeft click + SHIFT§! para construir tudo.;§YClic gauche + Maj§! pour tout construire.;§YLinksklick + SHIFT§!, um alles zu bauen.;;;;;;;;;;;x
+MIL_CONSTRUCTION_CANCEL_ALL_SHORT;Cancelar tudo;Tout annuler;Alles abbrechen;;;;;;;;;;;x
+MIL_CONSTRUCTION_CANCEL_ALL;Cancelar todas as construções;Annuler toutes les constructions;Alle Errichtungen abbrechen;;;;;;;;;;;x
+MIL_CONSTRUCTION_CANCEL_ALL_WARNING_TITLE;Cancele todas as construções.;Annuler toutes les constructions.;Alle Errichtungen abbrechen.;;;;;;;;;;;x
+MIL_CONSTRUCTION_CANCEL_ALL_WARNING_DESC;Tem certeza de que deseja cancelar todas as construções militares?;Êtes-vous certain de vouloir annuler toutes nos constructions militaires ?;Seid Ihr Euch sicher, dass Ihr alle militärischen Errichtungen abbrechen möchtet?;;;;;;;;;;;x
+SORT_BY_PRESTIGE;Ordenar por prestígio;Tri par prestige;Nach Prestige sortieren;;;;;;;;;;;x
+SORT_BY_NAME;Ordenar por nome;Tri par nom;Nach Namen sortieren;;;;;;;;;;;x
+SORT_BY_SELECTED;Ordenar por selecionados;Tri par sélections;Nach Auswahl sortieren;;;;;;;;;;;x
+ATTACKUSREBEL_SETUP;Quando uma das nossas unidades terrestres é atacada pelos rebeldes;Quand une de nos unités terrestres subit une attaque des rebelles;Sobald eine unserer Ländereinheiten von den Rebellen angegriffen wird;;;;;;;;;;x;
+ATTACKUSREBEL_HEADER;Nosso Chefe de Gabinete relata que;Notre chef d'état-major rapporte que;Unser Stabschef berichtet:;;Nuestro jefe de estado mayor informa de que;;;;;;;;;x
+ATTACKUSREBEL_1;Nossas forças estão sob ataque!;Nos forces sont attaquées !;Unsere Truppen werden angegriffen!;;¡Están atacando a nuestras fuerzas!;;;;;;;;;x
+ATTACKUSREBEL_2;$MONARCHTITLE$, nós fomos atacados em;$MONARCHTITLE$, nous avons été attaqués dans la province de;$MONARCHTITLE$, wir werden in;;$MONARCHTITLE$, hemos sido atacados en;;;;;;;;;x
+ATTACKUSREBEL_3;$PROV$.;$PROV$.;$PROV$ angegriffen.;;$PROV$.;;;;;;;;;x
+ATTACKUSREBEL_4;Forças hostis de $ATTACKER$ engajaram a luta contra nós.;Les forces ennemies de $ATTACKER$ ont engagé le combat contre nous.;Feindliche Truppen von $ATTACKER$ greifen uns an.;;Fuerzas hostiles de $ATTACKER$ han entablado combate con nosotros con;;;;;;;;;x
+ATTACKUSREBEL_5;*;*;*;;*;;;;;;;;;x
+ATTACKUSREBEL_6;*;*;*;;*;;;;;;;;;x
+ATTACKUSREBEL_LOG;Nós fomos atacados em $PROV$.;Nous avons été attaqués dans la province de $PROV$.;Wir wurden in $PROV$ angegriffen.;;Hemos sido atacados en $PROV$.;;;;;;;;;x
+ATTACKUSREBEL_BTN1;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+ATTACKUSREBEL_BTN2;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+ATTACKUSREBEL_BTN3;Ir para;Voir;Gehe zu;;Ir allí;;;;;;;;;x
+ATTACKUSREBEL_MAP;Sob ataque!;Nous sommes attaqués !;Wird angegriffen;;¡Nos atacan!;;;;;;;;;x
+ATTACKTHEMREBEL_SETUP;Quando uma das nossas unidades de terra ataca a rebelião.;Quand une de nos unités terrestres attaque la rébellion;Sobald eine unserer Ländereinheiten die Rebellen angreift.;;;;;;;;;;;x
+ATTACKTHEMREBEL_HEADER;Nosso Chefe de Gabinete relata que;Notre chef d'état-major rapporte que;Unser Stabschef berichtet:;;Nuestro jefe de estado mayor informa de que;;;;;;;;;x
+ATTACKTHEMREBEL_1;Nós atacamos o Inimigo!;nous avons attaqué l'ennemi !;Aufeinandertreffen mit dem Feind!;;¡Hemos entablado combate con el enemigo!;;;;;;;;;x
+ATTACKTHEMREBEL_2;$MONARCHTITLE$, temos relatos de que a batalha começou em;$MONARCHTITLE$, nous vous informons que la bataille a commencé dans la province de;Uns wird gemeldet, dass eine Schlacht in;;$MONARCHTITLE$, nos informan que ha comenzado la batalla en;;;;;;;;;x
+ATTACKTHEMREBEL_3;$PROV$.;$PROV$.;$PROV$ begonnen hat.;;$PROV$.;;;;;;;;;x
+ATTACKTHEMREBEL_4;Estamos atacando forças de $DEFENDER$ e tentando desalojar suas defesas. Nos engajamos com;Nous sommes les forces d'attaque de $DEFENDER$ et nous tentons de déloger leurs défenses. Nous avons engagé le combat avec ;Wir greifen Truppen aus $DEFENDER$ an und versuchen, sie aus ihren Stellungen zu werfen. Wir befinden uns im Kampf mit;;Atacamos a la fuerza $DEFENDER$, en un intento de desbaratar sus defensas. Hemos entablado ;;;;;;;;;x
+ATTACKTHEMREBEL_5;*;$ATTUNIT$\n;*;;combate con: $ATTUNIT$\n;;;;;;;;;x
+ATTACKTHEMREBEL_6;*;*;*;;atacando a: $DEFUNIT$;;;;;;;;;x
+ATTACKTHEMREBEL_LOG;Nós atacamos o inimigo em $PROV$.;Nous avons attaqué l'ennemi dans la province de $PROV$.;Wir haben den Feind in $PROV$ angegriffen.;;Hemos atacado al enemigo en $PROV$.;;;;;;;;;x
+ATTACKTHEMREBEL_BTN1;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+ATTACKTHEMREBEL_BTN2;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+ATTACKTHEMREBEL_BTN3;Ir para;Voir;Gehe zu;;Ir allí;;;;;;;;;x
+ATTACKTHEMREBEL_MAP;Ataque iniciado;*;*;;*;;;;;;;;;x
+SIEGEUSREBEL_SETUP;Quando os rebeldes ocupam nossa província;Quand les rebelles occupent notre province;Sobald die Rebellen damit beginnen, unsere Provinzen einzunehmen.;;;;;;;;;;;x
+SIEGEUSREBEL_HEADER;$MESSENGER$;$MESSENGER$;$MESSENGER$;;$MESSENGER$;;;;;;;;;x
+SIEGEUSREBEL_1;Nossa Província está começando a ser ocupada;L'occupation de notre province commence;Unsere Provinz befindet sich unter Belagerung;;Están empezando a ocupar nuestra provincia;;;;;;;;;x
+SIEGEUSREBEL_2;$MONARCHTITLE$,;$MONARCHTITLE$,;$MONARCHTITLE$;;$MONARCHTITLE$,;;;;;;;;;x
+SIEGEUSREBEL_3;$PROV$;$PROV$;$PROV$;;han empezado a ocupar;;;;;;;;;x
+SIEGEUSREBEL_4;está começando a ser ocupada. Não tenha medo! As forças do(a);est occupée. Ne craignez rien ! Les forces de;wird gerade vom Feind belagert. Doch fürchtet nichts!\nDie Truppen von;;$PROV$. ¡No hay nada que temer! Las fuerzas de;;;;;;;;;x
+SIEGEUSREBEL_5;$ATTACKER$;$ATTACKER$;$ATTACKER$;;$ATTACKER$;;;;;;;;;x
+SIEGEUSREBEL_6;em breve serão expulsos pela força de nossos exércitos.;seront bientôt repoussées par nos puissantes armées.;werden schon bald von der Macht unserer Armeen vertrieben werden.;;pronto serán expulsadas por el poder de nuestros ejércitos.;;;;;;;;;x
+SIEGEUSREBEL_LOG;$PROV$ está começando a ser ocupada.;$PROV$ est occupée.;$PROV$ wird gerade vom Feind belagert.;;Han empezado a ocupar $PROV$.;;;;;;;;;x
+SIEGEUSREBEL_BTN1;OK;D'accord;OK;;OK;;;;;;;;;x
+SIEGEUSREBEL_BTN2;OK;D'accord;OK;;OK;;;;;;;;;x
+SIEGEUSREBEL_BTN3;Ir para;Voir;Gehe zu;;Ir allí;;;;;;;;;x
+SIEGEUSREBEL_MAP;*;*;*;;*;;;;;;;;;x
+SIEGETHEMREBEL_SETUP;Quando começamos a ocupar a província controlada pela rebelião.;Quand nous occupons une province ennemie;Sobald wir beginnen, eine von den Rebellen kontrollierte Provinz zu besetzen.;;Cuando empezamos a ocupar una de las provincias de nuestro enemigo;;;;;;;;;x
+SIEGETHEMREBEL_HEADER;$MESSENGER$;$MESSENGER$;$MESSENGER$;;$MESSENGER$;;;;;;;;;x
+SIEGETHEMREBEL_1;Sua província está começando a ser ocupada;Leur province est occupée;Ihre Provinz wird belagert werden;;Se ha empezado a ocupar su provincia;;;;;;;;;x
+SIEGETHEMREBEL_2;$MONARCHTITLE$, nós começamos a ocupar;$MONARCHTITLE$, nous occupons;$MONARCHTITLE$, wir haben die Belagerung von folgender Provinz begonnen: ;;$MONARCHTITLE$, hemos iniciado la ocupación de;;;;;;;;;x
+SIEGETHEMREBEL_3;$PROV$.;$PROV$.;$PROV$.;$PROV$.;$PROV$.;$PROV$.;$PROV$ könnyûszerrel bevehetõ erõdjét.;$PROV$.;;;;;;x
+SIEGETHEMREBEL_4;Não demorará muito para que nossas forças o tirem das garras de;Nos forces auront bientôt débarrassé cette province de;Es wird nicht lange dauern, bis unsere Truppen sie;;Nuestras fuerzas no tardarán en arrancarla de las garras de;;;;;;;;;x
+SIEGETHEMREBEL_5;$DEFENDER$.;$DEFENDER$.;$DEFENDER$ entrissen haben.;;$DEFENDER$.;;;;;;;;;x
+SIEGETHEMREBEL_6;Seu povo está esperando ansiosamente para ser guiado pelo nosso governo.;Sa population attend impatiemment d'être guidée par notre gouvernement.;Sie werden sich auf unsere aufgeklärte Regierung freuen.;;Esperan con anhelo nuestro gobierno.;;;;;;;;;x
+SIEGETHEMREBEL_LOG;Nós começamos a ocupar $PROV$.;Nous occupons $PROV$.;Wir haben mit der Belagerung von $PROV$ begonnen.;;Hemos empezado a ocupar $PROV$.;;;;;;;;;x
+SIEGETHEMREBEL_BTN1;OK;D'accord;OK;;OK;;;;;;;;;x
+SIEGETHEMREBEL_BTN2;OK;D'accord;OK;;OK;;;;;;;;;x
+SIEGETHEMREBEL_BTN3;Ir para;Voir;Gehe zu;;Ir allí;;;;;;;;;x
+SIEGETHEMREBEL_MAP;*;*;*;;*;;;;;;;;;x
+REMOVE_RANDOM_ECO_REFORMS_EFFECT;Remove §R$VAL$§! economic reforms.\n;Suppression de §R$VAL$§! réformes économiques.\n;§R$VAL$§! ökonomische Reformen entfernen.\n;;;;;;;;;;;x
+REMOVE_RANDOM_MIL_REFORMS_EFFECT;Remove §R$VAL$§! military reforms.\n;Suppression de §R$VAL$§! réformes militaires.\n;§R$VAL$§! militärische Reformen entfernen.\n;;;;;;;;;;;x
+PRODUCTION_FACTORY_PURE_INCOME;Lucro líquido no último dia: $VALUE$;Revenu net du jour dernier : $VALUE$;Reines Einkommen des letzten Tages: $VALUE$;;;;;;;;;;;x
+PRODUCTION_FACTORY_MARKET_SPENDINGS;Gastos de mercado: $VALUE$;Dépenses sur les marchés : $VALUE$;Ausgaben auf dem Markt: $VALUE$;;;;;;;;;;;x
+PRODUCTION_FACTORY_POP_PAYCHECKS;Remun. - Trabalhadores e Capitalistas: $VALUE$;Rémunérations des travailleurs et du capital : $VALUE$;Gehaltsscheck von Arbeitern und Kapitalisten: $VALUE$;;;;;;;;;;;x
+PRODUCTION_FACTORY_TOTAL_BALANCE;Saldo dos últimos dias: $VALUE$;Solde du jour dernier : $VALUE$;Kontostand des Vortags: $VALUE$;;;;;;;;;;;x
+PRODUCTION_FACTORY_TODAY_PROFIT;Lucros nos últimos dias: $VALUE$;Profit du jour dernier: $VALUE$;Rentabilität des Vortags: $VALUE$;;;;;;;;;;;x
+PRODUCTION_FACTORY_PROFITABILITY;Rentab. Média(últimos $DAYS$ dias): $VALUE$;Profit moyen (derniers $DAYS$ jours) : $VALUE$;Durschnittl. Rentabilität (der letzten $DAYS$ Tage): $VALUE$;;;;;;;;;;;x
+PRODUCTION_FACTORY_CURRENT_BUDGET;Orçam. Atual da Fábrica: $VALUE$;Budget actuel des usines : $VALUE$;Derzeitiges Fabrikanlagen-Budget: $VALUE$;;;;;;;;;;;x
+PRODUCTION_FACTORY_INVESTMENT;Dos investimentos: $VALUE$;Des investissements : $VALUE$;Aus Investitionen: $VALUE$;;;;;;;;;;;x
+PRODUCTION_FACTORY_SUBSIDIES;Dos investimentos: $VALUE$;Des investissements : $VALUE$;Aus Investitionen: $VALUE$;;;;;;;;;;;x
+INFLUENCE_OVERFLOW_TOOLTIP;Estamos gastando §Y$VALUE$§! de pontos de influência por dia, para reduzir a influência de outros países.;Nous utilisons chaque jour §Y$VALUE$§! points d'influence pour réduire l'influence des pays étrangers.;Wir verbrauchen jeden Tag §Y$VALUE$§! Einfluss-Punkte, um den Einfluss anderer Länder zu reduzieren. ;;;;;;;;;;;x
+TRADE_FLOW_PRODUCED;§YProduzido por:§W;§YProduit par :§W;§YProduziert von:§W;;;;;;;;;;;x
+TRADE_FLOW_USED;§YUsado por:§W;§YUtilisé par :§W;§YBenutzt von:§W;;;;;;;;;;;x
+TRADE_FLOW_MAY_BE_USED;§YPode ser usado para:§W;§YPeut être utilisé par :§W;§YKann genutzt werden für:§W;;;;;;;;;;;x
+TRADE_FLOW_TOTAL_PRODUCED;§YTotal Produzido:§W;§YProduction totale :§W;§YInsgesamt produziert:§W;;;;;;;;;;;x
+TRADE_FLOW_TOTAL_USED;§YTotal usado:§W;§YUtilisation totale :§W;§YGesamter Verbrauch:§W;;;;;;;;;;;x
+TRADE_FLOW_RGO_NAME;RGOs;EAM;RGOs;;;;;;;;;;;x
+TRADE_FLOW_DESC_RGO;Nossos $POP$ estão $ACTION$ $AMOUNT$ de $RESOURCE$ por dia.;Nos $POP$ $ACTION$ $AMOUNT$ $RESOURCE$ par jour.;Unsere $POP$ betragen $ACTION$ $AMOUNT$ $RESOURCE$ pro Tag.;;;;;;;;;;;x
+TRADE_FLOW_DESC_RGO_ACTION_MINING;mineração;extraient;Bergbau;;;;;;;;;;;x
+TRADE_FLOW_DESC_RGO_ACTION_FARMING;agricultura;produisent;Landwirtschaft;;;;;;;;;;;x
+TRADE_FLOW_DESC_ARTISAN;Nossos artesãos estão produzindo $AMOUNT$ de $RESOURCE$ por dia.;Nos artisans produisent $AMOUNT$ de $RESOURCE$ chaque jour.;Unsere Handwerker produzieren $AMOUNT$ $RESOURCE$ pro Tag.;;;;;;;;;;;x
+TRADE_FLOW_DESC_FACTORY;Nossa $FACTORY$ em $STATE$ está produzindo $AMOUNT$ de $RESOURCE$ por dia.;Notre $FACTORY$ en $STATE$ produit $AMOUNT$ de $RESOURCE$ par jour.;Unsere $FACTORY$ in $STATE$ produziert $AMOUNT$ $RESOURCE$ pro Tag.;;;;;;;;;;;x
+TRADE_FLOW_CONSUME_DESC_ARTISAN;Os artesãos estão usando $AMOUNT$ de $RESOURCE$, para produzir $OUTPUT$.;Les artisans utilisent $AMOUNT$ de $RESOURCE$ pour une producion de $OUTPUT$.;Handwerker verwenden $AMOUNT$ $RESOURCE$, um $OUTPUT$ zu produzieren.;;;;;;;;;;;x
+TRADE_FLOW_CONSUME_DESC_RGO;$POP$ estão usando $AMOUNT$ de $RESOURCE$ para produzir $OUTPUT$.;Les $POP$ utilisent $AMOUNT$ de $RESOURCE$ pour une producion de $OUTPUT$.;$POP$ verwenden $AMOUNT$ $RESOURCE$, um $OUTPUT$ zu produzieren.;;;;;;;;;;;x
+TRADE_FLOW_CONSUME_DESC_FACTORY;Nossa $FACTORY$ em $STATE$ está usando $AMOUNT$ de $RESOURCE$ como matéria prima e/ou para manutenção.;Notre $FACTORY$ en $STATE$ utilise $AMOUNT$ de $RESOURCE$ comme matière première et/ou pour son entretien.;Unsere $FACTORY$ in $STATE$ verwendet $AMOUNT$ $RESOURCE$ als Eingangs- und/ oder Instandhaltungsvoraussetzungen.;;;;;;;;;;;x
+TRADE_FLOW_CONSUME_DESC_POPS;Nossos $POP$ estão usando $AMOUNT$ de $RESOURCE$ como parte de suas necessidades diárias.;Nos $POP$ utilisent $AMOUNT$ de $RESOURCE$ au titre de leurs besoins quotidiens.;Unsere $POP$ verwenden $AMOUNT$ $RESOURCE$ als Teil ihres täglichen Bedarfs.;;;;;;;;;;;x
+TRADE_FLOW_CONSUME_DESC_MILITARY;Nossos exércitos estão usando $AMOUNT$ de $RESOURCE$ como consumo diário de suprimentos.;Nos armées utilisent $AMOUNT$ de $RESOURCE$ pour leur ravitaillement quotidien.;Unsere Armee benötigt $AMOUNT$ $RESOURCE$ für ihren täglichen Vorratsverbrauch.;;;;;;;;;;;x
+TRADE_FLOW_MAY_USE_MILITARY_DESC;$INPUT$ pode ser usado pelos nossos exércitos como um consumo diário de suprimentos.;$INPUT$ peuvent être utilisés quotidiennement par nos armées pour leur ravitaillement.;$INPUT$ kann von unseren Armeen für ihren täglichen Vorratsverbrauch verwendet werden.;;;;;;;;;;;x
+TRADE_FLOW_MAY_USE_DESC;$INPUT$ pode ser usado por $PRODUCER$ para produzir $OUTPUT$.;$INPUT$ peuvent être utilisés par les $PRODUCER$ pour une production de $OUTPUT$.;$INPUT$ kann durch $PRODUCER$ verwendet werden, um $OUTPUT$ zu produzieren.;;;;;;;;;;;x
+TRADE_FLOW_MILITARY_SUPPLY;Consumo Militar;Consommation militaire;Militärischer Verbrauch;;;;;;;;;;;x
+TRADE_FLOW_CURRENT_PRICE;Preço atual:;Prix courant :;Derzeitiger Preis:;;;;;;;;;;;x
+TRADE_FLOW_DETAILS;Detalhes;Détail;Details;;;;;;;;;;;x
+TRADE_FLOW_PART_OF_WORLD_PROD;§Y$PERC$%§W da produção mundial.;§Y$PERC$ %§W de la production mondiale.;§Y$PERC$%§W der Weltproduktion.;;;;;;;;;;;x
+EMIGRATION_AT_PROVINCE_TOOLTIP;(§R$TOTALEMI$§!) §YEmigrações para:§!\n$EMILIST$\n(§G$TOTALIMM$§!) §YImigrantes de:§!\n$IMMLIST$;(§R$TOTALEMI$§!) §YÉmigration vers §!\n$EMILIST$\n(§G$TOTALIMM$§!) §YImmigration de §!\n$IMMLIST$;(§R$TOTALEMI$§!) §YAuswanderer nach:§!\n$EMILIST$\n(§G$TOTALIMM$§!) §YEinwanderer von:§!\n$IMMLIST$;;;;;;;;;;;x
+NO_MIGRATIONS_FOUND1_TOOLTIP;Província pertence a: §Y$COUNTRY$§!;La Province appartient à : §Y$COUNTRY$§!;Provinz gehört zu: §Y$COUNTRY$§!;;;;;;;;;;;x
+NO_MIGRATIONS_FOUND2_TOOLTIP;Nenhuma migração entre os países foi notada.;Aucune migration relevée entre pays;Es konnte keine Abwanderung zwischen Ländern festgestellt werden.;;;;;;;;;;;x
+NO_MIGRATIONS_FOUND3_TOOLTIP;(Selecione a província para ver detalhes);(Sélectionner une province pour voir les détails);(Für weitere Details, wähle eine Provinz);;;;;;;;;;;x
+PROVINCE_VIEW_BUILD_ALL_TOOLTIP;(Clique + CTRL para construir em todas as províncias do estado);(Clic + Ctrl pour construire dans toutes les provinces de l'État);(Klick + CTRL, um in allen Provinzen des Staates zu bauen);;;;;;;;;;;x
+EMIGRATION_ENTRY_TOOLTIP;§R$NUM$§! Para §Y$PROV$§!;§R$NUM$§! vers §Y$PROV$§!;§R$NUM$§! nach §Y$PROV$§!;;;;;;;;;;;x
+IMMIGRATION_ENTRY_TOOLTIP;§G$NUM$§! de §Y$PROV$§!;§G$NUM$§! de §Y$PROV$§!;§G$NUM$§! von §Y$PROV$§!;;;;;;;;;;;x
+CB_GENERATION_SPEED_BONUS_ON_COLONY_COMPETITION;Competindo com §Y$COUNTRY$§! para colonizar §Y$REGION$§!, bônus de velocidade §Y$BONUS$§!.;Compétition avec §Y$COUNTRY$§! pour coloniser §Y$REGION$§!, bonus de vitesse de §Y$BONUS$§!.;Tretet gegen §Y$COUNTRY$§! an, um §Y$REGION$§! Zu kolonisieren, Geschwindigkeitsbonus §Y$BONUS$§!.;;;;;;;;;;;x
+CB_GENERATION_BONUS_TOOLTIP;O bônus de velocidade de geração de CB §Y$BONUS$§! entre países concorrentes: §Y$COUNTRIES$§!;Bonus de vitesse de génération des CB de §Y$BONUS$§! entre les pays concurrents : §Y$COUNTRIES$§!;Der CB Generationen-Geschwindigkeitsbonus §Y$BONUS$§! bei einem Kampf zwischen: §Y$COUNTRIES$§!;;;;;;;;;;;x
+CB_GENERATION_BONUS_TROOPS_PRESENCE_TOOLTIP;(§Y$BONUS$§! pela presença de tropas adversárias);(§Y$BONUS$§! du fait de la présence de troupes ennemies);(§Y$BONUS$§! für die Anwesenheit gegnerischer Truppen);;;;;;;;;;;x
+CB_GENERATION_BONUS_OPPONENT_TROOPS_PRESENCE;(§Y$BONUS$§! para §Y$FOR$§! contra §Y$AGAINST$§! pela presença de suas tropas);(§Y$BONUS$§! pour §Y$FOR$§! contre §Y$AGAINST$§! du fait de la présence de leurs troupes);(§Y$BONUS$§! für §Y$FOR$§! gegen §Y$AGAINST$§! für die Gegenwart ihrer Truppen);;;;;;;;;;;x
+MODIFIER_CB_GENERATION_SPEED_MODIFIER;Velocidade de aquisição CB;Vitesse d'obtention des Casus Belli;Casus Belli Beschaffungsgeschwindigkeit;;;;;;;;;;;x
+NOT_CONSTRUCTING_CASUS_BELLI_AGAINST;Não adquirindo justificativa de guerra contra;Pas d'obtention de Casus Belli contre ;Keine Kriegsrechtfertigung beschafft gegen:;;;;;;;;;;;x
+MODIFIER_MOBILIZATION_IMPACT;Impacto da Mobilização;Impact de la mobilisation;Mobilisationsauswirkung;;;;;;;;;;;x
+MOBILIZATION_IMPACT_LIMIT_DESC;O impacto na mobilização de §Y$IMPACT$§! da política de guerra §Y$POLICY$§! limita o número de unidades mobilizadas para §Y$UNITS$§!.;L'impact sur la mobilisation de §Y$IMPACT$§! de la politique de guerre §Y$POLICY$§! limite le nombre d'unités mobilisées à §Y$UNITS$§!.;Mobilisationsauswirkung §Y$IMPACT$§! der §Y$POLICY$§! Kriegsregelung, schränkt die Menge der mobilisierten Einheiten auf §Y$UNITS$§! ein.;;;;;;;;;;;x
+MOBILIZATION_IMPACT_LIMIT_DESC2;(Quantidade atual de regimentos levantados: §Y$CURR$§!, multiplicado por §Y$IMPACT$§!);(Nombre actuel de régiments levés §Y$CURR$§! par §Y$IMPACT$§!);(Gegenwärtige Anzahl aufgestellter Regimente §Y$CURR$§! by §Y$IMPACT$§!);;;;;;;;;;;x
+CONSTRUCTING_CASUS_BELLI_AGAINST;Adquirindo CB contra;Obtention d'un casus belli contre ;Beschaffung einer Kriegsrechtfertigung gegen:;;;;;;;;;;;x
+TRIGGER_CB_CREATION_NOT_DISCOVERED;Nenhuma produção de CB;Pas de production de CB;Kriegsrechtfertigungen werden nicht produziert;;;;;;;;;;;x
+TRIGGER_CB_CREATION_DISCOVERED;Está tentando produzir uma CB;Tentative de produire un CB;Versuchen, eine Kriegsrechtfertigung zu entwickeln;;;;;;;;;;;x
+TRIGGER_CB_PROGRESS_LESS;Progresso do CB: §Y$PERCENTAGE$§W;Progression de CB : §Y$PERCENTAGE$§W;Fortschritt der Kriegsrechtfertigung: §Y$PERCENTAGE$§W;;;;;;;;;;;x
+TRIGGER_CB_PROGRESS_ATLEAST;Progresso do CB a abaixo de: §Y$PERCENTAGE$§W;Progression de CB en dessous de §Y$PERCENTAGE$§W;Fortschritt der Kriegsrechtfertigung unter: §Y$PERCENTAGE$§W;;;;;;;;;;;x
+TRIGGER_IS_CONSTRUCTING_CB;Adquirindo CB para: §Y$TYPE$§W;Obtention de CB pour §Y$TYPE$§W;Beschaffung einer Kriegsrechtfertigung für: §Y$TYPE$§W;;;;;;;;;;;x
+TRIGGER_IS_NOT_CONSTRUCTING_CB;Não adquirir CB para: §Y$TYPE$§W;Pas d'obtention de CB pour §Y$TYPE$§W;Keine Beschaffung einer Kriegsrechtfertigung für: §Y$TYPE$§W;;;;;;;;;;;x
+NEED_RELATION_LESS;As relações são muito altas, precisamos estar abaixo de §Y$LIMIT$§W, mas atualmente estamos em §Y$VAL$§W;Les relations sont trop bonnes, nous avons besoin d'être en-dessous de §Y$LIMIT$§W mais sommes à §Y$VAL$§W;Die Beziehungen sind zu gut,  wir müssen unter §Y$LIMIT$§W kommen, sind jedoch bei §Y$VAL$§W;;;;;;;;;;;x
+ALREADY_MAKING_CB;Já estamos preparando um CB com o §Y$TARGET$§W;Nous sommes déjà en train de préparer un CB contre §Y$TARGET$§W;Wir bereiten gerade eine Rechtfertigung für einen Krieg mit §Y$TARGET$§W vor;;;;;;;;;;;x
+MAKE_CB_BUTTON;Justificar a Guerra;Justifier la guerre;Krieg rechtfertigen;;;;;;;;;;;x
+MAKE_CB_DESC;Produzir um CB para a guerra com eles;Produire un CB pour une guerre contre eux;Entwickelt eine Rechtfertigung für einen Krieg mit ihnen;;;;;;;;;;;x
+MAKE_CBTITLE;Justificar a Guerra;Justifier la guerre;Rechtfertigt den Krieg;;;;;;;;;;;x
+MAPMODE_11;Produção - RGO;Production Agricole et Minière;RGO Ausgang;;;;;;;;;;;x
+MAPMODE_12;Densidade Populacional;Densité de population;Bevölkerungsdichte;;;;;;;;;;;x
+MAPMODE_13;Nacionalidade;Nationalité;Nationalität;;;;;;;;;;;x
+MAPMODE_14;Esfera de Influência;Sphère d'influence;Einflussbereich;;;;;;;;;;;x
+MAPMODE_15;Limite de Fornecimento;Limite de ravitaillement;Vorratslimit;;;;;;;;;;;x
+MAPMODE_16;Fidelidade Partidária;Loyauté partisane;Parteiloyalität;;;;;;;;;;;x
+MAPMODE_17;Ranking;Rang;Rangliste;;;;;;;;;;;x
+MAPMODE_18;Migrações;Migrations;Abwanderung;;;;;;;;;;;x
+MAPMODE_20;Relações;Relations;Beziehungen;;;;;;;;;;;x
+WORLD_RANKING;Ranking mundial:;Rang mondial :;Weltrangliste:;;;;;;;;;;;x
+WORLD_RANKING_SECONDARY_POWER;§Y$COUNTRY$§W é uma Potência Secundária.;§Y$COUNTRY$§W est une puissance secondaire.;§Y$COUNTRY$§W ist eine zweirangige Macht.;;;;;;;;;;;x
+POPULATION_DENSITY_AT_PROVINCE;População total em §Y$PROV$§W:;Population totale en §Y$PROV$§W :;Gesamtbevölkerung in §Y$PROV$§W:;;;;;;;;;;;x
+NATIONALITY_MAJORITY_AT_PROVINCE;A maioria nacional em §Y$PROV$§W são:;La majorité nationale en §Y$PROV$§W est :;Die nationale Mehrheit in §Y$PROV$§W haben:;;;;;;;;;;;x
+SPHERE_OF_INFL_GREAT_POWER;§Y$COUNTRY$§W ié uma Grande Potência.;§Y$COUNTRY$§W est une grande puissance.;§Y$COUNTRY$§W ist eine große Macht.;;;;;;;;;;;x
+SPHERE_OF_INFL_IS_IN_SPHERE;§Y$COUNTRY1$§W iestá na esfera do(a) §Y$COUNTRY2$§W.;§Y$COUNTRY1$§W est dans la sphère de §Y$COUNTRY2$§W.;§Y$COUNTRY1$§W befindet sich im Wirkungsbereich von §Y$COUNTRY2$§W.;;;;;;;;;;;x
+SPHERE_OF_INFL_IS_INFL_BY;§Y$COUNTRY$§W é influenciado por:;§Y$COUNTRY$§W est influencé par : ;§Y$COUNTRY$§W wird beeinflusst von:;;;;;;;;;;;x
+PARTY_LOYALTY_EFFECT_DESC;A lealdade para com o §Y$PARTY$§W em §Y$PROV$§W será $OPERATOR$ §Y$VALUE$§W.;La loyauté au §Y$PARTY$§W en §Y$PROV$§W sera de $OPERATOR$ §Y$VALUE$§W.;Die Loyalität gegenüber §Y$PARTY$§W in §Y$PROV$§W wird $OPERATOR$ §Y$VALUE$§W sein.;;;;;;;;;;;x
+PARTY_LOYALTY_EFFECT_OPERATOR_ADD;aumentado por;augmenté de;erhöht um;;;;;;;;;;;x
+PARTY_LOYALTY_EFFECT_OPERATOR_REM;diminuído por;diminué de;gesunken um;;;;;;;;;;;x
+PARTY_LOYALTY_EFFECT_OPERATOR_MUL;multiplicado por;multiplié par;multipliziert um;;;;;;;;;;;x
+PARTY_LOYALTY_EFFECT_OPERATOR_SET;definido como;fixé à;gesetzt auf;;;;;;;;;;;x
+PARTY_LOYALTY_DESC_HEADER;Fidelidade Partidária em §Y$PROV$§W:;Loyauté du parti en §Y$PROV$§W :;Parteiloyalität in §Y$PROV$§W:;;;;;;;;;;;x
+PARTY_LOYALTY_DESC_NEUTRAL;Neutro;Neutre;Neutral;;;;;;;;;;;x
+PARTY_POPULARITY;Popularidade do partido;Popularité du parti;Partei-Beliebtheit;;;;;;;;;;;x
+PRICE_HISTORY_TIME_RANGE;Últimos $MONTHS$ meses;Derniers $MONTHS$ mois;Letzte $MONTHS$ Monate;;;;;;;;;;;x
+party_loyalty_focus;Fidelidade Partidária;Loyauté du parti;Parteiloyalität;;;;;;;;;;;x
+fascist_focus;Lealdade partidária para com §Yfascistas§! ;Loyauté envers le parti §Yfasciste§! ;Parteiloyalität gegenüber §Yfascist§! ;;;;;;;;;;;x
+reactionary_focus;Lealdade partidária para com §Yreacionários§! ;Loyauté envers le parti §Yréactionnaire§! ;Parteiloyalität gegenüber §Yreactionary§! ;;;;;;;;;;;x
+conservative_focus;Lealdade partidária para com §Yconservadores§! ;Loyauté envers le parti §Yconservateur§! ;Parteiloyalität gegenüber §Yconservative§! ;;;;;;;;;;;x
+socialist_focus;Lealdade partidária para com §Ysocialistas§! ;Loyauté envers le parti §Ysocialiste§! ;Parteiloyalität gegenüber §Ysocialist§! ;;;;;;;;;;;x
+communist_focus;Lealdade partidária para com §Ycomunistas§! ;Loyauté envers le parti §Ycommuniste§! ;Parteiloyalität gegenüber §Ycommunist§! ;;;;;;;;;;;x
+liberal_focus;Lealdade partidária para com §Yliberais§! ;Loyauté envers le parti §Ylibéral§! ;Parteiloyalität gegenüber §Yliberal§! ;;;;;;;;;;;x
+anarcho_liberal_focus;Lealdade partidária para com §Yanarco-liberais§! ;Loyauté envers le parti §Ylibertaire§! ;Parteiloyalität gegenüber §Yanarcho-liberal§! ;;;;;;;;;;;x
+NATIONAL_FOCUS_PARTY_LOYALTY_DESC;Mudança de lealdade diária: §Y$VAL$§W.;Loyauté évoluant de §Y$VAL$§W par jour.;Tägliche Änderung der Loyalität um: §Y$VAL$§W.;;;;;;;;;;;x
+PARTY_WITH_IDEOLOGY_NOT_EXIST;Não há partido ativo com a ideologia §Y$IDEOLOGY$§W.;Il n'y a pas de parti actif avec l'idéologie §Y$IDEOLOGY$§W;Es gibt keine aktive Partei mit einer §Y$IDEOLOGY$§W Weltanschauung.;;;;;;;;;;;x
+NATIONAL_FOCUS_PARTY_LOYALTY_EFFECT;Por parte do foco nacional, muda diariamente $VAL$ para com $PARTY$.;Par l'effet de la cause nationale, évolution quotidienne de $VAL$ envers $PARTY$.;Seitens des nationalen Fokus, tägliche Änderung $VAL$ in Richtung $PARTY$.;;;;;;;;;;;x
+SUBSTATE_OF_NOCOLOR;Subestado de;Sous-État de;Unterstaat von;;;;;;;;;;;x
+SUBSTATE;Subestado;Sous-État;Unterstaat ;;;;;;;;;;;x
+SUBSTATE_JOIN_WAR_DESC;é um subestado do(a) §Y$COUNTRY$§W e sempre entrará em suas guerras.;est un sous-état de §Y$COUNTRY$§W et se joidra toujours à ses guerres.;ist ein Unterstaat von §Y$COUNTRY$§W und wird immer an dessen Kriegen teilnehmen. ;;;;;;;;;;;x
+IS_NOT_SUBSTATE_OF;NÃO é um subestado de;N'est pas un Sous-État de ;Ist KEIN Unterstaat von;;;;;;;;;;;x
+IS_SUBSTATE_OF;É um subestado de;Est un Sous-État de ;Ist ein Unterstaat von;;;;;;;;;;;x
+IS_NOT_SUBSTATE;NÃO é um subestado;N'est pas un Sous-État;Ist KEIN Unterstaat  ;;;;;;;;;;;x
+IS_SUBSTATE;É um subestado;Est un Sous-État;Ist ein Unterstaat;;;;;;;;;;;x
+ANY_SUBSTATE;Qualquer subestado de;Un Sous-État de;Irgendeinen Unterstaat von;;;;;;;;;;;x
+acquire_substate_region;Adquirir a região do subestado;Acquérir une région comme Sous-État;Beschafft eine Unterstaatsregion;;;;;;;;;;;x
+acquire_substate_region_desc;Adquira uma região do §Ysubstate§W inimigo;Acquérir une région d'un §YSous-État§W ennemi;Beschafft eine Region des Feindes §Ysubstate§W;;;;;;;;;;;x
+acquire_substate_region_short;Adquira $STATE$;Prendre $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x
+acquire_substate_region_setup;Adquira $STATE$ de $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x
+become_independent;Tornar-se independente;Devenir indépendant;Werdet unabhängig;;;;;;;;;;;x
+become_independent_short;$ACTOR$ foi libertado de $RECIPIENT$;$ACTOR$ est libéré de $RECIPIENT$;$ACTOR$ wird von $RECIPIENT$ befreit;;;;;;;;;;;x
+become_independent_setup;$ACTOR$ foi libertado de $RECIPIENT$ e se torna independente.;$ACTOR$ est libéré de $RECIPIENT$ et devient indépendant.;$ACTOR$ wird von $RECIPIENT$ befreit und wird unabhängig. ;;;;;;;;;;;x
+#become_independent_desc;Tornar-se independente.;Devenir indépendant.;Werdet unabhängig.;;;;;;;;;;;x
+make_puppet;Fazer fantoche;Créer un pays satellite;Erschafft eine Marionette;;;;;;;;;;;x
+make_puppet_short;$RECIPIENT$ torna-se um fantoche de $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
+make_puppet_setup;$RECIPIENT$ torna-se um fantoche de $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
+make_puppet_desc;Torne-se um fantoche;Devenir un satellite;Werdet eine Marionette;;;;;;;;;;;x
+RALLY_POINT_INFO;Se você habilitar o §Yponto de encontro§! nesta província, todas as unidades mais próximas seguirão o caminho quando o recrutamento estiver concluído.\n(Consulte o modo de mapa de recrutamento para obter mais detalhes.);Si vous activez le §Ypoint de ralliement§! dans cette province, toutes les unités proches s'y rendront dès qu'elles seront recrutées.\n(Voir la carte de recrutement pour plus de détails);Falls Ihr den §Sammelpunkt§! In dieser Provinz aktiviert, werden sich alle Einheiten aus der Umgebung hierher bewegen, sobald die Rekrutierung abgeschlossen ist.\n(Weitere Details findest du im Rekrutierungs-Kartenmodus.);;;;;;;;;;;x
+RALLY_POINT_ENABLE_INFO;Habilitar ou desabilitar esta província como um ponto de encontro.;Activer ou désactiver le point de ralliement de cette province.;Aktiviert oder Deaktiviert diese Provinz als Versammlungspunkt.;;;;;;;;;;;x
+RALLY_POINT_MERGE_INFO;Ativar ou Desativar unidades que se fundem no destino.\n(Exércitos se fundirão ao limite de suprimento local.);Activer ou désactiver la fusion des unités à destination.\n(Les armées fusionneront jusqu'à la limite de ravitaillement locale);Aktiviert oder Deaktiviert Einheiten, die an dieser Stelle zusammengeführt werden.\n(Armeen kommen bis zum lokalen Vorratslimit zusammen.);;;;;;;;;;;x
+RALLY_POINT_PROVINCE_INFO;$PROV$ é um §Yponto de encontro§!;$PROV$ est un §Ypoint de ralliement§!;$PROV$ ist ein §YSammelpunkt§!;;;;;;;;;;;x
+RALLY_POINT_PROVINCE_MERGE_INFO;odas as unidades recrutadas serão mescladas até §Y$LIMIT$§! quando chegar aqui.;Toutes les unités recrutées fusionneront jusqu'à §Y$LIMIT$§! quand elles arriveront ici.;Alle rekrutierten Einheiten werden bis zu einer Menge von §Y$LIMIT$§! zusammengeführt, sobald sie ankommen.;;;;;;;;;;;x
+CB_ALLOWED_MAKE_PUPPET;Faça um fantoche;Créer un pays satellite;Erschafft eine Marionette;;;;;;;;;;x;
+DIPLOMACY_NEGOTIATE_SUBSTATE;Nós não estamos autorizados a negociar com §YSubstates§W;Nous ne sommes pas autorisés à négocier avec les §Ysous-états§W;Uns ist es nicht gestattet, mit §YUnterstaaten§W zu verhandeln;;;;;;;;;;;x
+DIPLOMACY_NEGOTIATE_WE_SUBSTATE;Nós não estamos autorizados a negociar com os países, se somos um §YSubstate§W;Nous ne sommes pas autorisés à négocier avec les autres pays si nous sommes un §Ysous-état§W;Falls wir ein §YUnterstaat§W sind, ist es uns nicht gestattet, mit Ländern zu verhandeln.;;;;;;;;;;;x
+DECL_WAR_NO_SUBSTATE;Não estamos autorizados a declarar guerra contra os §Ysubstates§W;Nous ne sommes pas autorisés à déclarer à la guerre aux §Ysous-états§W;Wir dürfen §YUnterstaaten§W nicht den Krieg erklären.;;;;;;;;;;;x
+DIPLO_WE_SUBSTATE;Nós somos um subestado deles;Nous sommes un de leurs sous-états.;Wir sind ihr Unterstaat;;;;;;;;;;;x
+DIPLO_THEY_SUBSTATE;Eles são um subestado da nossa nação;Ils sont sous-état de notre nation;Sie sind ein Unterstaat unserer Nation;;;;;;;;;;;x
+SELECT_CB_CREATION_TYPE;Selecione o tipo de CB que você deseja fabricar;Sélectionner le type de CB que vous voulez fabriquer;Wählt die Art der Rechtfertigung, die wir anfertigen wollen;;;;;;;;;;;x
+CB_CREATION_DETAIL;Faça uma justificativa para declarar guerra com o Casus Belli §Y$TYPE$§!. Vai demorar cerca de §Y$DAYS$§! dias.\nSe formos descobertos, a pena máxima de infâmia que poderíamos ter seria de §R$BADBOY$§!.;Fabriquer une justification pour déclarer la guerre avec le Casus Belli §Y$TYPE$§!. Cela prendra environ §Y$DAYS$§! jours.\nSi nous sommes découverts, la pénalité d'infamie maximum que nous pourrions avoir serait de §R$BADBOY$§!.;Fertigt eine Rechtfertigung an, um einen Krieg mit §Y$TYPE$§! Kriegszielen erklären zu können. Dies wird ungefähr §Y$DAYS$§! Tage dauern.\nFalls wir frühzeitig entlarvt werden, beträgt die maximale Menge an Schande, die wir erhalten können, §R$BADBOY$§!.;;;;;;;;;;;x
+CB_MANUFACTURE_TECH;Eficiência de justificação de guerra;Efficacité de la justification de guerre;Effizienz der Kriegsrechtfertigung;;;;;;;;;;;x
+CB_CREATE_TECH;Eficiência de justificação de guerra: $VAL$;Efficacité de la justification de guerre : $VAL$;Effizienz der Kriegsrechtfertigung: $VAL$;;;;;;;;;;;x
+SUPPRESSION_TECH_DESC;Eficiência de supressão: $VAL$;Efficacité de la répression : $VAL$;Unterdrückungseffizienz: $VAL$;;;;;;;;;;;x
+CB_CREATION_TIME_DAYS;Levará aproximadamente §Y$DAYS$§! dias para justificar esta guerra;Cela prendra environ §Y$DAYS$§! jours pour justifier cette guerre;Es wird ungefähr §Y$DAYS$§! brauchen, den Krieg zu rechtfertigen;;;;;;;;;;;x
+CB_NOT_ON_PUPPETS;Não podemos justificar a guerra contra os §Ypuppets§W e §Ysubstates§W.;Nous ne pouvons pas justifier une guerre contre des §Ysatellites§W ou des §Ysous-états§W.;Wir können keinen Krieg gegen §YMarionetten§W and §YUnterstaaten§W führen.;;;;;;;;;;;x
+CB_NOT_ON_SPHERES;Não podemos justificar a guerra contra um país que está em nossa esfera.;Nous ne pouvons justifier une guerre contre un pays appartenant à notre sphère.;Wir können keinen Krieg gegen ein Land rechtfertigen, das sich in unserem Wirkungsbereich befindet.;;;;;;;;;;;x
+NO_WAR_JUSTIFICATION;Não temos uma justificativa válida para declarar guerra contra eles.;Il nous manque une justification valide pour leur déclarer la guerre.;Wir besitzen keine gültige Kriegsrechtfertigung, um einen Krieg erklären zu können.;;;;;;;;;;;x
+NOT_HOSTILE_BUILD;Não hostil;Pas hostile;Nicht feindselig;;;;;;;;;;;x
+ACW_NAME;Uma Casa Dividida;Une Maison Divisée;Ein geteiltes Haus;;;;;;;;;;;x
+ACW_DESC;A Guerra Civil está ocorrendo na América do Norte quando os Estados Confederados tentam se separar da União. O resultado é incerto, mas com o acesso de ambos os lados a ferrovias, telégrafos e fuzis, será um novo tipo de guerra. Enquanto isso, na Europa, a Grã-Bretanha está experimentando o primeiro navio de guerra com casco de aço e propulsão a vapor, uma combinação que promete revolucionar o curso da guerra naval. Em todo o mundo, a revolução industrial está ganhando terreno e mais e mais países estão começando a se industrializar. Os tempos mudam...;La Guerre Civile fait rage en Amérique du Nord alors que les États Confédérés tentent de faire sécession de l'Union. Le dénouement est incertain, mais avec l'accès qu'ont les deux camps aux chemins de fer, aux télégraphes et aux fusils à répétition, ce sera une guerre d'un nouveau type. Pendant ce temps, en Europe, la Grande-Bretagne est en train d’expérimenter le premier navire de guerre avec coque en acier et propulsion à vapeur, combinaison qui promet de révolutionner le cours de la guerre navale. Dans le monde entier, la révolution industrielle gagne du terrain et de plus en plus de pays commencent à s'industrialiser. Les temps changent...;Der Sezessionskrieg tobt in Nordamerika, da die konföderierten Staaten versuchen, sich von der Union abzuspalten. Der Ausgang ist ungewiss, doch es verspricht schon jetzt eine neue Art des Krieges zu werden, da beide Seiten Zugriff auf Eisenbahn, Telegram;;;;;;;;;;;
+EVTNAME90000;A ameaça $CB_TARGET_NAME_ADJ$;La menace de $CB_TARGET_NAME_ADJ$;Die $CB_TARGET_NAME_ADJ$ Bedrohung;;;;;;;;;;;x
+EVTDESC90000;"Como todos sabem, o $CB_TARGET_NAME$ está disponível para nos ajudar. É apenas uma questão de tempo até que eles iniciem um ataque não provocado, por isso é razoável que tomemos medidas para nos defendermos preventivamente. Por sorte, um relatório detalhando seus esquemas nefastos foi recentemente ""vazado"" para a imprensa, e o público se uniu à nossa causa.";Comme tout le monde le sait, $CB_TARGET_NAME$ veut nous avoir. Ce n'est qu'une question de temps avant qu'ils lancent une attaque injustifiée, de sorte que la seule attitude raisonnable serait que nous prenions les devants par une attaque préventive. Par chance, un rapport détaillant leurs noirs desseins a récemment été lâché dans la presse, et l'opinion publique a rallié notre cause.;"Jeder weiß, dass $CB_TARGET_NAME$ uns fertig machen will. Es ist nur eine Frage der Zeit, bis sie einen unprovozierten Angriff starten. Deshalb ist es nur vernünftig, dass wir ebenfalls Schritte unternehmen, um uns präventiv zu schützen. Wie es das Glück so will, ist ein Dokument über deren schändlichen Pläne erst kürzlich über die Presse ""durchgesickert"" und die öffentliche Meinung ist zu unseren Gunsten.";;;;;;;;;;;x
+EVTOPTA90000;Logo eles estarão aqui!;Ils arrivent bien pour sur nous !;Bald sind sie da!;;;;;;;;;;;x
+EVTNAME90001;Missão para $CB_TARGET_NAME$;Mission en $CB_TARGET_NAME$;Mission für $CB_TARGET_NAME$;;;;;;;;;;;x
+EVTDESC90001;Depois de um erro embaraçoso, muitos dos nossos soldados foram apanhados a tentar entrar pela fronteira usando uniformes de $CB_TARGET_NAME$ embora os rumores de que a tarefa deles era encenar um incidente de fronteira para justificar nossa própria invasão fossem desprovidos de qualquer fundamento, seria sensato não jogar óleo no fogo neste momento.;Suite à une bourde plutôt embarrassante, plusieurs de nos soldats ont été pris alors qu'ils tentaient de se faufiler à travers la frontière, revêtus des uniformes de $CB_TARGET_NAME$. Bien que les rumeurs, selon lesquelles leur tâche était de mettre en scène un incident de frontière pour justifier notre propre invasion, soient dénuées de tout fondement, il serait sage de ne pas jeter de l'huile sur le feu en ce moment.;Bei einem peinlichen Fehlschlag wurden einige unserer Soldaten mit der Uniform von $CB_TARGET_NAME$ bei dem Versuch über die Grenze zu schleichen gefangen genommen. Obwohl die Gerüchte über eine inszenierten Grenzvorfall für eine Rechtfertigung zur Invasion komplett unbegründet sind, wäre es im Moment klug für nicht noch mehr Zündstoff zu sorgen.;;;;;;;;;;;x
+EVTOPTA90001;Do que você está falando?;De quoi parlez-vous ?;Wovon redet Ihr da?;;;;;;;;;;;x
+EVTNAME90002;A tirania de $CB_TARGET_NAME$;La tyrannie de $CB_TARGET_NAME$;Die Tyrannei von $CB_TARGET_NAME$;;;;;;;;;;;x
+EVTDESC90002;Por muito tempo as pessoas sofreram sob a influência maligna de $CB_TARGET_NAME$. Para o bem de todos os envolvidos, devemos revelar a evidência da má gestão do $CB_TARGET_NAME$ e liderar os membros de sua esfera de influência sob nossa ala protetora, para seu próprio bem.;Depuis trop longtemps la population a subi la mauvaise influence de $CB_TARGET_NAME$. Pour le bien de tous, nous devons mettre au jour la mauvaise gestion de $CB_TARGET_NAME$ et conduire les membres de leur sphère d'influence sous notre aile protectrice, pour leur propre bien.;Zu lange schon mussten die Leute unter dem unheilvollen Einfluss von $CB_TARGET_NAME$ leiden. Zum Wohle aller Beteiligten, müssen wir die Beweise von $CB_TARGET_NAME$s Misswirtschaft der Welt kundtun und die Mitglieder deren Einflussbereichs zu ihren Gunsten unter unsere Fittiche nehmen.;;;;;;;;;;;x
+EVTOPTA90002;Nós vamos salvá-los!;Nous allons les sauver !;Wir werden sie retten!;;;;;;;;;;;x
+EVTNAME90003;A tirania de $CB_TARGET_NAME$;La tyrannie de $CB_TARGET_NAME$;Die Tyrannei von $CB_TARGET_NAME$;;;;;;;;;;;x
+EVTDESC90003;Apesar de muitas evidências não serem adulteradas contra $CB_TARGET_NAME$, não parece haver qualquer apoio popular ou internacional ao nosso plano de tirar as nações pobres e sitiadas de sua esfera de influência.;Malgré de nombreuses preuves absolument pas trafiquées contre $CB_TARGET_NAME$, il ne semble pas y avoir de soutien populaire ou international en faveur de notre projet de sortir les pauvres nations rabaissées appartenant à leur sphère d'influence.;Trotz vieler nicht ausgedachter Beweise, dass $CB_TARGET_NAME$ nichts Gutes im Schilde führt, scheint es keine öffentliche und internationale Unterstützung zu geben, die armen, geringeren Nationen aus deren Einflussbereich zu retten. ;;;;;;;;;;;x
+EVTOPTA90003;Tolos!;Imbéciles !;Dummköpfe!;;;;;;;;;;;x
+EVTNAME90004;Protegendo os $CB_TARGET_NAME_ADJ$;Protection des $CB_TARGET_NAME_ADJ$;Die $CB_TARGET_NAME_ADJ$ verteidigen;;;;;;;;;;;x
+EVTDESC90004;Sem a proteção de uma Grande Potência como nós, qualquer coisa poderia acontecer com $CB_TARGET_NAME$. Para protegê-los, eles devem ser adicionados à nossa Esfera de Influência, apesar de quaisquer objeções de curto prazo que possam ter. Afinal, se fizesse sentido, eles seriam uma Grande Potência também.;Sans la protection d'une grande puissance telle la nôtre, tout peut arriver à $CB_TARGET_NAME$. Afin d'être protégés, il faut qu'ils rejoignent notre sphère d'influence en dépit de toutes les objections à courte vue qu'ils peuvent avoir. Après tout, si elles faisaient sens, eux aussi seraient une grande puissance.;Ohne den Schutz einer Großmacht wie uns, könnte $CB_TARGET_NAME$ alles Mögliche wiederfahren. Um sie zu beschützen, müssen sie unserem Einflussbereich hinzugefügt werden, unabhängig von möglichen kurzfristigen Einwänden, die sie haben könnten. Immerhin fehlt ihnen das richtige Gespür für die Daseinsberechtigung als Großmacht.;;;;;;;;;;;x
+EVTOPTA90004;Estamos aqui para ajudar você.;Nous sommes là pour vous aider.;Wir sind hier, um euch zu helfen.;;;;;;;;;;;x
+EVTNAME90005;O Fiasco $CB_TARGET_NAME_ADJ$;Le fiasco $CB_TARGET_NAME_ADJ$;Das $CB_TARGET_NAME_ADJ$ Fiasko;;;;;;;;;;;x
+EVTDESC90005;Embora só quiséssemos ajudar o $CB_TARGET_NAME$ integrando-os em nossa esfera de influência, isso os fez pensar. O comportamento deles acabou se tornando uma opinião internacional contra nossa proposta de engajá-los em nossa prosperidade.;Bien que nous voulions seulement aider $CB_TARGET_NAME$ en les intégrant à notre sphère d'influence, cela les a fait réfléchir. Leur comportement a fini par tourner l'opinion internationale contre notre proposition de les faire participer à notre prospérité.;Obwohl wir $CB_TARGET_NAME$ nur helfen wollen, indem wir sie unserem Einflussbereich zuordnen, haben sie sich sehr darüber aufgeregt. Sehr zum Unverständnis aller Involvierten, hat ihr Verhalten internationale Meinungen gegen unsere nachdrückliche Bitte a;;;;;;;;;;;x
+EVTOPTA90005;Boa decisão.;Bon plan.;Eine gute Entscheidung.;;;;;;;;;;;x
+EVTNAME90006;O fim do Imperialismo $CB_TARGET_NAME_ADJ$;Fin de l'impérialisme $CB_TARGET_NAME_ADJ$;Ein Ende dem Imperialismus von $CB_TARGET_NAME_ADJ$ ;;;;;;;;;;;x
+EVTDESC90006;Por que $CB_TARGET_NAME$deve ser a primeira terra colonial? É totalmente injusto, é isso mesmo! Eles provavelmente nem estão explorando adequadamente a população nativa! Algo deve ser feito, nós merecemos nosso lugar no sol!;Pourquoi $CB_TARGET_NAME$ devrait avoir la primeur sur toutes les terres coloniales ? C'est plus qu'injuste, voilà tout ! Ils ne sont probablement même pas capables d'exploiter -d'éduquer- convenablement la population autochtone ! Quelque chose doit être fait, nous méritons notre place au soleil !;Warum sollte $CB_TARGET_NAME$ all die guten Kolonien bekommen? Das ist hochgradig ungerecht und sonst nichts! Vermutlich schaffen sie es nicht einmal, die einheimische Bevölkerung richtig auszubeuten.. zu unterrichten. Es muss etwas getan werden. Wir verdienen einen Platz an der Sonne.;;;;;;;;;;;x
+EVTOPTA90006;Boa decisão.;Bon plan.;Eine gute Entscheidung.;;;;;;;;;;;x
+EVTNAME90007;Revés colonial;Recul colonial;Kolonialer Rückschlag;;;;;;;;;;;x
+EVTDESC90007;Apesar da modesta natureza de nossas justas demandas, parece não haver apoio internacional para reajustar o equilíbrio colonial entre nós e $CB_TARGET_NAME$. Embora este seja um revés, não temos dúvidas de que um dia possuiremos e impomos que o sol nunca se põe.;En dépit de la nature modeste de nos justes demandes, il ne semble pas y avoir de consensus international pour réajuster l'équilibre colonial entre $CB_TARGET_NAME$ et nous. Malgré cet échec, nous ne doutons pas de posséder un jour un empire sur lequel le soleil ne se couchera jamais.;Trotz der moderaten Natur unserer Forderungen scheint es keine internationale Unterstützung zu geben, um die koloniale Balance zwischen uns und $CB_TARGET_NAME$ wieder herzustellen. Obwohl dies ein Rückschlag ist, haben wir keine Zweifel daran, dass wir dies eines Tages korrigieren werden auf das in unserem Reich die Sonne niemals untergeht.;;;;;;;;;;;x
+EVTOPTA90007;Boa decisão.;Bon plan;Eine gute Entscheidung.;;;;;;;;;;;x
+EVTNAME90008;É hora de agir!;Il est temps d'agir !;Es ist Zeit, zu handeln!;;;;;;;;;;;x
+EVTDESC90008;$CB_TARGET_NAME$ é muito grande para suas botas, todos concordam. Por muito tempo, eles se pavonearam no cenário mundial, pensando que poderiam fazer o que quisessem. Felizmente, pelo menos o resto do mundo concorda conosco, e nossa população está firmemente atrás de nós: $CB_TARGET_NAME$ deve ser rebaixado em uma ou duas posições.;$CB_TARGET_NAME$ devient trop gros pour ses bottes, tout le monde en convient. Pendant trop longtemps, ils se sont pavanés sur de la scène mondiale, pensant qu'ils pouvaient faire ce qu'ils voulaient. Heureusement, le reste du monde est au moins d'accord avec nous, et notre population est fermement derrière nous : $CB_TARGET_NAME$ doit être rétrogradé d'un rang ou deux.;$CB_TARGET_NAME$ wird zu groß für deren Schuhgröße, wie alle zustimmen können. Schon viel zu lang sind sie über die Weltbühne stolziert und dachten, dass sie alles tun und lassen können, wie es ihnen gefällt. Glücklicherweise stimmt uns der Rest der Welt endlich zu und unsere gesamte Bevölkerung steht klar hinter uns : $CB_TARGET_NAME$ muss um ein oder zwei Stufen runtergeholt werden.;;;;;;;;;;;x
+EVTOPTA90008;Boa decisão.;Bon plan.;Eine gute Entscheidung.;;;;;;;;;;;x
+EVTNAME90009;Tolos desorientados!;Ce sont des égarés !;Fehlgeleitete Dummköpfe!;;;;;;;;;;;x
+EVTDESC90009;Enquanto a arrogância de $CB_TARGET_NAME$ é evidente para nós, aparentemente outros não conseguem ver isso. Sua suposta “soberania” aparentemente permite que eles tenham seu próprio exército e façam o que quiserem. Inclusive tem sido implícito que somos os arrogantes!;Alors que l'orgueil de $CB_TARGET_NAME$ est évident pour nous, il semble que les autres ne le voient pas. Leur soi-disant souveraineté leur permet apparemment d'avoir leur propre armée et de faire ce qu'ils veulent sans en référer à nous. On a même laissé entendre que nous serions arrogants !;"Obwohl der Größenwahn von $CB_TARGET_NAME$  absolut offensichtlich für uns ist, teilen andere scheinbar unseren Blickwinkel nicht. Ihre sogenannte ""Souveränität"" erlaubt es ihnen anscheinend, ihre eigene Armee zu haben und zu machen, was sie wollen, ohne ";;;;;;;;;;;x
+EVTOPTA90009;Boa decisão.;Bon plan.;Eine gute Entscheidung.;;;;;;;;;;;x
+VOTER_ISSUES;Questões eleitorais;Questions électorales;Wählerprobleme;;;;;;;;;;;x
+OL_VIEW_NATFOCUS;Alternar visão para §YNational Focus§W;Active la vue §YCause nationale§W;Schaltet die Ansicht zu §YNationalem Fokus§W um;;;;;;;;;;;x
+OL_VIEW_NATFOCUS_HEADER;Foco Nacional;Cause nationale;Nationaler Fokus;;;;;;;;;;;x
+OL_VIEW_NATFOCUS_TOOLTIP;Foco Nacional (§Y$FOCUS$§!) em §Y$STATE$§!;Cause nationale (§Y$FOCUS$§!) en §Y$STATE$§!;Nationaler Fokus (§Y$FOCUS$§!) in §Y$STATE$§!;;;;;;;;;;;x
+OL_VIEW_RALLYPOINTS;Alternar visão para §YRally Points§W;Active la vue §YPoints de ralliement§W;Schaltet die Ansicht zu §YSammelpunkten§W um;;;;;;;;;;;x
+OL_VIEW_RALLYPOINTS_HEADER;Pontos de Encontro;Points de ralliement;Sammelpunkte;;;;;;;;;;;x
+OL_VIEW_RALLYPOINTS_TOOLTIP;Todas as unidades recrutadas próximas irão em direção a §Y$PROV$§!;Toutes les unités regroupées à proximité vont marcher sur §Y$PROV$§!;Alle in der Nähe rekrutierten Einheiten werden sich Richtung §Y$PROV$§! begeben;;;;;;;;;;;x
+OL_VIEW_RALLYPOINTS_MERGE_TOOLTIP;e tentará mesclar até §Y$LIMIT$§! quando eles chegarem lá.; et vont tenter de fusionner à concurrence de §Y$LIMIT$§! quand elles y arriveront.;und werden zu einer Menge von §Y$LIMIT$§! zusammengeführt, sobald sie ankommen.;;;;;;;;;;;x
+OL_VIEW_MERGE_ON;§G(Merge ON)§!;§G(Fusion Act.)§!;§G(Zusammenführen ANSCHALTEN)§!;;;;;;;;;;;x
+OL_VIEW_MERGE_OFF;§Y(Merge OFF)§!;§Y(Fusion Dés.)§!;§Y(Zusammenführen AUSSCHALTEN)§!;;;;;;;;;;;x
+OUR_CB_DETECTED_SETUP;Quando nosso processo de justificação de guerra é detectado;Quand notre tentative de justification de guerre est détectée;Sobald unser Prozess der Kriegsrechtfertigung aufgedeckt wird;;;;;;;;;;;x
+OUR_CB_DETECTED_HEADER;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;;;;;;x
+OUR_CB_DETECTED_1;Justificativa de Guerra;Justification de guerre;Kriegsrechtfertigung;;;;;;;;;;;x
+OUR_CB_DETECTED_2;Nossa tentativa de justificar a guerra usando o;Notre tentative de justifier la guerre par;Unser Versuch, den Krieg zu rechtfertigen, ;;;;;;;;;;;x
+OUR_CB_DETECTED_3;Casus Belli §Y$CASUS$§! ;le Casus Belli §Y$CASUS$§!;mithilfe des §Y$CASUS$§! Casus Belli;;;;;;;;;;;x
+OUR_CB_DETECTED_4;contra;contre;gegen;;;;;;;;;;;x
+OUR_CB_DETECTED_5;$TARGET$;$TARGET$;$TARGET$;;$TARGET$;;;;;;;;;x
+OUR_CB_DETECTED_6;foi detectado! Isso nos custa §R$BADBOY$§! Infâmia;a été détectée ! Cela nous coûte §R$BADBOY$§! d'infamie.;wurde entlarvt. Dies kostet uns  §R$BADBOY$§! Schande;;;;;;;;;;;x
+OUR_CB_DETECTED_LOG;Nosso processo de justificativa de guerra contra o $TARGET$ foi detectado.;Notre tentative de justification de guerre contre $TARGET$ a été détectée.;Unser Prozess der Kriegsrechtfertigung gegen $TARGET$ wurde entlarvt.;;;;;;;;;;;x
+OUR_CB_DETECTED_BTN1;OK;D'accord;OK;OK;OK;OK;Rendben;OK;;;;;;x
+OUR_CB_DETECTED_BTN2;OK;D'accord;OK;OK;OK;OK;Rendben;OK;;;;;;x
+OUR_CB_DETECTED_BTN3;Ir para;Voir;Gehe zu;IdŸ do;Ir allí;Andare;Ugrás;Pøejít na;;;;;;x
+OUR_CB_DETECTED_MAP;*;*;*;*;*;*;*;;;;;;;x
+CB_TOWARDS_US_DETECTED_SETUP;Um processo de justificação de guerra contra nós foi detectado;Une tentative de justification de guerre contre nous est détectée;Ein Prozess der Kriegsrechtfertigung gegen uns wurde entlarvt.;;;;;;;;;;;x
+CB_TOWARDS_US_DETECTED_HEADER;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;;;;;;x
+CB_TOWARDS_US_DETECTED_1;Justificativa de Guerra;Justification de guerre;Kriegsrechtfertigung;;;;;;;;;;;x
+CB_TOWARDS_US_DETECTED_2;Uma tentativa de justificar a guerra usando o;Une tentative de justifier une guerre par le;Ein Versuch, den Krieg zu rechtfertigen, ;;;;;;;;;;;x
+CB_TOWARDS_US_DETECTED_3;Casus Belli §Y$CASUS$§! ;Casus Belli §Y$CASUS$§;mithilfe des §Y$CASUS$§! Casus Belli;;;;;;;;;;;x
+CB_TOWARDS_US_DETECTED_4;contra nós por;contre nous par;gegen uns, durch;;;;;;;;;;;x
+CB_TOWARDS_US_DETECTED_5;$COUNTRY$;$COUNTRY$;$COUNTRY$;;$COUNTRY$;;;;;;;;;x
+CB_TOWARDS_US_DETECTED_6;foi detectado!;a été détectée !;wurde entlarvt! ;;;;;;;;;;;x
+CB_TOWARDS_US_DETECTED_LOG;Um processo de justificativa de guerra contra nós por $COUNTRY$ foi detectado;Une tentative de justifier une guerre contre nous par $COUNTRY$ a été détectée;Ein Prozess der Kriegsrechtfertigung von $COUNTRY$ gegen uns wurde entlarvt.;;;;;;;;;;;x
+CB_TOWARDS_US_DETECTED_BTN1;OK;D'accord;OK;OK;OK;OK;Rendben;OK;;;;;;x
+CB_TOWARDS_US_DETECTED_BTN2;OK;D'accord;OK;OK;OK;OK;Rendben;OK;;;;;;x
+CB_TOWARDS_US_DETECTED_BTN3;Ir para;Voir;Gehe zu;IdŸ do;Ir allí;Andare;Ugrás;Pøejít na;;;;;;x
+CB_TOWARDS_US_DETECTED_MAP;*;*;*;*;*;*;*;;;;;;;x
+OTHERS_CB_DETECTED_SETUP;Um processo de justificação de guerra contra alguém foi detectado;A war justification process against someone is detected;Ein Prozess der Kriegsrechtfertigung gegen jemanden wurde entlarvt.;;;;;;;;;;;x
+OTHERS_CB_DETECTED_HEADER;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;;;;;;x
+OTHERS_CB_DETECTED_1;Justificativa de Guerra;Justification de guerre;Kriegsrechtfertigung;;;;;;;;;;;x
+OTHERS_CB_DETECTED_2;Uma tentativa de justificar a guerra usando o;Une tentative de justifier une guerre par le;Ein Versuch, den Krieg zu rechtfertigen, ;;;;;;;;;;;x
+OTHERS_CB_DETECTED_3;Casus Belli §Y$CASUS$§! ;Casus Belli §Y$CASUS$§;mithilfe des §Y$CASUS$§! Casus Belli;;;;;;;;;;;x
+OTHERS_CB_DETECTED_4;contra $TARGET$ por;contre $TARGET$ par;gegen $TARGET$, durch;;;;;;;;;;;x
+OTHERS_CB_DETECTED_5;$COUNTRY$;$COUNTRY$;$COUNTRY$;;$COUNTRY$;;;;;;;;;x
+OTHERS_CB_DETECTED_6;foi detectado!;a été détectée !;wurde entlarvt! ;;;;;;;;;;;x
+OTHERS_CB_DETECTED_LOG;Um processo de justificação de guerra contra $TARGET$ por $COUNTRY$ foi detectado;Une tentative de justifier une guerre contre $TARGET$ par $COUNTRY$ a été détectée;Ein Prozess der Kriegsrechtfertigung von $COUNTRY$ gegen $TARGET$ wurde entlarvt;;;;;;;;;;;x
+OTHERS_CB_DETECTED_BTN1;OK;D'accord;OK;OK;OK;OK;Rendben;OK;;;;;;x
+OTHERS_CB_DETECTED_BTN2;OK;D'accord;OK;OK;OK;OK;Rendben;OK;;;;;;x
+OTHERS_CB_DETECTED_BTN3;Ir para;Voir;Gehe zu;IdŸ do;Ir allí;Andare;Ugrás;Pøejít na;;;;;;x
+OTHERS_CB_DETECTED_MAP;*;*;*;*;*;*;*;;;;;;;x
+CB_gen_plus;Velocidade de geração de CB aumentada;Augmentation de la vitesse de génération des CB;CB Generationengeschwindigkeit erhöht ;;;;;;;;;;;x
+CB_gen_minus;Velocidade de geração de CB diminuída;Diminution de la vitesse de génération des CB;CB Generationengeschwindigkeit reduziert;;;;;;;;;;;x
+CB_gen_plus_desc;Justificar guerras pode ser feito mais rápido;Justifier des guerres peut se faire plus rapidement;Die Rechtfertigung eines Krieges kann schneller erledigt werden;;;;;;;;;;;x
+CB_gen_minus_desc;Justificar as guerras agora leva mais tempo;Justifier des guerres prend maintenant plus de temps;Die Rechtfertigung eines Krieges dauert nun länger;;;;;;;;;;;x
+BUILDING_AT_MAX_TERRAIN;Nível $CURR$/$MAX$ (§R$TERRAINMOD$§! $TERRAIN$);Niveau $CURR$/$MAX$ (§R$TERRAINMOD$§! $TERRAIN$);Level $CURR$/$MAX$ (§R$TERRAINMOD$§! $TERRAIN$);;;;;;;;;;;x
+PRODUCTION_INVEST;Invest. Estrangeiro;Invest. à l'étranger;Ausländische Investition;;;;;;;;;;;x
+PRODUCTION_TAB_INVEST;Mostra uma visão geral do investimento em países estrangeiros;Montrer l'aperçu des investissements à l'étranger;Zeigt eine Übersicht der Investitionen im Ausland;;;;;;;;;;;x
+FLAG_SUBMENU_INTERESTING;Definir o país como interessante.;Définir le pays comme intéressant.;Markiert das Land als interessant.;;;;;;;;;;;x
+FLAG_SUBMENU_NOTINTERESTING;Defina o país como §Ynão§! interessante.;Définir le pays comme §Ypas§! intéressant.;Markiert das Land als §Ynicht§! interessant.;;;;;;;;;;;x
+MESSAGE_TYPE_INTERESTING;Interessante;Intéressant;Interessant;;;;;;;;;;;x
+MESSAGE_TYPE_NOT_INTERESTING;Outro;Autre;Anderes;;;;;;;;;;;x
+MESSAGE_SEARCH;Procurar:;Chercher;Suchen:;;;;;;;;;;;x
+MESSAGE_BUTTON_SEARCH;Procurar;Chercher;Suche ;;;;;;;;;;;x
+MESSAGE_BUTTON_CLEAR;Apagar;Effacer;Löschen;;;;;;;;;;;x
+MESSAGE_SEARCH_TOOLTIP;Digite as palavras-chave separadas por §Yspace§! para filtrar a lista.;Entrez les mot-clefs séparés par §YEspace§! pour filtrer la liste.;Trennt Schlüsselwörter mithilfe der §YLeertaste§!, um die Liste zu filtern. ;;;;;;;;;;;x
+SIDEMENU_menubar_msg_settings;Clique para abrir as configurações do filtro de mensagens.;Clic gauche pour sélectionner les filtres de messages;Klicken, um die Einstellungen des Nachrichtenfilters zu öffnen.;;;;;;;;;;;x
+RULE_BUILD_FACTORY_INVEST;Construir uma fábrica estrangeira;Construire une usine à l'étranger;Eine ausländische Fabrikanlage bauen;;;;;;;;;;;x
+RULE_EXPAND_FACTORY_INVEST;Expandir fábrica estrangeira;Agrandir une usine à l'étranger;Eine ausländische Fabrikanlage ausbauen;;;;;;;;;;;x
+RULE_OPEN_FACTORY_INVEST;Abrir fábrica estrangeira;Ouvrir une usine à l'étranger;Eine ausländische Fabrikanlage eröffnen;;;;;;;;;;;x
+RULE_BUILD_RAILWAY_INVEST;Investidores podem construir ferrovias estrangeiras;Les investisseurs peuvent construire des chemins de fer à l'étranger;Investoren können eine ausländische Eisenbahnlinie bauen;;;;;;;;;;;x
+RULE_CAN_INVEST_IN_POP_PROJECTS;Invista em projetos da Pop.;Investir dans des projets;In Pop-Projekte investieren;;;;;;;;;;;x
+RULE_POP_BUILD_FACTORY_INVEST;Investidores podem construir uma fábrica no exterior;Des investisseurs peuvent construire une usine à l'étranger;Investoren können eine ausländische Fabrikanlage bauen;;;;;;;;;;;x
+RULE_POP_EXPAND_FACTORY_INVEST;Investidores podem expandir uma fábrica no exterior;Des investisseurs peuvent agrandir une usine à l'étranger;Investoren können eine ausländische Fabrikanlage erweitern;;;;;;;;;;;x
+RULE_POP_OPEN_FACTORY_INVEST;Investidores podem abrir uma fábrica no exterior;Des investisseurs peuvent ouvrir une usine à l'étranger;Investoren können eine ausländische Fabrikanlage eröffnen;;;;;;;;;;;x
+PRODUCTION_OUR_INVEST;Nosso investimento: $AMOUNT$¤ ($PERCENTAGE$%);Notre investissement : $AMOUNT$ ¤ ($PERCENTAGE$ %);Unsere Investition: $AMOUNT$¤ ($PERCENTAGE$%);;;;;;;;;;;x
+MSG_FILTER_HEADER;Configurações de filtro de mensagens;Filtres de messages;Nachrichtenfilter-Einstellungen;;;;;;;;;;;x
+MSG_FILTER_TITLE;Nós estamos interessados em:;Sommes intéressés par;Wir interessieren uns für:;;;;;;;;;;;x
+MSG_FILTER_DESELECT;Desmarcar todos;Tout déselectionner;Alle Markierungen aufheben;;;;;;;;;;;x
+MSG_FILTER_BEST_GUESS;O mais útil;Les plus utiles;Einschätzung;;;;;;;;;;;x
+MSG_FILTER_ENEMIES;Inimigos;Ennemis;Feinde;;;;;;;;;;;x
+MSG_FILTER_ALLIES;Aliados;Alliés;Verbündete;;;;;;;;;;;x
+MSG_FILTER_NEIGHBOURS;Vizinhos;Voisins;Nachbarn;;;;;;;;;;;x
+MSG_FILTER_SPHERE;Esfera;Sphère;Wirkungsbereich;;;;;;;;;;;x
+PRODUCTION_BROWSE_INVEST;Outro;Autres;Anderes;;;;;;;;;;;x
+DIPLOMACY_OPINION_INVESTMENT;Investimento §Y$GP_ADJ$§W: §Y$VALUE$§!¤;Investissement §Y$GP_ADJ$§W : §Y$VALUE$§! ¤;§Y$GP_ADJ$§W Investition: §Y$VALUE$§!¤;;;;;;;;;;;x
+MSG_FILTER_TOOLTIP_HEADER;Na janela de configurações do filtro de mensagens, você pode selecionar os países nos quais está interessado. Todas as mensagens e alertas serão exibidos apenas para esses países importantes.;Dans les paramètres de filtre des messages, vous pouvez sélectionner les pays qui vous intéressent. Tous les messages et alertes ne seront montrés que pour ces pays importants.;Im Nachrichtenfilter-Fenster könnt Ihr Länder auswählen, für die Ihr Euch interessiert. Alle Nachrichten und Warnungen werden nur für diese wichtigen Länder angezeigt.;;;;;;;;;;;x
+MSG_FILTER_TOOLTIP_DELAYED;§YLeft click§! substitui a seleção atual.\n§YRight click§! adiciona à seleção atual.\n§YLeft click + SHIFT§! alterna o filtro.;§YClic gauche§! remplace la sélection actuelle.\n§YClic droit§! ajoute à la sélection actuelle.\n§YClic gauche + Maj§! alterne le filtre.;§YLinksklick§! Ersetzt die aktuelle Auswahl.\n§YRechtsklick§! Ergänzt die aktuelle Auswahl.\n§YLinksklick + SHIFT§! Schaltet den Filter um.;;;;;;;;;;;x
+MSG_FILTER_TOOLTIP_DESELECT;Desmarque todos os países da lista.;Déselectionner tous les pays de la liste.;Wählt alle Länder von dieser Liste ab.;;;;;;;;;;;x
+MSG_FILTER_TOOLTIP_BESTGUESS;Selecione os países usando o método de escolha ideal.;Sélectionner les pays en utilisant la méthode du choix optimal.;Wählt Länder nach Einschätzung aus.;;;;;;;;;;;x
+MSG_FILTER_TOOLTIP_ENEMIES;Selecione os países que são seus inimigos.;Sélectionner les pays ennemis.;Wählt Länder, die Eure Feinde sind.;;;;;;;;;;;x
+MSG_FILTER_TOOLTIP_ALLIES;Selecione os países que são seus aliados.;Sélectionner les pays alliés.;Wählt Länder, die Eure Verbündeten sind.;;;;;;;;;;;x
+MSG_FILTER_TOOLTIP_NEIGHBOURS;Selecione os países que são seus vizinhos.;Sélectionner les pays voisins.;Wählt Länder, die Eure Nachbarn sind.;;;;;;;;;;;x
+MSG_FILTER_TOOLTIP_SPHERE;Selecione os países que estão em sua esfera. (se você é uma Grande Potência);Sélectionner les pays de votre sphère d'influence (si vous êtes une grande puissance);Wählt Länder, die sich in Eurem Wirkungsbereich befinden (wenn Ihr eine Großmacht seid);;;;;;;;;;;x
+MSG_FILTER_TOOLTIP_CONTINENT;Selecione os países que possuem qualquer província no continente.;Sélectionner les pays possédant des provinces sur le continent.;Wählt Länder, die eine Provinz auf dem Kontinent besitzen.;;;;;;;;;;;x
+PRODUCTION_NOT_DESTROY_FACTORY_BECAUSE_FOREIGN_TOOLTIP;Nós não temos o direito de fazer isso em um país estrangeiro;Nous n'avons pas le droit de faire cela dans un pays étranger;Wir haben nicht das Recht, dies in einem anderen Land zu tun;;;;;;;;;;;x
+INVESTMENT_PENALTY_FACTOR;Outros investidores nacionais;Autres investisseurs nationaux;Andere ausländische Investoren;;;;;;;;;;;x
+SPHERE_SHARE_NOT_IN_SPHERE;Not in a sphere so free to sell on the world market;Pas dans une sphère d'influence, donc libre de vendre sur le marché mondial;Nicht in einem Einflussgebiet, das auf dem Weltmarkt verkaufen darf;;;;;;;;;;;x
+SPHERE_SHARE_UNCIV;Nação não civilizada, fará §Y$PERCENTAGE$%§! de todos os recursos disponíveis no mercado de líderes;Nation non civilisée, laissera disponibles §Y$PERCENTAGE$ %§! de toutes les ressources sur les marchés dominants;Unzivilisierte Nation, §Y$PERCENTAGE$%§! aller Ressourcen werden auf dem Markt des Anführers bereitgestellt;;;;;;;;;;;x
+SPHERE_SHARE_2NDRANK;Potências Secundárias, farão §Y$PERCENTAGE$%§! de todos os recursos disponíveis no mercado de líderes (Base: §Y$BASE_PERCENTAGE$%§!);Nation de second rang, laissera disponibles §Y$PERCENTAGE$ %§! de toutes les ressources sur les marchés dominants (Base : §Y$BASE_PERCENTAGE$ %§!);Zweitrangige Nation, §Y$PERCENTAGE$%§! aller Ressourcen werden auf dem Markt des Anführers bereitgestellt (Basis: §Y$BASE_PERCENTAGE$%§!);;;;;;;;;;;x
+SPHERE_SHARE_CIV;Nação civilizada, fará §Y$PERCENTAGE$%§! e todos os recursos disponíveis no mercado de líderes (Base: §Y$BASE_PERCENTAGE$%§!);Nation civilisée, laissera disponibles §Y$PERCENTAGE$ %§! de toutes les ressources sur les marchés dominants (Base : §Y$BASE_PERCENTAGE$ %§!);Zivilisierte Nation, §Y$PERCENTAGE$%§! aller Ressourcen werden auf dem Markt des Anführers bereitgestellt (Basis: §Y$BASE_PERCENTAGE$%§!);;;;;;;;;;;x
+RULE_ALLOW_FOREIGN_INVESTMENT;Permitir investimento estrangeiro;Autoriser les investissements étrangers;Erlaubt ausländische Investitionen;;;;;;;;;;;x
+POLITICS_DECISIONS_TAB;Decisões;Décisions;Entscheidungen;;;;;;;;;;;x
+POLITICS_MOVEMENTS_TAB;Movimentos;Mouvements;Bewegungen;;;;;;;;;;;x
+EVTNAME90100;Anseio por uma imprensa livre;En faveur de la liberté de la presse;Sehnsucht nach Pressefreiheit;;;;;;;;;;;x
+EVTNAME90102;Anseio por Reuniões Públicas;En faveur de la liberté de réunion;Sehnsucht nach Versammlungsfreiheit;;;;;;;;;;;x
+EVTNAME90104;Anseio por Sindicatos;En faveur des syndicats;Sehnsucht nach Handelsgewerkschaften;;;;;;;;;;;x
+EVTDESC90100;O povo anseia por uma imprensa livre e, à medida que nossos vizinhos adotam essa reforma, ela torna o desejo deles ainda mais forte.;Le peuple est en faveur de la liberté de la presse. Nos voisins ayant adopté cette réforme, son désir est d'autant plus fort.;Die Bevölkerung sehnt sich nach Pressefreiheit, und je mehr unserer Nachbarn diese Reform annehmen, umso stärker wird dieses Verlangen.;;;;;;;;;;;x
+EVTOPTA90100;Talvez possamos trabalhar em algo;Peut-être pourra-t-on en tirer quelque chose !;Vielleicht können wir uns einigen;;;;;;;;;;;x
+EVTOPTB90100;Nunca!;Jamais !;Niemals!;;;;;;;;;;;x
+EVTDESC90102;O Povo anseia pelo direito a Reuniões Públicas e, à medida que nossos vizinhos adotam essa reforma, ela torna seus anseios mais fortes.;Le peuple est en faveur de la liberté de réunion. Nos voisins ayant adopté cette réforme, son désir est d'autant plus fort. ;Die Bevölkerung sehnt sich nach Versammlungsfreiheit, und je mehr unserer Nachbarn diese Reform annehmen, umso stärker wird dieses Verlangen.;;;;;;;;;;;x
+EVTDESC90104;O povo anseia pelos sindicatos e, à medida que os nossos vizinhos adotam essa reforma, isso torna os desejos deles ainda mais fortes.;Le peuple est en faveur des syndicats. Nos voisins ayant adopté cette réforme, son désir est d'autant plus fort. ;Die Bevölkerung sehnt sich nach Handelsgewerkschaften, und je mehr unserer Nachbarn diese Reform annehmen, umso stärker wird dieses Verlangen.;;;;;;;;;;;x
+EVTNAME90101;Promessas quebradas;Promesses non tenues;Gebrochene Versprechen;;;;;;;;;;;x
+EVTDESC90101;Apesar de nossa promessa de reformar a imprensa, nada mudou e as pessoas estão um pouco chateadas.;En dépit de notre promesse de réformer la presse, rien n'a changé et les gens sont quelque peu déçus.;Trotz unseres Versprechens, die Presse zu reformieren, hat sich nichts verändert und die Bevölkerung ist ein wenig aufgebracht.;;;;;;;;;;;x
+EVTOPTA90101;Que deprimente;Comme c'est déprimant;Wie niederschmetternd;;;;;;;;;;;x
+EVTDESC90103;Apesar de nossa promessa de permitir reuniões públicas, nada mudou e as pessoas estão um pouco chateadas.;En dépit de notre promesse de permettre la liberté de réunion, rien n'a changé et les gens sont quelque peu déçus.;Trotz unseres Versprechens, Versammlungsfreiheit zu erlauben, hat sich nichts verändert und die Bevölkerung ist ein wenig aufgebracht.;;;;;;;;;;;x
+EVTOPTA90103;Eu odeio multidões;Je déteste les foules;Ich hasse Menschenmengen;;;;;;;;;;;x
+EVTDESC90105;Apesar de nossa promessa de permitir sindicatos, nada mudou e as pessoas estão um pouco chateadas.;En dépit de notre promesse de permettre l'existence des syndicats, rien n'a changé et les gens sont quelque peu déçus;Trotz unseres Versprechens, Handelsgewerkschaften zu erlauben, hat sich nichts verändert und die Bevölkerung ist ein wenig aufgebracht.;;;;;;;;;;;x
+EVTOPTA90105;Melhor morto do que vermelho!;Mieux vaut morts que rouges !;Besser tot als rot!;;;;;;;;;;;x
+MOVEMENT_RADICALISM_BASE;Base: §R$VAL$§%§!;Base: §R$VAL$§ %§!;Basis: §R$VAL$§%§!;;;;;;;;;;;x
+MOVEMENT_RADICALISM_ACCUMULATED;Supressão: §R$VAL$§%§!;Répression : §R$VAL$§ %§!;Unterdrückung: §R$VAL$§%§!;;;;;;;;;;;x
+MOVEMENT_RADICALISM_GRANTED_REFORMS;Reformas concedidas: §G$VAL$§%§!;Réformes accordées : §G$VAL$§ %§!;Gewährte Reformen: §G$VAL$§%§!;;;;;;;;;;;x
+MOVEMENT_RADICALISM_CULTURE;$CULTURE$: $VAL$;$CULTURE$: $VAL$;$CULTURE$: $VAL$;;;;;;;;;;;x
+ALREADY_SUPPRESSED;O movimento não é radical e não pode ser suprimido;Ce mouvement n'est pas radical et ne peut être réprimé;Die Bewegung ist nicht radikal und kann nicht unterdrückt werden;;;;;;;;;;;x
+EVTNAME90900;O Reino do Meio;L'empire du Milieu;Das Königreich der Mitte;;;;;;;;;;;x
+EVTDESC90900;"Agora estamos suficientemente avançados para que os bárbaros europeus nos considerem ""civilizados"", e por isso devem respeitar nosso direito de centralizar e rejeitar a influência estrangeira em toda a China.";Nous sommes suffisamment avancés pour que les barbares européens nous considèrent comme civilisés. Ainsi, ils doivent respecter notre droit à centraliser et à rejeter les influences étrangères à travers la Chine.;"Wir sind nun ausreichend fortgeschritten, damit die europäischen Barbaren uns als ""zivilisiert"" betrachten, nun müssen sie daher unser Recht auf Zentralisierung und die Ablehnung des ausländischen Einflusses in China anerkennen.";;;;;;;;;;;x
+EVTOPTA90900;Estamos unidos novamente;Nous sommes à nouveau unis;Wir sind wieder vereint;;;;;;;;;;;x
+EVTDESC90901;O novo status do Qing os levou a exigir que nos submetamos à sua autoridade, aceitar significará o fim de nossa existência independente.;Le nouveau statuts des Qing les a conduit à nous demander de nous soumettre à leur autorité. Accepter sonnera le glas de notre indépendance.;Der neue Status der Qing hat sie dazu verleitet von uns zu verlangen, sich ihrer Autorität zu unterwerfen. Wenn wir annehmen, bedeutet dies das Ende unserer unabhängigen Existenz.;;;;;;;;;;;x
+EVTOPTA90901;Estamos unidos novamente;Nous sommes à nouveau unis;Wir sind wieder vereint;;;;;;;;;;;x
+EVTOPTA90910;Vagões para o oeste!;Wagons à l'ouest !;Wagen gen Westen!;;;;;;;;;;;x
+SUPPRESSION_POINTS;Pontos de supressão;Points de répression;Unterdrückungspunkte;;;;;;;;;;;x
+school_reforms;Sistema escolar;Système d'éducation;Schulsystem;;;;;;;;;;;x
+no_schools;Nenhum sistema escolar;Système inexistant;Kein Schulsystem;;;;;;;;;;;x
+low_schools;Sistema escolar básico;Système de base;Einfaches Schulsystem;;;;;;;;;;;x
+acceptable_schools;Sistema Escolar Aceitável;Système acceptable;Akzeptables Schulsystem;;;;;;;;;;;x
+good_schools;Bom Sistema Escolar;Système de bon niveau;Gutes Schulsystem;;;;;;;;;;;x
+no_schools_l;Nenhum Sistema Escolar;Système d'éducation inexistant;Kein Schulsystem;;;;;;;;;;;x
+low_schools_l;Sistema Escolar Básico;Système d'éducation de base;Einfaches Schulsystem;;;;;;;;;;;x
+acceptable_schools_l;Sistema Escolar Aceitável;Système d'éducation acceptable;Akzeptables Schulsystem;;;;;;;;;;;x
+good_schools_l;Sistema Escolar Bom ;Système d'éducation de bon niveau;Gutes Schulsystem;;;;;;;;;;;x
+no_schools_desc;Nenhuma Escola Pública.;Pas d'écoles publiques.;Keine öffentlichen Schulen.;;;;;;;;;;;x
+low_schools_desc;Escolas Públicas são incomuns.;Les écoles publiques sont rares.;Öffentliche Schulen sind nicht verbreitet.;;;;;;;;;;;x
+acceptable_schools_desc;Escolas Públicas são comuns.;Les écoles publiques sont fréquentes.;Öffentliche Schulen sind verbreitet.;;;;;;;;;;;x
+good_schools_desc;Há realmente muitas escolas públicas.;Il y a beaucoup d'écoles publiques.;Es gibt wirklich viele öffentliche Schulen.;;;;;;;;;;;x
+NATIONALIST_UNION_MOVEMENT;Movimento de Unificação $COUNTRY_ADJ$;Mouvement d'unification $COUNTRY_ADJ$;$COUNTRY_ADJ$ Vereinigungs-Bewegung;;;;;;;;;;;x
+NATIONALIST_LIBERATION_MOVEMENT;Movimento de Libertação do $COUNTRY$;Mouvement de libération de $COUNTRY$;$COUNTRY$ Befreiungs-Bewegung;;;;;;;;;;;x
+SUPRESSION_MONTHLY_GAIN;Ganho mensal: §G$VAL$§!;Gain mensuel : §G$VAL$§!;Monatlicher Zuwach: §G$VAL$§!;;;;;;;;;;;x
+MODIFIER_EDUCATION_EFFICIENCY;Eficiência da educação;Efficacité de l'éducation;Bildungseffizienz;;;;;;;;;;;x
+MODIFIER_SUPPRESSION_POINT_GAIN;Ganho de ponto de supressão;Point de répression gagné;Gewinn an Unterdrückungspunkten;;;;;;;;;;;x
+NOT_SOCIAL_MOVEMENT_STRENGTH_TR;A força do movimento social é menor do que §Y$VAL$§W.\n;Mouvement social dont la force est inférieure à §Y$VAL$§W.\n;Die Stärke der sozialen Bewegung ist niedriger als §Y$VAL$§W.\n;;;;;;;;;;;
+SOCIAL_MOVEMENT_STRENGTH_TR;A força do movimento social é maior do que §Y$VAL$§W.\n;Mouvement social dont la force est supérieure à §Y$VAL$§W.\n;Die Stärke der sozialen Bewegung ist größer als §Y$VAL$§W.\n;;;;;;;;;;;
+NOT_POLITICAL_MOVEMENT_STRENGTH_TR;A força do movimento político é menor que §Y$VAL$§W.\n;Mouvement politique dont la force est inférieure à §Y$VAL$§W.\n;Die Stärke der politischen Bewegung ist niedriger als §Y$VAL$§W.\n;;;;;;;;;;;
+POLITICAL_MOVEMENT_STRENGTH_TR;A força do movimento político é maior do que §Y$VAL$§W.\n;Mouvement politique dont la force est supérieure à §Y$VAL$§W.\n;Die Stärke der politischen Bewegung ist größer als §Y$VAL$§W.\n;;;;;;;;;;;
+SUPPRESS;Suprimir;Réprimer;Unterdrücken;;;;;;;;;;;x
+SUPPRESSION_DESC;Suprima este movimento. Isso custará $VAL$ pontos e fará com que o movimento seja mais radical (§R+$HIT$§!) no futuro.;Réprimer ce mouvement. Cela coûtera $VAL$ points et rendra le mouvement plus radical (§R+$HIT$§!) dans le futur.;Unterdrückt diese Bewegungt. Dies kostet $VAL$ Punkte und erhöht die Chancen, dass diese Bewegung in Zukunft (§R+$HIT$§!)radikaler wird.;;;;;;;;;;;x
+CANT_SUPPRESS_DESC;Precisamos de mais pontos para poder suprimir esse movimento. Nós temos §R$VAL$§! pontos de supressão e requer §Y$NEED$§!.;Nous avons besoin de plus de points pour pouvoir réprimer ce mouvement. Nous avons §R$VAL$§! points de répression et il en faut §Y$NEED$§!.;Wir benötigen mehr Punkte um diese Bewegung unterdrücken zu können. Wir haben §R$VAL$§! Unterdrückungspunkte, benötigen jedoch  §Y$NEED$§!.;;;;;;;;;;;
+REFORM_MOVEMENT_DESC;Movimento pedindo a promulgação de §Y$REFORM$§!;Mouvement appelant à l'avènement de §Y$REFORM$§!;Bewegung für die Verabschiedung von §Y$REFORM$§!;;;;;;;;;;;x
+NATIONALIST_UNION_MOVEMENT_DESC;Movimento pedindo a formação do(a) §Y$COUNTRY$§!;Mouvement appelant à la formation de §Y$COUNTRY$§!;Bewegung für die Gründung von §Y$COUNTRY$§!;;;;;;;;;;;x
+NATIONALIST_LIBERATION_MOVEMENT_DESC;Movimento pedindo a liberação do(a) §Y$COUNTRY$§!;Mouvement appelant à la libération de §Y$COUNTRY$§!;Bewegung für die Befreiung von §Y$COUNTRY$§!;;;;;;;;;;;x
+SUPPRESSION_LABEL_DESC;Pontos de supressão medem o poder do seu governo para suprimir movimentos populares;Les points de répression mesurent le pouvoir pour le gouvernement de réprimer les mouvements populaires;Unterdrückungspunkte geben die Macht Eurer Regierung an, Volksbewegungen zu unterdrücken;;;;;;;;;;;x
+MOVEMENT_REFORM_SUPPORT;Há um movimento popular, no valor de $VAL$, que está pressionando pela adoção dessa reforma.;Il y a un mouvement populaire, d'une taille de $VAL$, qui milite pour l'adoption de cette réforme.;Es gibt eine Volksbewegung der Größe $VAL$, die für die Verabschiedung dieser Reform lobbiiert.;;;;;;;;;;;x
+movement_no_slavery;Movimento Abolicionista;Mouvement abolitionniste;Anti-Sklaverei-Bewegung;;;;;;;;;;;x
+movement_yes_slavery;Liga Pró-Escravidão;Ligue pro-esclavagiste;Pro-Versklavungs-Liga;;;;;;;;;;;x
+movement_landed_voting;Movimento do Sufrágio;Mouvement pour le droit de vote;Wahlrecht-Bewegung;;;;;;;;;;;x
+movement_wealth_weighted_voting;Movimento do Sufrágio;Mouvement pour le droit de vote;Wahlrecht-Bewegung;;;;;;;;;;;x
+movement_wealth_voting;Movimento do Sufrágio;Mouvement pour le droit de vote;Wahlrecht-Bewegung;;;;;;;;;;;x
+movement_universal_weighted_voting;Movimento do Sufrágio;Mouvement pour le droit de vote;Wahlrecht-Bewegung;;;;;;;;;;;x
+movement_universal_voting;Movimento do Sufrágio;Mouvement pour le droit de vote;Wahlrecht-Bewegung;;;;;;;;;;;x
+movement_party_appointed;Campanha pela Representação Política;Campagne pour la représentation politique;Kampagne für politische Vertretung;;;;;;;;;;;x
+movement_appointed;Campanha pela Representação Política;Campagne pour la représentation politique;Kampagne für politische Vertretung;;;;;;;;;;;x
+movement_state_equal_weight;Campanha pela Representação Política;Campagne pour la représentation politique;Kampagne für politische Vertretung;;;;;;;;;;;x
+movement_population_equal_weight;Campanha pela Representação Política;Campagne pour la représentation politique;Kampagne für politische Vertretung;;;;;;;;;;;x
+movement_first_past_the_post;Campanha pela Representação Política;Campagne pour la représentation politique;Kampagne für politische Vertretung;;;;;;;;;;;x
+movement_jefferson_method;Campanha pela Representação Política;Campagne pour la représentation politique;Kampagne für politische Vertretung;;;;;;;;;;;x
+movement_proportional_representation;Campanha pela Representação Política;Campagne pour la représentation politique;Kampagne für politische Vertretung;;;;;;;;;;;x
+movement_no_meeting;Campanha pela Abolição de Reuniões Públicas;Campagne pour l'abolissement de la liberté de réunion;Kampagne zur Abschaffung der Versammlungsfreiheit;;;;;;;;;;;x
+movement_yes_meeting;Campanha para Reuniões Públicas;Campagne pour la liberté de réunion;Kampagne für Versammlungsfreiheit;;;;;;;;;;;x
+movement_censored_press;Campanha pela Imprensa Censurada;Campagne pour la censure de la presse;Kampagne für Pressezensur;;;;;;;;;;;x
+movement_free_press;Campanha para a Imprensa Livre;Campagne pour la presse libre;Kampagne für Pressefreiheit;;;;;;;;;;;x
+movement_state_controlled;Campanha para Sindicatos Controlados pelo Estado;Campagne pour des syndicats contrôlés par l'état;Kampagne für staatlich kontrollierte Gewerkschaften;;;;;;;;;;;x
+movement_non_socialist;Campanha para Sindicatos Não-Socialistas;Campagne pour des syndicats non-socialistes;Kampagne für nicht-sozialistische Gewerkschaften;;;;;;;;;;;x
+movement_all_trade_unions;Campanha de Liberdade de Associação;Campagne pour la liberté syndicale;Kampagne für Freihandelsgewerkschaften;;;;;;;;;;;x
+movement_harassment;Movimento dos Direitos dos Eleitores;Mouvement des droits des électeurs;Wählerrechte-Bewegung;;;;;;;;;;;x
+movement_gerrymandering;Movimento dos Direitos dos Eleitores;Mouvement des droits des électeurs;Wählerrechte-Bewegung;;;;;;;;;;;x
+movement_non_secret_ballots;Movimento dos Direitos dos Eleitores;Mouvement des droits des électeurs;Wählerrechte-Bewegung;;;;;;;;;;;x
+movement_secret_ballots;Movimento dos Direitos dos Eleitores;Mouvement des droits des électeurs;Wählerrechte-Bewegung;;;;;;;;;;;x
+movement_trinket_wage;Movimento do Salário Mínimo;Mouvement pour un salaire minimum;Mindestlohn-Bewegung;;;;;;;;;;;x
+movement_low_minimum_wage;Movimento do Salário Mínimo;Mouvement pour un salaire minimum;Mindestlohn-Bewegung;;;;;;;;;;;x
+movement_acceptable_minimum_wage;Movimento do Salário Mínimo;Mouvement pour un salaire minimum;Mindestlohn-Bewegung;;;;;;;;;;;x
+movement_good_minimum_wage;Movimento do Salário Mínimo;Mouvement pour un salaire minimum;Mindestlohn-Bewegung;;;;;;;;;;;x
+movement_fourteen_hours;Movimento pela Limitação das Horas de Trabalho;Mouvement pour une limitation du temps de travail;Maximale Arbeitszeit-Bewegung;;;;;;;;;;;x
+movement_twelve_hours;Movimento pela Limitação das Horas de Trabalho;Mouvement pour une limitation du temps de travail;Maximale Arbeitszeit-Bewegung;;;;;;;;;;;x
+movement_ten_hours;Movimento pela Limitação das Horas de Trabalho;Mouvement pour une limitation du temps de travail;Maximale Arbeitszeit-Bewegung;;;;;;;;;;;x
+movement_eight_hours;Maximum Workhours Movement;Mouvement pour une limitation du temps de travail;Maximale Arbeitszeit-Bewegung;;;;;;;;;;;x
+movement_trinket_safety;Campanha para Condições de Trabalho Seguras;Campagne pour la sécurité au travail;Kampagne für sichere Arbeitsplatzbedingungen;;;;;;;;;;;x
+movement_low_safety;Campanha para Condições de Trabalho Seguras;Campagne pour la sécurité au travail;Kampagne für sichere Arbeitsplatzbedingungen;;;;;;;;;;;x
+movement_acceptable_safety;Campanha para Condições de Trabalho Seguras;Campagne pour la sécurité au travail;Kampagne für sichere Arbeitsplatzbedingungen;;;;;;;;;;;x
+movement_good_safety;Campanha para Condições de Trabalho Seguras;Campagne pour la sécurité au travail;Kampagne für sichere Arbeitsplatzbedingungen;;;;;;;;;;;x
+movement_trinket_subsidies;Campanha por Subsídios ao Desemprego;Campagne pour des allocations de chômage;Kampagne für Arbeitslosenunterstützung;;;;;;;;;;;x
+movement_low_subsidies;Campanha por Subsídios ao Desemprego;Campagne pour des allocations de chômage;Kampagne für Arbeitslosenunterstützung;;;;;;;;;;;x
+movement_acceptable_subsidies;Campanha por Subsídios ao Desemprego;Campagne pour des allocations de chômage;Kampagne für Arbeitslosenunterstützung;;;;;;;;;;;x
+movement_good_subsidies;Campanha por Subsídios ao Desemprego;Campagne pour des allocations de chômage;Kampagne für Arbeitslosenunterstützung;;;;;;;;;;;x
+movement_trinket_pensions;Campanha de Assistência aos Idosos;Campagne pour l'aide aux personnes âgées;Kampagne für Sicherheit im Alter;;;;;;;;;;;x
+movement_low_pensions;Campanha de Assistência aos Idosos;Campagne pour l'aide aux personnes âgées;Kampagne für Sicherheit im Alter;;;;;;;;;;;x
+movement_acceptable_pensions;Campanha de Assistência aos Idosos;Campagne pour l'aide aux personnes âgées;Kampagne für Sicherheit im Alter;;;;;;;;;;;x
+movement_good_pensions;Campanha de Assistência aos Idosos;Campagne pour l'aide aux personnes âgées;Kampagne für Sicherheit im Alter;;;;;;;;;;;x
+movement_trinket_health_care;Movimento Universal de Assistência Médica;Mouvement de couverture santé universelle;Universelle Krankenversorgung-Bewegung;;;;;;;;;;;x
+movement_low_health_care;Movimento Universal de Assistência Médica;Mouvement de couverture santé universelle;Universelle Krankenversorgung-Bewegung;;;;;;;;;;;x
+movement_acceptable_health_care;Movimento Universal de Assistência Médica;Mouvement de couverture santé universelle;Universelle Krankenversorgung-Bewegung;;;;;;;;;;;x
+movement_good_health_care;Movimento Universal de Assistência Médica;Mouvement de couverture santé universelle;Universelle Krankenversorgung-Bewegung;;;;;;;;;;;x
+movement_low_schools;Movimento Escola Pública;Mouvement pour l'école publique;Gemeinschaftsschulen-Bewegung;;;;;;;;;;;x
+movement_acceptable_schools;Movimento Escola Pública;Mouvement pour l'école publique;Gemeinschaftsschulen-Bewegung;;;;;;;;;;;x
+movement_good_schools;Movimento Escola Pública;Mouvement pour l'école publique;Gemeinschaftsschulen-Bewegung;;;;;;;;;;;x
+POLITICS_MOVEMENTS;Movimentos;Mouvements;Bewegungen;;;;;;;;;;;x
+POLITICS_ECONOMIC_REFORMS;Reformas Econômicas;Réformes économiques;Wirtschaftsreformen;;;;;;;;;;;x
+POLITICS_MILITARY_REFORMS;Reformas Militares;Réformes militaires;Militärreformen;;;;;;;;;;;x
+NORMAL_CIVIL_WAR_NAME_USA_CSA_CSA;$ORDER$Guerra da Agressão do Norte;$ORDER$ guerre d’agression nordiste;$ORDER$Krieg des Nördlichen Angriffs;;;;;;;;;;;x
+NORMAL_CIVIL_WAR_NAME_USA_CSA_USA;$ORDER$Guerra da Rebelião;$ORDER$ guerre de rébellion;$ORDER$Rebellionskrieg;;;;;;;;;;;x
+NORMAL_WAR_GUNBOAT_NAME;$ORDER$$FIRST$ intervenção em $SECOND_COUNTRY$;$ORDER$$FIRST$ intervention en $SECOND_COUNTRY$;$ORDER$$FIRST$ Intervention in $SECOND_COUNTRY$;;;;;;;;;;;x
+NORMAL_WAR_GUNBOAT_NAME_FRA_MEX;$ORDER$Guerra dos Pastéis;$ORDER$ guerre de la pâtisserie;$ORDER$Kuchenkrieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_NAME_USA_MEX_USA;$ORDER$Guerra Mexicano-Americana;$ORDER$ guerre mexicano-américaine;$ORDER$Mexikanisch-Amerikanischer Krieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_NAME_USA_MEX_MEX;$ORDER$Invasão Americana do México;$ORDER$ guerre américaine d'invasion du Mexique;$ORDER$Amerikanische Invasion von Mexiko;;;;;;;;;;;x
+NORMAL_WAR_TAKE_CORE_NAME_USA_MEX_USA;$ORDER$Guerra Mexicano-Americana;$ORDER$ guerre mexicano-américaine;$ORDER$Mexikanisch-Amerikanischer Krieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_CORE_NAME_USA_MEX_MEX;$ORDER$Invasão Americana do México;$ORDER$ guerre américaine d'invasion du Mexique;$ORDER$Amerikanische Invasion von Mexiko;;;;;;;;;;;x
+NORMAL_WAR_GUNBOAT_NAME_ENG_CHI;$ORDER$Guerra do Ópio;$ORDER$ guerre de l'opium;$ORDER$Opiumkrieg;;;;;;;;;;;x
+NORMAL_WAR_ADD_SPHERE_NAME_ENG_CHI;$ORDER$Guerra do Ópio;$ORDER$ guerre de l'opium;$ORDER$Opiumkrieg;;;;;;;;;;;x
+NORMAL_WAR_INDEPENDENCE_NAME;$ORDER$$FIRST$ Guerra da Independência;$ORDER$$FIRST$ guerre d'indépendance;$ORDER$$FIRST$ Unabhängigkeitskrieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_NAME_CHL_PEU;$ORDER$Guerra do Pacífico;$ORDER$ guerre du Pacifique;$ORDER$Pazifikkrieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_CORE_NAME_CHL_PEU;$ORDER$Guerra do Pacífico;$ORDER$ guerre du Pacifique;$ORDER$Pazifikkrieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_NAME_CHL_BOL;$ORDER$Guerra do Pacífico;$ORDER$ guerre du Pacifique;$ORDER$Pazifikkrieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_CORE_NAME_CHL_BOL;$ORDER$Guerra do Pacífico;$ORDER$ guerre du Pacifique;$ORDER$Pazifikkrieg;;;;;;;;;;;x
+NORMAL_WAR_CONQUEST_NAME_ENG_TRN;$ORDER$Guerra dos Bôeres;$ORDER$ guerre des Boers;$ORDER$Burenkrieg;;;;;;;;;;;x
+NORMAL_WAR_CONQUEST_NAME_ENG_ORA;$ORDER$Guerra dos Bôeres;$ORDER$ guerre des Boers;$ORDER$Burenkrieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_NAME_ENG_TRN;$ORDER$Guerra dos Bôeres;$ORDER$ guerre des Boers;$ORDER$Burenkrieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_NAME_ENG_ORA;$ORDER$Guerra dos Bôeres;$ORDER$ guerre des Boers;$ORDER$Burenkrieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_NAME_ORA_ENG;$ORDER$Guerra dos Bôeres;$ORDER$ guerre des Boers;$ORDER$Burenkrieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_NAME_TRN_ENG;$ORDER$Guerra dos Bôeres;$ORDER$ guerre des Boers;$ORDER$Burenkrieg;;;;;;;;;;;x
+NORMAL_WAR_PUPPET_NAME_ENG_TRN;$ORDER$Guerra dos Bôeres;$ORDER$ guerre des Boers;$ORDER$Burenkrieg;;;;;;;;;;;x
+NORMAL_WAR_PUPPET_NAME_ENG_ORA;$ORDER$Guerra dos Bôeres;$ORDER$ guerre des Boers;$ORDER$Burenkrieg;;;;;;;;;;;x
+NORMAL_WAR_PUPPET_NAME;$ORDER$War of $FIRST$ Control Over $SECOND_COUNTRY$;$ORDER$ guerre de $FIRST$ pour le contrôle de $SECOND_COUNTRY$;$ORDER$ Krieg um die Kontrolle von $FIRST$ über $SECOND_COUNTRY$;;;;;;;;;;;x
+NORMAL_WAR_BOXER_NAME;$ORDER$Rebelião Boxer;$ORDER$ rébellion des Boxers;$ORDER$Boxer Aufstand;;;;;;;;;;;x
+NORMAL_WAR_PUPPET_NAME_ENG_USA;$ORDER$$SECOND$ Guerra da Independência;$ORDER$$SECOND$ guerre d'indépendence;$ORDER$$SECOND$ Unabhängigkeitskrieg;;;;;;;;;;;x
+NORMAL_WAR_NAME_ENG_USA;$ORDER$$SECOND$ Guerra da Independência;$ORDER$$SECOND$ guerre d'indépendence;$ORDER$$SECOND$ Unabhängigkeitskrieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_NAME_ENG_USA;$ORDER$$SECOND$ Guerra da Independência;$ORDER$$SECOND$ guerre d'indépendence;$ORDER$$SECOND$ Unabhängigkeitskrieg;;;;;;;;;;;x
+NORMAL_WAR_TAKE_CORE_NAME_ENG_USA;$ORDER$$SECOND$ Guerra da Independência;$ORDER$$SECOND$ guerre d'indépendence;$ORDER$$SECOND$ Unabhängigkeitskrieg;;;;;;;;;;;x
+NORMAL_WAR_CONQUEST_NAME_ENG_USA;$ORDER$$SECOND$ Guerra da Independência;$ORDER$$SECOND$ guerre d'indépendence;$ORDER$$SECOND$ Unabhängigkeitskrieg;;;;;;;;;;;x
+NORMAL_WAR_HUMILIATE_NAME;$ORDER$$FIRST$-$SECOND$ Guerra pela Honra;$ORDER$ guerre pour l'honneur $FIRST$-$SECOND$;$ORDER$$FIRST$-$SECOND$ Krieg der Ehre;;;;;;;;;;;x
+NORMAL_WAR_UNIFICATION_NAME_PRU_FRA;$ORDER$Guerra Franco-Prussiana;$ORDER$ guerre franco-prussienne;$ORDER$Franco-Preussischer Krieg;;;;;;;;;;;x
+NORMAL_WAR_UNIFICATION_NAME_NGF_FRA;$ORDER$Guerra Franco-Prussiana;$ORDER$ guerre franco-prussienne;$ORDER$Franco-Preussischer Krieg;;;;;;;;;;;x
+CAN_INVEST_IN_RAILROADS;Permitido investir em ferrovias;Autoriser à investir dans les chemins de fer;Investitionen in Eisenbahnen erlaubt;;;;;;;;;;;x
+land_reform;Reforma Agrária;Réforme rurale;Landreform;;;;;;;;;;;x
+land_reform_l;Reforma Agrária;Réforme agraire;Landreform;;;;;;;;;;;x
+no_land_reform;Nenhuma Reforma Agrária;Pas de réforme agraire;Keine Landreform;;;;;;;;;;;x
+yes_land_reform;Reforma Agrária;Réforme agraire;Landreform;;;;;;;;;;;x
+no_land_reform_desc;Nenhuma reforma agrária;Pas de réforme agraire;Keine Landreform;;;;;;;;;;;x
+yes_land_reform_desc;Redistribuição dos direitos à terra, resultando em agricultura e mineração mais eficazes;La redistribution des terres entraîne une meilleure efficacité de l'agriculture et des mines;Die Umverteilung von Landrechten resultiert in mehr Effizienz in Landwirtschaft und Bergbau;;;;;;;;;;;x
+admin_reform;Reforma Administrativa;Réforme administrative;Verwaltungsreform;;;;;;;;;;;x
+admin_reform_l;Reforma Administrativa;Réforme administrative;Verwaltungsreform;;;;;;;;;;;x
+no_admin_reform;Nenhuma Reforma Administrativa;Pas de réforme administrative;Keine Verwaltungsreform;;;;;;;;;;;x
+yes_admin_reform;Reforma Administrativa;Réforme administrative;Verwaltungsreform;;;;;;;;;;;x
+no_admin_reform_desc;Nenhuma Reforma Administrativa;Pas de réforme administrative;Keine Verwaltungsreform;;;;;;;;;;;x
+yes_admin_reform_desc;Nossa administração agora é moderna e eficiente;Notre administration est maintenant moderne et efficace;Unsere Verwaltung ist nun modern und effizient;;;;;;;;;;;x
+finance_reform;Reforma Financeira;Réforme financière;Finanzreform;;;;;;;;;;;x
+finance_reform_l;Reforma Financeira;Réforme financière;Finanzreform;;;;;;;;;;;x
+no_finance_reform;Nenhuma Reforma Financeira;Pas de réforme financière;Keine Finanzreform;;;;;;;;;;;x
+yes_finance_reform;Reforma Financeira;Promulguer la réforme financière;Finanzreform verabschieden;;;;;;;;;;;x
+finance_reform_two;Dívida Externa;Dette extérieure;Internationale Schulden;;;;;;;;;;;x
+no_finance_reform_desc;Sem financiamento;Pas de financement;Keine Finanzen;;;;;;;;;;;x
+yes_finance_reform_desc;Reforma Financeira;Financer la réforme;Finanzreform;;;;;;;;;;;x
+finance_reform_two_desc;Agora podemos pedir empréstimos para outras nações;Nous pouvons désormais emprunter de l'argent à d'autres nations;Wir können uns nun Geld von anderen Nationen leihen;;;;;;;;;;;x
+education_reform;Reforma da Educação;Réforme de l'éducation;Bildungsreform;;;;;;;;;;;x
+education_reform_l;Reforma da Educação;Réforme de l'éducation;Bildungsreform;;;;;;;;;;;x
+no_education_reform;Nenhuma reforma da educação;Pas de réforme de l'éducation;Keine Bildungsreform;;;;;;;;;;;x
+yes_education_reform;Sistema reformado;Éducation réformée;Reformiertes System;;;;;;;;;;;x
+no_education_reform_desc;Nenhuma reforma da educação;Réforme de l'éducation;Keine Bildungsreform;;;;;;;;;;;x
+yes_education_reform_desc;Educação organizada básica em nosso país;Système d'éducation de base dans notre pays;Einfache organisierte Bildung in unserem Land;;;;;;;;;;;x
+transport_improv;Sistema de Transporte;Système de transport;Transportsystem;;;;;;;;;;;x
+transport_improv_l;Sistema de Transporte;Système de transport;Transportsystem;;;;;;;;;;;x
+no_transport_improv;Sistema Primitivo;Pas amélioré;Nicht verbessert;;;;;;;;;;;x
+yes_transport_improv;Sistema Moderno;Amélioré;Verbessert;;;;;;;;;;;x
+no_transport_improv_desc;O sistema de transporte é primitivo;Le système de transport est primitif;Das Transportsystem ist primitiv;;;;;;;;;;;x
+yes_transport_improv_desc;O sistema de transporte é moderno;Le système de transport est moderne;Das Transportsystem ist modern;;;;;;;;;;;x
+pre_indust;Pré Industrialização;Préindustrialisation;Frühe Industrialisierung;;;;;;;;;;;x
+pre_indust_l;Pré Industrialização;Préindustrialisation;Frühe Industrialisierung;;;;;;;;;;;x
+no_pre_indust;Métodos Antigos;S'en tenir aux vieilles méthodes;Bleib bei Altbewährtem;;;;;;;;;;;x
+yes_pre_indust;Progresso Industrial;Progrès industriel;Industrieller Fortschritt;;;;;;;;;;;x
+no_pre_indust_desc;Nós não precisamos de indústria;Nous n'avons pas besoin d'industrie;Wir haben keinen Bedarf an Industrie;;;;;;;;;;;x
+yes_pre_indust_desc;Construa algumas fábricas básicas com a ajuda de assessores estrangeiros. Poderia isso ser o começo de uma revolução industrial?;Construire quelques usines de base avec l'aide de conseillers étrangers : serait-ce le début d'une révolution industrielle ?;Baue einige einfache Fabrikanlagen mit der Hilfe ausländischer Berater. Könnte dies der Beginn einer industriellen Revolution sein?;;;;;;;;;;;x
+industrial_construction;Construção Industrial;Construction industrielle;Industrielle Konstruktion;;;;;;;;;;;x
+industrial_construction_l;Construção Industrial;Construction industrielle;Industrielle Konstruktion;;;;;;;;;;;x
+no_industrial_construction;Nenhuma Construção Industrial;Pas de construction industrielle;Keine Industrielle Konstruktion ;;;;;;;;;;;x
+yes_industrial_construction;Construção Industrial;Construction industrielle;Industrielle Konstruktion;;;;;;;;;;;x
+no_industrial_construction_desc;Não há fábricas avançadas;Pas d'usines modernes;Keine fortschrittlichen Fabrikanlagen;;;;;;;;;;;x
+yes_industrial_construction_desc;Consultores estrangeiros nos auxiliam na construção de fábricas mais avançadas;Des conseillers étrangers nous assistent dans la construction d'usines plus modernes;Ausländische Berater unterstützen uns beim Bau von fortschrittlichen Fabrikanlagen;;;;;;;;;;;x
+foreign_training;Métodos de Treinamento;Méthodes d’entraînement;Ausbildungsmethoden;;;;;;;;;;;x
+foreign_training_l;Métodos de Treinamento;Méthodes d’entraînement;Ausbildungsmethoden;;;;;;;;;;;x
+no_foreign_training;Treinamento Local;Méthodes d’entraînement locales;Örtliche Ausbildungsmethoden;;;;;;;;;;;x
+yes_foreign_training;Treinamento Estrangeiros;Méthodes d’entraînement étrangères;Ausländische Ausbildungsmethoden;;;;;;;;;;;x
+no_foreign_training_desc;Tropas são treinadas da maneira tradicional;Les troupes sont entraînées de manière traditionnelle;Truppenausbildung auf traditionelle Weise;;;;;;;;;;;x
+yes_foreign_training_desc;Tropas treinadas por assessores militares estrangeiros;Troupes entraînées par des conseillers militaires étrangesr;Truppenausbildung durch ausländische Militärberater oder Techniken;;;;;;;;;;;x
+foreign_weapons;Armas Estrangeiras;Armes étrangères;Ausländische Waffen;;;;;;;;;;;x
+foreign_weapons_l;Armas Estrangeiras;Armes étrangères;Ausländische Waffen;;;;;;;;;;;x
+no_foreign_weapons;Armas Locais;Armes locales;Örtliche Waffen;;;;;;;;;;;x
+yes_foreign_weapons;Armas Importadas;Armes importéess;Importierte Waffen;;;;;;;;;;;x
+no_foreign_weapons_desc;Armas tradicionais;Armes traditionnelles;Traditionelle Waffen;;;;;;;;;;;x
+yes_foreign_weapons_desc;É minha BOMBA!;C'est ma BOMBE !;Das ist mein FEUERSTAB!;;;;;;;;;;;x
+military_constructions;Construções Militares;Constructions militaires;Militärische Konstruktionen;;;;;;;;;;;x
+military_constructions_l;Construções Militares;Constructions militaires;Militärische Konstruktionen;;;;;;;;;;;x
+no_military_constructions;Construções Simples;Constructions simples;Einfache Konstruktionen;;;;;;;;;;;x
+yes_military_constructions;Construções Avançadas;Constructions évoluées;Fortschrittliche Konstruktionen;;;;;;;;;;;x
+no_military_constructions_desc;Sem fortificação;Pas de fortification;Keine Befestigungsanlagen;;;;;;;;;;;x
+yes_military_constructions_desc;Fortificações eficazes;Fortifications efficaces;Effektive Befestigungsanlagen;;;;;;;;;;;x
+foreign_officers;Treinamento de Oficiais;Entraînement d'officier;Offiziersausbildung;;;;;;;;;;;x
+foreign_officers_l;Treinamento de Oficiais;Entraînement d'officier;Offiziersausbildung;;;;;;;;;;;x
+no_foreign_officers;Treinamento Local;Entraînement d'officier local;Ausbildung durch örtliche Offiziere;;;;;;;;;;;x
+yes_foreign_officers;Treinamento Estrangeiro;Entraînement d'officier étranger;Ausbildung durch ausländische Offiziere;;;;;;;;;;;x
+no_foreign_officers_desc;Oficiais locais lideram nossas tropas;Des officiers locaux mènent nos troupes;Örtliche Offiziere befehligen unsere Truppen;;;;;;;;;;;x
+yes_foreign_officers_desc;Nossas tropas são agora as melhores do mundo;Nos troupes sont maintenant les meilleures du monde;Unsere Truppen sind nun die besten der Welt;;;;;;;;;;;x
+army_schools;Treinamento Militar;Entraînement militaire;Armeeausbildung;;;;;;;;;;;x
+army_schools_l;Treinamento Militar;Entraînement militaire;Armeeausbildung;;;;;;;;;;;x
+no_army_schools;Ad hoc;Ad hoc;Ad hoc;;;;;;;;;;;x
+yes_army_schools;Escolas do Exército;Écoles militaires;Armeeschulen;;;;;;;;;;;x
+no_army_schools_desc;Nós aprendemos no campo de batalha;Nous apprenons sur le champs de bataille;Wir lernen auf dem Schlachtfeld;;;;;;;;;;;x
+yes_army_schools_desc;Oficiais são bem treinados antes de liderar homens para a batalha;Les officiers sont bien entraînes avant de mener les hommes à la bataille;Offiziere werden gut ausgebildet bevor sie Männer in den Kampf führen;;;;;;;;;;;x
+foreign_naval_officers;Oficiais Navais;Officiers de marine;Marineoffiziere;;;;;;;;;;;x
+foreign_naval_officers_l;Oficiais Navais;Officiers de marine;Marineoffiziere;;;;;;;;;;;x
+no_foreign_naval_officers;Oficiais Locais;Officiers de marine locaux;Örtliche Marineoffiziere;;;;;;;;;;;x
+yes_foreign_naval_officers;Oficiais Estrangeiros;Officiers de marine étrangers;Ausländische Marineoffiziere;;;;;;;;;;;x
+no_foreign_naval_officers_desc;Os oficiais locais comandam nossos navios;Des officiers locaux commandent nos navires;Örtliche Offiziere befehligen unsere Schiffe;;;;;;;;;;;x
+yes_foreign_naval_officers_desc;Oficiais estrangeiros comandam nossos navios;Des officiers étrangers commandent nos navires;Ausländische Offiziere beraten unsere Kapitäne;;;;;;;;;;;x
+naval_schools;Treinamento Naval;Entraînement naval;Marineausbildung;;;;;;;;;;;x
+naval_schools_l;Treinamento Naval;Entraînement naval;Marineausbildung;;;;;;;;;;;x
+no_naval_schools;Ad hoc;Ad hoc;Ad hoc;;;;;;;;;;;x
+yes_naval_schools;Escolas Navais;Écoles navales;Marineschulen;;;;;;;;;;;x
+no_naval_schools_desc;Aprenda agindo;Apprendre en agissant;Lernen durch Praxis;;;;;;;;;;;x
+yes_naval_schools_desc;Aprenda a teoria primeiro;Apprenre d'abord la théorie;Erstes Lernen in der Theorie;;;;;;;;;;;x
+foreign_navies;Unidades Navais Estrangeiras;Unités navales étrangères;Ausländische Marineeinheiten;;;;;;;;;;;x
+foreign_navies_l;Unidades Navais Estrangeiras;Unités navales étrangères;Ausländische Marineeinheiten;;;;;;;;;;;x
+no_foreign_navies;Navios Locais;Navires construits localement;Vor Ort produzierte Schiffe;;;;;;;;;;;x
+yes_foreign_navies;Navios Importados;Navires importés;Importierte Schiffe;;;;;;;;;;;x
+no_foreign_navies_desc;Navios fabricados localmente;Navires construits localement;Vor Ort hergestellte Schiffe;;;;;;;;;;;x
+yes_foreign_navies_desc;Nós importamos plantas para navios fortes do oeste;Nous avons importé d'occident les plans de puissants navires;Wir haben Baupläne für starke Schiffe aus dem Westen importiert;;;;;;;;;;;x
+cut_down_to_size_boxer;Abaixe a Rebelião dos Boxers;Mettre fin à la révolte des Boxers;Schlage den Boxeraufstand nieder;;;;;;;;;;;x
+cut_down_to_size_boxer_desc;Forçar outro §Ypaís§W a desarmar e pagar reparações para nós;Forcrer un autre §Ypays§W à désarmer et à nous payer des réparations;Zwinge ein anderes §YLand§W, abzurüsten und Reparationen an uns zu zahlen;;;;;;;;;;;x
+NUMBER_OF_REBELS_READY;§YBrigadas rebeldes prontas para se juntarem em um levante§!;§YBrigades rebelles prêtes à se joindre à un soulèvement§!;§YRebellenbrigaden kurz vor Beitritt zu einer Auflehnung§!;;;;;;;;;;;x
+NUMBER_OF_REBELS_ACTIVE;§YBrigadas rebeldes ativas em revolta§!;§YBrigades rebelles actives dans la révolte§!;§YRebellenbrigaden in Aufständen aktiv§!;;;;;;;;;;;x
+TECH_YEAR_MODIFIER;Modificador de custo ao longo dos anos conhecidos: $VAL$;Modificateur du coût pour les années connues : $VAL$;Kostenmodifikator durch bekannte Jahre: $VAL$;;;;;;;;;;;x
+ECONOMICREFORM_SETUP;Ao promulgar uma reforma econômica;En adoptant une réforme économique;Beim Verabschieden einer Wirtschaftsreform;;;;;;;;;;;x
+ECONOMICREFORM_HEADER;Notícias Políticas no(a) $COUNTRY$;Nouvelles politiques en $COUNTRY$;Politische Neuigkeiten in $COUNTRY$;;;;;;;;;;;x
+ECONOMICREFORM_1;Economic Reforms in $COUNTRY$;Réformes économiques en $COUNTRY$;Wirtschaftsreformen $COUNTRY$;;;;;;;;;;;x
+ECONOMICREFORM_2;$MONARCHTITLE$, we have now enacted;$MONARCHTITLE$, nous avons adopté;$MONARCHTITLE$, wir haben nun verabschiedet:;;;;;;;;;;;x
+ECONOMICREFORM_3;$ISSUE$;$ISSUE$;$ISSUE$;;$ISSUE$;;;;;;;;;x
+ECONOMICREFORM_4;em;en;in;;;;;;;;;;;x
+ECONOMICREFORM_5;$CATEGORY$;$CATEGORY$;$CATEGORY$;;;;;;;;;;;x
+ECONOMICREFORM_6;*;*;*;;*;;;;;;;;;x
+ECONOMICREFORM_LOG;Nós promulgamos $ISSUE$ em $CATEGORY$.;Nous avons adopté $ISSUE$ en $CATEGORY$.;Wir haben $ISSUE$ in $CATEGORY$ verabschiedet.;;;;;;;;;;;x
+ECONOMICREFORM_BTN1;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+ECONOMICREFORM_BTN2;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+ECONOMICREFORM_BTN3;Ir para;Voir;Gehe zu;;Ir allí;;;;;;;;;x
+ECONOMICREFORM_MAP;*;*;*;;*;;;;;;;;;x
+ECONOMICREFORM_BAD_SETUP;Cancelamento de uma reforma econômica;Annulation d'une réforme économique;Beim Entfernen einer Wirtschaftsreform;;;;;;;;;;;x
+ECONOMICREFORM_BAD_HEADER;Notícias Políticas no(a) $COUNTRY$;Nouvelle politique en $COUNTRY$;Politische Neuigkeiten in $COUNTRY$;;;;;;;;;;;x
+ECONOMICREFORM_BAD_1;Reformas econômicas revogadas no(a) $COUNTRY$;Réformes économiques révoquées in $COUNTRY$;Wirtschaftsreformen widerrufen in $COUNTRY$;;;;;;;;;;;x
+ECONOMICREFORM_BAD_2;$MONARCHTITLE$, nós agora revogamos benefícios em;$MONARCHTITLE$, nous avons renoncé aux bénéfices de;$MONARCHTITLE$, wir haben nun Vorteile widerrufen in;;;;;;;;;;;x
+ECONOMICREFORM_BAD_3;$CATEGORY$;$CATEGORY$;$CATEGORY$;;$CATEGORY$;;;;;;;;;x
+ECONOMICREFORM_BAD_4;de $OLD$ para $ISSUE$.;de $OLD$ pour $ISSUE$.;von $OLD$ auf $ISSUE$.;;;;;;;;;;;x
+ECONOMICREFORM_BAD_5;*;*;*;;*;;;;;;;;;x
+ECONOMICREFORM_BAD_6;*;*;*;;*;;;;;;;;;x
+ECONOMICREFORM_BAD_LOG;Nós revogamos $OLD$ em $CATEGORY$ para $ISSUE$.;Nous avons annulé $OLD$ en $CATEGORY$ pour $ISSUE$.;Wir haben $OLD$ in $CATEGORY$ auf $ISSUE$ widerrufen.;;;;;;;;;;;x
+ECONOMICREFORM_BAD_BTN1;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+ECONOMICREFORM_BAD_BTN2;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+ECONOMICREFORM_BAD_BTN3;Ir para;Voir;Gehe zu;;Ir allí;;;;;;;;;x
+ECONOMICREFORM_BAD_MAP;*;*;*;;*;;;;;;;;;x
+MILITARYREFORM_SETUP;Ao adotar uma reforma militar;En adoptant une réforme militaire;Beim Verabschieden einer Militärreform;;;;;;;;;;;x
+MILITARYREFORM_HEADER;Notícias Políticas no(a) $COUNTRY$;Nouvelle politique en $COUNTRY$;Politische Neuigkeiten in $COUNTRY$;;;;;;;;;;;x
+MILITARYREFORM_1;Reformas Militares no(a) $COUNTRY$;Réformes militaires en $COUNTRY$;Militärreformen in $COUNTRY$;;;;;;;;;;;x
+MILITARYREFORM_2;$MONARCHTITLE$, nós agora promulgamos;$MONARCHTITLE$, nous avons adopté;$MONARCHTITLE$, wir haben nun verabschiedet:;;;;;;;;;;;x
+MILITARYREFORM_3;$ISSUE$;$ISSUE$;$ISSUE$;;$ISSUE$;;;;;;;;;x
+MILITARYREFORM_4;em;en;in;;;;;;;;;;;x
+MILITARYREFORM_5;$CATEGORY$;$CATEGORY$;$CATEGORY$;;;;;;;;;;;x
+MILITARYREFORM_6;*;*;*;;*;;;;;;;;;x
+MILITARYREFORM_LOG;Promulgamos $ISSUE$ em $CATEGORY$.;Nous avons adopté $ISSUE$ en $CATEGORY$.;Wir haben $ISSUE$ in $CATEGORY$ verabschiedet.;;;;;;;;;;;x
+MILITARYREFORM_BTN1;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+MILITARYREFORM_BTN2;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+MILITARYREFORM_BTN3;Ir para;Voir;Gehe zu;;Ir allí;;;;;;;;;x
+MILITARYREFORM_MAP;*;*;*;;*;;;;;;;;;x
+MILITARYREFORM_BAD_SETUP;Cancelamento de uma reforma militar;Annulation d'une réforme militaire;Beim Widerruf einer Militärreform;;;;;;;;;;;x
+MILITARYREFORM_BAD_HEADER;Notícias Políticas no(a) $COUNTRY$;Nouvelle politique en $COUNTRY$;Politische Neuigkeiten in $COUNTRY$;;;;;;;;;;;x
+MILITARYREFORM_BAD_1;Reformas militares revogadas no(a) $COUNTRY$;Réformes militaires annulées en $COUNTRY$;Militärreformen in $COUNTRY$ widerrufen;;;;;;;;;;;x
+MILITARYREFORM_BAD_2;$MONARCHTITLE$, nós agora revogamos benefícios em;$MONARCHTITLE$, nous avons renoncé aux bénéfices de;$MONARCHTITLE$, wir haben nun Vorteile widerrufen in;;;;;;;;;;;x
+MILITARYREFORM_BAD_3;$CATEGORY$;$CATEGORY$;$CATEGORY$;;$CATEGORY$;;;;;;;;;x
+MILITARYREFORM_BAD_4;de $OLD$ para $ISSUE$.;de $OLD$ pour $ISSUE$.;von $OLD$ auf $ISSUE$.;;;;;;;;;;;x
+MILITARYREFORM_BAD_5;*;*;*;;*;;;;;;;;;x
+MILITARYREFORM_BAD_6;*;*;*;;*;;;;;;;;;x
+MILITARYREFORM_BAD_LOG;Revogamos $OLD$ em $CATEGORY$ para $ISSUE$.;Nous avons supprimé $OLD$ en $CATEGORY$ pour $ISSUE$.;Wir haben $OLD$ in $CATEGORY$ auf $ISSUE$ widerrufen.;;;;;;;;;;;x
+MILITARYREFORM_BAD_BTN1;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+MILITARYREFORM_BAD_BTN2;OK;D'accord;OK;;Aceptar;;;;;;;;;x
+MILITARYREFORM_BAD_BTN3;Ir para;Voir;Gehe zu;;Ir allí;;;;;;;;;x
+MILITARYREFORM_BAD_MAP;*;*;*;;*;;;;;;;;;x
+MODIFIER_CIVILIZATION_PROGRESS;Progresso da Civilização;Progrès de la civilisation;Zivilisationsfortschritt;;;;;;;;;;;x
+SUPPRESSION_TECH;Eficiência de supressão;Efficacité de la répression;Effektivität der Unterdrückung;;;;;;;;;;;x
+REFORM_RESEARCH_COST;Custo de pesquisa: §Y$COST$§!;RCoût de recherche: §Y$COST$§!;Forschungskosten: §Y$COST$§!;;;;;;;;;;;x
+POLITICS_CIVILIZE;Ocidentalização;Occidentalisation;Verwestlichen;;;;;;;;;;;x
+CIVILIZE_DESC;Abraçe totalmente as ideias ocidentais. Isso nos dará acesso aos avanços tecnológicos do líder de nossa esfera;Embrasser entièrement les idées occidentales : cela nous donnera accès aux technologies avancées du pays dominant de notre sphère.;Nehmt die westlichen Ideen vollständig an. Dies wird uns Zugang zu den technologischen Fortschritten des Anführers unseres Wirkungsbereichs gewähren;;;;;;;;;;;x
+CIVILIZE_NO_MASTER_DESC;Abraçe totalmente as ideias ocidentais. Isso nos dará acesso aos avanços tecnológicos de todo o mundo;Embrasser entièrement les idées occidentales : cela nous donnera accès aux technologies avancées du monde entier.;Nehmt die westlichen Ideen vollständig an. Dies wird uns Zugang zu den technologischen Fortschritten aus aller Welt verschaffen;;;;;;;;;;;x
+INFLUENCE_RELATION;Relações;Relations;Beziehungen;;;;;;;;;;;x
+NO_CIV_PROGRESS;Nós não fizemos nenhum progresso em direção à ocidentalização. Precisamos promulgar reformas militares ou econômicas;Nous n'avons fait aucun progrès vers l'occidentalisation. Nous avons besoin d'adopter des réformes militaires ou économiques.;Wir haben keine Fortschritte in der Verwestlichung gemacht. Wir müssen militärische oder wirtschaftliche Reformen verabschieden;;;;;;;;;;;x
+RESEARCH_POINTS_LABEL;Pontos de Pesquisa:;Points de recherche :;Forschungspunkte:;;;;;;;;;;;x
+MODIFIER_UNCIV_ECONOMIC;Custo de reforma econômica;Coût de la réforme économique;Kosten für Wirtschaftsreform;;;;;;;;;;;x
+MODIFIER_UNCIV_MILITARY;Custo de reforma militar;Coût de la réforme militaire;Kosten für Militärreform;;;;;;;;;;;x
+MODIFIER_SELF_UNCIV_ECONOMIC;Custo de reforma econômica;Coût de la réforme économique;Kosten für Wirtschaftsreform;;;;;;;;;;;x
+MODIFIER_SELF_UNCIV_MILITARY;Custo de reforma militar;Coût de la réforme militaire;Kosten für Militärreform;;;;;;;;;;;x
+MODIFIER_LAND_UNIT_START_EXPERIENCE;Experiência Inicial de Terreno;Expérience militaire de départ;Anfangserfahrung der Landeinheiten;;;;;;;;;;;x
+MODIFIER_NAVAL_UNIT_START_EXPERIENCE;Experiência Inicial Naval;Expérience navale de départ;Anfangserfahrung der Marineeinheiten;;;;;;;;;;;x
+MODIFIER_ADMINISTRATIVE_EFFICIENCY;Eficiência Administrativa;Efficacité administrative;Verwaltungseffizienz;;;;;;;;;;;x
+ARMY_TECHNOLOGY_LEVELS; Tecnol. Exército: $VAL$/$MAX$;Tech. mil.: $VAL$/$MAX$;Armeetechnologie: $VAL$/$MAX$;;;;;;;;;;;x
+NAVY_TECHNOLOGY_LEVELS; Tecnol. Naval: $VAL$/$MAX$;Tech. nav.: $VAL$/$MAX$;Marinetechnologie: $VAL$/$MAX$;;;;;;;;;;;x
+MODIFIER_TARIFF_EFFICIENCY;Eficiência Tarifária;Efficacité des taxes;Tarifeffizienz;;;;;;;;;;;x
+MODIFIER_MAX_LOAN_AMOUNT;Quantidade máxima de empréstimo;Montant maximal de prêt;Maximaler Darlehensbetrag;;;;;;;;;;;x
+PROD_YOUR_CURRENT_BUDGET;Seu orçamento atual:;Votre budget actuel :;Euer derzeitiges Budget:;;;;;;;;;;;x
+PROD_YOUR_INVESTMENT;Seu investimento:;Votre investissement :;Eure Investition:;;;;;;;;;;;x
+MODIFIER_LAND_ATTACK;Unidade de Ataque Terrestre;Unité d'attaque terrestre;Landeinheit Angriff;;;;;;;;;;;x
+MODIFIER_NAVAL_ATTACK;Unidade de Ataque Naval;Unité d'attaque navale;Marineeinheit Angriff;;;;;;;;;;;x
+MODIFIER_LAND_DEFENSE;Unidade de Defesa Terrestre;Unité de défense terrestre;Landeinheit Verteidigung;;;;;;;;;;;x
+MODIFIER_NAVAL_DEFENSE;Unidade de Defesa Naval;Unité de défense navale;Marineeinheit Verteidigung;;;;;;;;;;;x
+free_press_promised;Imprensa livre prometida;Presse libre promise;Pressefreiheit versprochen;;;;;;;;;;;x
+yes_meeting_promised;Direito a reuniões públicas prometidas;Droit aux réunions publiques promis;Versammlungsfreiheit versprochen;;;;;;;;;;;x
+trade_unions_promised;Sindicatos prometidos;Syndicats promis;Handelsgewerkschaften versprochen;;;;;;;;;;;x
+free_press_promised_desc;Nós dissemos às pessoas que elas terão uma imprensa livre, elas esperam que cumpramos nossa palavra em breve;Nous avons dit aux gens qu'ils auraient droit à une presse libre, ils s'attendent à ce que nous respections notre parole.;Wir haben den Leuten gesagt, dass sie Pressefreiheit erhalten werden, sie werden erwarten, dass wir bald Wort halten;;;;;;;;;;;x
+yes_meeting_promised_desc;Nós dissemos às pessoas que eles terão o direito de reuniões públicas, eles esperam que cumpramos nossa palavra em breve;Nous avons dit aux gens qu'ils auraient le droit de tenir des réunions publiques, ils s'attendent à ce que nous respections notre parole.;Wir haben den Leuten gesagt, dass sie Versammlungsfreiheit erhalten werden, sie werden erwarten, dass wir bald Wort halten;;;;;;;;;;;x
+trade_unions_promised_desc;Nós dissemos às pessoas que eles terão sindicatos, eles esperam que cumpramos nossa palavra em breve;Nous avons dit aux gens qu'ils auraient des syndicats, ils s'attendent à ce que nous respections notre parole.;Wir haben den Leuten gesagt, dass sie Handelsgewerkschaften erhalten werden, sie werden erwarten, dass wir bald Wort halten;;;;;;;;;;;x
+recent_safari;Safári recente;Safari récent;Kürzliche Safari;;;;;;;;;;;x
+recent_safari2;Muitos safaris;Trop de safaris;Zu viele Safaris;;;;;;;;;;;x
+recent_safari_desc;Nós tivemos um safari recentemente;Nous avons fait récemment un safari;Wir hatten kürzlich erst eine Safari;;;;;;;;;;;x
+recent_safari2_desc;No geral, tem havido muitos safáris ultimamente;Tout comptes faits, il y a eu trop de safaris récemment;Insgesamt gab es in letzter Zeit zu viele Safaris;;;;;;;;;;;x
+unciv_reactionary_rebels_title;Reacionários;Réactionnaire;Reaktionär;;;;;;;;;;;x
+unciv_reactionary_rebels_name;Reacionários do(a) $COUNTRY$ ;Réactionnaires de $COUNTRY$;$COUNTRY$ Reaktionäre;;;;;;;;;;x;
+unciv_reactionary_rebels_desc;Os rebeldes reacionários anseiam por viver da maneira tradicional de seus ancestrais e rejeitam toda a noção de copiar os maneirismos dos europeus.;Les rebelles réactionnaires ont longtemps vécu à la manière de leurs ancêtres et ont rejeté l'idée même d'imiter les manières européennes.;Reaktionäre Rebellen streben danach, auf die Art ihrer Vorfahren zu leben und lehnen jegliche Gedanken daran ab, die Verhaltensweisen der Europäer zu kopieren.;;;;;;;;;;;x
+unciv_reactionary_rebels_army;Exército $COUNTRY_ADJ$ ;Armée $COUNTRY_ADJ$;$COUNTRY_ADJ$ Armee;;;;;;;;;;;x
+SET_ECONOMIC_REFORM_EFFECT;Reforma econômica selecionada: §Y$NAME$§W.\n;Réforme économique sélectionnée : §Y$NAME$§W.\n;gewählte Wirtschaftsreform: §Y$NAME$§W.\n;;;;;;;;;;;x
+SET_MILITARY_REFORM_EFFECT;Reforma militar selecionada: §Y$NAME$§W.\n;MRéforme militaire sélectionnée : §Y$NAME$§W.\n;gewählte Militärreform: §Y$NAME$§W.\n;;;;;;;;;;;x
+NATIONALIZE_INDUSTRY_EFFECT;Prossiga para nacionalização;Procéder à la nationalisation;Nationalisierung durchführen;;;;;;;;;;;x
+DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Nação parcialmente ocidentalizada;Nation partiellement occidentalisée;Teilverwestlichte Nation;;;;;;;;;;;x
+DIPLOMACY_PRIMITIVENATION_STATUS;Nação Primitiva;Nation primitive;Primitive Nation;;;;;;;;;;;x
+UNCIV_CANT_RESEARCH;Ocidentalizar para poder pesquisar;L'occidentalisation est nécessaire pour la recherche;Verwestlichen, um Forschen zu können;;;;;;;;;;;x
+TB_NATIONALFOCUS_CULTURE;§Y$NUM$§W pessoas de culturas primárias/aceitas nos dão §Y$FOCUS$§W pontos de foco;§Y$NUM$§W de personnes de cultures primitives ou acceptées donnent §Y$FOCUS$§W point(s) de cause nationale;§Y$NUM$§W Menschen aus primären/akzeptierten Kulturen geben uns §Y$FOCUS$§W Fokuspunkte;;;;;;;;;;;x
+meiji_restoration_boost;Reforma Meiji.;Réforme Meiji.;Meiji Reformation.;;;;;;;;;;;x
+meiji_restoration_boost_desc;Progresso em nome do imperador!;Le progrès au nom de l'Empereur;Fortschritt im Namen des Herrschers!;;;;;;;;;;;x
+OTHER_PORT;Esta é uma base naval a que não temos acesso;C'est une base navale à laquelle nous n'avons pas accès;Dies ist ein Marinestützpunkt, zu dem wir keinen Zugang haben;;;;;;;;;;;x
+MODIFIER_UNCIV_ECONOMIC_UH;Suporte da Câmara Alta;Soutien de l'Assemblée;Unterstützung des Oberhauses;;;;;;;;;;;x
+MODIFIER_UNCIV_MILITARY_UH;Suporte da Câmara Alta;Soutien de l'Assemblée;Unterstützung des Oberhauses;;;;;;;;;;;x
+MOVEMENT_RADICALISM_ADJUST;§Y$MOVEMENT$§! Radicalismo: $AMOUNT$;§Y$MOVEMENT$§! du radicalisme : $AMOUNT$;§Y$MOVEMENT$§! Radikalismus: $AMOUNT$;;;;;;;;;;;x
+MILITARY_REFORM_COST_DESC;Modificador de custo para reformas militares:;Coût du modificateur pour les réformes militaires : ;Kostenmodifikator für militärische Reformen:;;;;;;;;;;;x
+ECONOMIC_REFORM_COST_DESC;Modificador de custo para reformas econômicas:;Coût du modificateur pour les réformes économiques : ;Kostenmodifikator für wirtschaftliche Reformen:;;;;;;;;;;;x
+MAPMODE_19;Nível de Civilização;Niveau de civilisation;Zivilisationsstufe;;;;;;;;;;;x
+CHI_absolute_monarchy;O Império Chinês;Empire Chinois;Das Chinesische Reich;;;;;;;;;;;x
+EVTOPTB23212;Continue olhando para o céu!;Continuez de regarder au ciel !;Schau weiter in den Himmel!;;;;;;;;;;;x
+LOSE_CIVILIZED_EFFECT;Seremos conhecidos como uma §YUncivilized Nation§W\n;Nous allons être considérés comme §Ynation non-civilisée§W\n;Man soll uns kennen als §YUnzivilisierte Nation§W\n;;;;;;;;;;;x
+french_growth_nerf;Declínio da população francesa:;Déclin de la population française ;Rückgang der Französischen Bevölkerung:;;;;;;;;;;;x
+french_growth_nerf_desc;Nossa taxa de crescimento está diminuindo:;Notre croissance ralentit;Unsere Wachstumsrate ist verlangsamt:;;;;;;;;;;;x
+EVTNAME37226;Declínio da população;Diminution de la population;Bevölkerungsrückgang;;;;;;;;;;;x
+EVTDESC37226;Depois de muito tempo, como a nação mais populosa da Europa, a França teve uma taxa de natalidade muito baixa durante um período mais longo nos séculos 19 e 20. As razões para isso ainda não estão claras. No final da era vitoriana, eles foram superados em termos de população pela Rússia, Alemanha, Reino Unido e Itália.;Après une très longue période où la France a été la nation la plus peuplée d'Europe, elle a eu un taux de natalité très bas pendant la plus grande partie des XIXème et XXème siècles -pour des raisons toujours incomprises. A la fin de l'ère victorienne, la France va être dépassée par la Russie, l'Allemagne, le Royaume-Uni et l'Italie en termes de population.;Nach einer langen Zeit, als bevölkerungsreichste Nation Europas, hatte Frankreich im 19. und 20. Jahrhundert über einen längeren Zeitraum eine sehr geringe Geburtenrate. Die Gründe dafür sind bis heute nicht geklärt. Am Ende des viktorianischen Zeitalters wurden sie in Puncto Bevölkerung von Russland, Deutschland, dem Vereinigten Königreich und Italien in den Schatten gestellt.;;;;;;;;;;;x
+EVTOPTA37226;Que choque!;Quel choc !;Dies ist ein echter Rückschlag!;;;;;;;;;;;x
+nationalize_title;Confisco dos meios de produção!;Saisie des moyens de production !;Beschlagnahmt die Produktionsmittel!;;;;;;;;;;;x
+nationalize_desc;Cães estrangeiros não engordarão mais graças ao suor do nosso povo! Chegou a hora de tomar todas as propriedades mantidas por eles, para que sejam controladas pelo estado.;Les chiens étrangers ne s'engraisseront plus grâce à la sueur de notre peuple ! Le temps est venu de saisir tous les biens détenus par l'extérieur, pour qu'is soient contrôlés par l'état.;Nie wieder werden die ausländischen Hunde fetter werden, auf Kosten unseres Volkes! Es ist an der Zeit, das Anlagevermögen aller Aussenstehenden zu beschlagnahmen, und in die Obhut des Staates zu übergeben.;;;;;;;;;;;x
+EVTNAME90950;Ativos apreendidos!;Biens saisis !;Anlagevermögen beschlagnahmt!;;;;;;;;;;;x
+EVTDESC90950;O governo ingrato de $FROMCOUNTRY$ dimensionou nossos investimentos e os reivindicou como seus próprios!;Le gouvernement ingrat de $FROMCOUNTRY$ a saisi nos investissements et les a revendiqués comme siens !;Die undankbare Regierung von $FROMCOUNTRY$ hat unsere Investitionen beschlagnahmt und beansprucht sie für sich selbst!;;;;;;;;;;;x
+EVTOPTA90950;Isso não ficará assim!;Ça ne durera pas !;Damit wird man nicht durchkommen!;;;;;;;;;;;x
+EVTOPTB90950;Ingratos...;Laissons faire;Lasst sie in Ruhe;;;;;;;;;;;x
+MOVEMENT_RADICALISM;Movimento Radical;Mouvement radical;Radikalismus der Bewegung;;;;;;;;;;;x
+MOVEMENT_RADICALISM_DESC;Isso descreve o quanto as pessoas do movimento confiam no processo político de seu país para obter o que desejam. Um movimento com um valor alto (§Y100§!) se converterá em uma revolta rebelde se não for suprimido;Ceci décrit dans quelle mesure les gens de ce mouvement font confiance au processus politique pour obtenir ce qu'ils veulent dans votre pays. Un mouvement avec une valeur élevée (§Y100§!) se transformera en rébellion s'il n'est pas réprimé.;Dies beschreibt wie viel Vertrauen die Anhänger einer Bewegung und der Erfüllung ihrer Forderungen dem politischen Prozess in eurem Land entgegen bringen. Eine Bewegung mit einem hohen Wert (§Y100§!) wird in einen Rebellenaufstand enden, sofern sie nicht unterdrückt werden.;;;;;;;;;;;x
+NUMBER_MOVEMENT_SUPPORTERS;Número de apoiantes;Nombre de partisans;Anzahl der Anhänger;;;;;;;;;;;x
+NUMBER_MOVEMENT_SUPPORTERS_DESC;Quanto maior o movimento, mais difícil é suprimir. Se você promulgar uma reforma com menos apoio, todos os movimentos com mais apoio se tornarão mais radicais.;Plus le mouvement est grand, plus il est difficile à réprimer. Si vous adoptez une réforme avec moins de soutien, tous les mouvements en ayant plus deviendront plus radicaux;Je größer die Bewegung, desto schwieriger ist es, sie zu unterdrücken. Wenn Ihr Reformen mit weniger Unterstützung verabschiedet, werden alle Bewegungen mit mehr Unterstützung radikaler;;;;;;;;;;;x
+PRODUCTION_CLOSE_FACTORY_BECAUSE_FOREIGN_TOOLTIP;Não pode fechar fábrica estrangeira\n;Vous ne pouvez pas fermer une usine étrangère\n;Eine ausländische Fabrikanlage kann nicht geschlossen werden\n;;;;;;;;;;;x
+CAN_NATIONALIZE;Tem investidores estrangeiros;Avoir des investisseurs étrangers;Besitzt Investoren aus dem Ausland;;;;;;;;;;;x
+IS_NOT_IN_A_SPHERE;Não em uma esfera de influência;Pas dans une sphère d'influence;Nicht in einem Einflussbereich;;;;;;;;;;;x
+ACTIVATE_TECH_EFFECT;Ativar tecnologia: §Y$NAME$§!;Activer la technologie §Y$NAME$§!;Technologie aktivieren: §Y$NAME$§!;;;;;;;;;;;x
+TECHNOLOGYVIEW_NO_RESEARCH_UNCIV_TOOLTIP;A tecnologia de alto nível está disponível apenas para nações civilizadas. Ao se ocidentalizar na §Ypolitics tab§! você pode adquirir tecnologia de base e começar a pesquisar por conta própria.;Les hauts niveaux de technologies ne sont accessibles qu'aux nations civilisées. En occidentalisant dans l'§Yonglet politique§!, vous pouvez obtenir la technologie de base et commencer à faire des recherches par vous-même.;Hochtechnologie ist nur für zivilisierte Nationen verfügbar. Indem Ihr im §Ypolitics tab§! verwestlicht, könnt Ihr Grundtechnologien erwerben und stattdessen selber beginnen zu forschen.;;;;;;;;;;;x
+RELATION_BETWEEN;Relação atual entre $COUNTRY1$ e $COUNTRY2$: $RELATION$;Relation actuelle entre $COUNTRY1$ et $COUNTRY2$ : $RELATION$;Derzeitige Beziehungen zwischen $COUNTRY1$ und $COUNTRY2$: $RELATION$;;;;;;;;;;;x
+ADD_RELATIVE_INCOME_EFFECT;Tesouro: $VALUE$¤;Trésor :  $VALUE$ ¤;Schatzkammer: $VALUE$¤;;;;;;;;;;;x
+CORRUPTION_LESS_THAN;Corrupção menor que;Corruption inférieure à ;Korruption unter;;;;;;;;;;;x
+CORRUPTION_MORE_THAN;Corrupção maior que;Corruption supérieure à ;Korruption über;;;;;;;;;;;x
+MOVEMENT_RADICALISM_FROM_SIZE;Apoio da População: $VAL$ ;Soutien populaire : $VAL$ ;Unterstützung der Bevölkerung: $VAL$;;;;;;;;;;;x
+dar_al_funun;The Dar al funun.;Le Dar al funun.;Der Dar al funun.;;;;;;;;;;;x
+dar_al_funun_desc;A primeira universidade moderna na Pérsia.;La première université moderne de Perse.;Die erste moderne Universität in Persien.;;;;;;;;;;;x
+BOL_2305;Atacama;Atacama;Atacama;;;;;;;;;;;x
+BOL_2314;Potosi;Potosi;Potosi;;;;;;;;;;;x
+serfdom_not_abolished;Servidão não abolida:;Le servage n'est pas aboli :;Leibeigenenschaft nicht abgeschafft:;;;;;;;;;;;x
+XIN;Xinjiang;Xinjiang;Xinjiang;;;;;;;;;;;x
+YNN;Yunnan;Yunnan;Yunnan;;;;;;;;;;;x
+GXI;Guangxi;Guangxi;Guangxi;;;;;;;;;;;x
+MCK;Manchuria;Mandchourie;Manchuria;;;;;;;;;;;x
+LEADERSHIP;Leadership;Prééminence;Herrschaft;;;;;;;;;;;x
+XBI;Qinghai;Qinghai;Qinghai;;;;;;;;;;;x
+EVTNAME23213;As Montanhas da Loucura;Les Monts de la Folie;Die Berge des Wahnsinns;;;;;;;;;x;;
+EVTDESC23213;Nossa expedição ao Pólo Sul despertou algo horrível. Nas ruínas de uma gigantesca cidade alienígena, descobrimos coisas que não podemos definir como plantas ou animais... Coisas que reinaram na Terra em tempos imemoriais - coisas que retornaram e são dotadas de um apetite insaciável, é indescritível.;Notre expédition au Pôle Sud a réveillé quelque chose d'horrible. Dans les ruines d'une gigantesque ville extra-terrestre, on a découvert des choses qu'on ne sait définir comme végétales ou animales… Des choses qui régnaient sur la Terre dans des temps immémoriaux - des choses qui reviennent et sont douées d'un insatiable appétit, c'est indescriptible.;Unsere Expedition zum Südpol hat etwas Furchtbares aufgeweckt. In den Ruinen einer riesigen, unbekannten Stadt hat sie Dinge entdeckt, die weder pflanzlichen noch tierischen Ursprungs sind. Dinge, die die Erde in der weiten Vergangenheit beherrscht haben.;;;;;;;;;x;;
+EVTOPTA23213;Bem, isso não é bom...;Ça, c'est pas bon du tout...;Das hört sich gar nicht gut an …;;;;;;;;;x;;

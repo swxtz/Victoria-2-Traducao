@@ -1,0 +1,26 @@
+PV_INTERNAL_IMMIGRATION;Migração Interna:;Migration interne : ;Interne Migration: ;;;;;;;;;;;x
+PV_EXTERNAL_IMMIGRATION;Migração Externa:;Immigration : ;Externe Migration: ;;;;;;;;;;;x
+COUNTRYALERT_CanRemoveFromSphere;Nós podemos remover nações da nossa §YEsfera de Influência§!:;Nous pouvons sortir des pays de notre §YSphere of Influence§ !;Wir können Nationen aus unserer §YEinflusssphäre§! entfernen:;;;;;;;;;;;x
+PV_CLERGY_LIT_DESC1;$NUM$ da sua população no(a) $LOC$ são Clerígos.;$NUM$ de votre population en $LOC$ sont ;$NUM$ unserer Bevölkerung in $LOC$ gehören dem Klerus an.;;;;;;;;;;;x
+PV_CLERGY_LIT_DESC2;O ideal é $OPT$.;L'idéal serait $OPT$.;Optimal sind $OPT$.;;;;;;;;;;;x
+PV_CLERGY_LIT_DESC3;Valor base de alteração mensal: $VAL$;Modification de base mensuelle : $VAL$;monatliche Grundveränderung: $VAL$;;;;;;;;;;;x
+IN_SOCIAL_MOVEMENT;no movimento social;en mouvement social;in einer sozialen Bewegung;;;;;;;;;;;"x																														"
+NOT_IN_SOCIAL_MOVEMENT;não em movimento social;pas en mouvement social;in keiner sozialen Bewegung;;;;;;;;;;;"x																														"
+IN_POLITICAL_MOVEMENT;no movimento político;en mouvement politique;in einer politischen Bewegung;;;;;;;;;;;"x																														"
+NOT_IN_POLITICAL_MOVEMENT;não em movimento político;pas en mouvement politique;in keiner politischen Bewegung;;;;;;;;;;;"x																														"
+the_meiji_restoration2_title;Primeira Restauração Meiji;Première restauration Meiji;Frühe Meiji-Restauration;;;;;;;;;;;"x																														"
+the_meiji_restoration2_desc;Segundo a tradição, o Japão foi fundado pelo imperador Jimmu em 660 aC, e embora a linhagem imperial tenha sido ininterrupta desde então, o Bureau Imperial era, durante o período Edo, apenas uma instituição, certamente respeitada, mas privado de poder político. Com o restabelecimento do domínio imperial, bem como o estabelecimento de um vasto programa de modernização industrial, constitucionalismo e liberdade econômica, o Japão poderá ser capaz de quebrar as algemas impostas pelo mundo ocidental.;Selon la tradition, le Japon aurait été fondé par l'empereur Jimmu en 660 avant notre ère et alors que la lignée impériale aurait depuis été ininterrompue, le Bureau impérial n'était, pendant la période Edo, qu'une institution, certes respectée, mais privée de pouvoir politique. Moyennant le rétablissement du règne impérial, ainsi que la mise ne place d'un vaste programme de modernisation industriel, de constitutionalisme et de liberté économique, le Japon devrait pouvoir rompre les fers que lui a imposé le monde occidental.;"Die Gründung Japans wird üblicherweise dem Kaiser Jimmu im Jahr 660 v.Chr. zugeschrieben und obwohl die kaiserliche Abstammungslinie seitdem ununterbrochen ist	 wurde das Kaiseramt während der Edo-Zeit kontinuierlich zu einer verehrten und respektierten aber letztendlich machtlosen politischen Institution reduziert. Durch die Restauration der kaiserlichen Herrschaft im Einklang einem Programm für rasche industrielle Modernisierung	 Konstitutionalismus und Gewerbefreiheit könnte Japan die Fesseln sprengen	 die ihm von der westlichen Welt angelegt wurden.";;"Tradicionalmente	 se considera que Japón fue fundado por el emperador Jimmu en el año 660 a. de.C. y	 aunque el linaje imperial se considera ininterrumpido desde entonces a lo largo del período Edo la función del Emperador fue reducida a una institución venerada y respetada pero carente de poder político. Al adoptar la restauración del gobierno imperial	 junto a un programa de rápida modernización industrial	 constitucionalismo y libertad económica	 Japón puede ser capaz de romper las cadenas de las imposiciones del mundo occidental.";;;;;;;;;x
+TPG;Reino Celestial;Royaume céleste;Himmlisches Königreich;;;;;;;;;;x;
+TPG_democracy;República Taiping;République de Taïwan;Taiping Republik;;;;;;;;;;;x
+TPG_bourgeois_dictatorship;República Taiping;République de Taïwan;Taiping Republik;;;;;;;;;;;x
+TPG_proletarian_dictatorship;Taiping comunista;Taïwan communiste;Kommunistisches Taiping;;;;;;;;;;;x
+TPG_fascist_dictatorship;Taiping;Taïwan;Taiping;;;;;;;;;;;x
+TPG_presidential_dictatorship;Taiping Clique;Clique taïwanaise;Taiping Clique;;;;;;;;;;;x
+TPG_ADJ;Taiping;taïwanais;Taiping;;;;;;;;;;x;
+TPG_conservative;Rei do Oeste;Monarque occidental;Westlicher Monarch;;;;;;;;;;x;
+TPG_liberal;Yi King;Yi King;Yi Monarch;;;;;;;;;;x;
+TPG_reactionary;Rei do Leste;Monarque oriental;Östlicher Monarch;;;;;;;;;;x;
+TPG_socialist;Rei do Norte;Monarque du nord;Nördlicher Monarch;;;;;;;;;;x;
+TPG_anarcho_liberal;A Facção Radical;La faction radicale;Radikale Fraktion;;;;;;;;;;x;
+TPG_communist;A Facção Comunista;La faction communiste;Kommunistische Fraktion;;;;;;;;;;x;
+TPG_fascist;A Facção Facista;La faction fasciste;Faschistische Fraktion;;;;;;;;;;x;

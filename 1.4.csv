@@ -1,0 +1,13 @@
+badboy;Infâmia;Infamie;Infamie;;Infamia;;;;;;;;;x
+EVTNAME60150;O fim do Sufrágio Feminino;Fin du suffrage féminin;Das Ende des Frauenwahlrechts;;;;;;;;;x ;;
+EVTDESC60150;Com o recente retrocesso da política de voto, é negado, novamente, o voto as mulheres.;Avec l'annulation récente des réformes sur le droit de vote, la gent féminine est de nouveau privée de vote.;Mit dem kürzlich zurückgerollten politischen Wahlrecht ist es dem schönerem Geschelcht nicht mehr erlaubt abzustimmen.;;;;;;;;;;x;
+EVTOPTA60150;Volte para cozinha!;Retournez à la cuisine !;Zurück an den Herd!;;;;;;;;;x ;;
+EVTNAME31102;Voo de Istambul;Fuir Istamboul;Flucht aus Istanbul;;;;;;;;;x ;;
+EVTDESC31102;Nossa posição em Istambul não é segura. Devemos mover nosso Governo para um lugar mais seguro.;Nous ne sommes plus en sécurité à Istamboul, nous devrions déplacer notre gouvernement en un lieu plus sûr.;Unsere Position in Istanbul ist nicht mehr sicher. We sollten unsere Regierung an einen sicheren Ort bringen.;;;;;;;;;;x;
+EVTOPTA31102;Finalmente fomos expulsos da Europa...;Nous avons finalement été chassés de l'Europe...; Wir wurden endgültig aus Europa vertrieben...;;;;;;;;;x ;;
+OL_REBEL_OCCUPATIONS;Ocupações rebeldes;Occupations par les rebelles;Rebellenbesetzung;;;;;;;;;;;x
+OL_REBEL_OCCUPATIONS_TOOLTIP;Nossa província do(a) §Y$PROVINCE$§W está sendo ocupada por rebeldes!;Notre province de §Y$PROVINCE$§W est occupée par les rebelles !;Unsere Provinz §Y$PROVINCE$§W wird von Rebellen besetzt!;;;;;;;;;;;x
+OL_VIEW_REBEL_OCCUPATIONS;Alterna a visão para §YOcupações Rebeldes§W;Active la vue §YOccupations par les rebelles§W;Aktiviert die §YRebellenbesetzungs§W Ansicht;;;;;;;;;;;x
+POP_MIL_CHANGE_REBEL;Esta pop. está vivendo no(a) §Y$PROV$§W, que está sob controle dos §RRebels§W.\nSua mudança de militância não pode ser estimada.;Cette population vit en §Y$PROV$§W, sous contrôle des §RRebels§W rebelles.\nPas d'estimation de la modification du militantisme;Diese Bevölkerungseinheit lebt in §Y$PROV$§W, welches unter der Kontrolle von §RRebellen§W ist.\nDie Militanzänderung kann nicht ermittelt werden.;;;;;;;;;;;x
+POP_CON_CHANGE_REBEL;Esta pop. está vivendo no(a) §Y$PROV$§W, que está sob controle dos §RRebels§W.\nSua mudança de consciência não pode ser estimada.;Cette population vit en §Y$PROV$§W, sous contrôle des §RRebels§W rebelles.\nPas d'estimation de la modification de la conscience nationale;Diese Bevölkerungseinheit lebt in §Y$PROV$§W, welches unter der Kontrolle von §RRebellen§W ist.\nDie Bewusstseinsänderung kann nicht ermittelt werden.;;;;;;;;;;;x
+PROJECT_STATE_NAME_DESC;Planejando construir no(a) §Y$PROV$§W.;Construction prévue en §Y$PROV$§W.;Bauprojekt in §Y$PROV$§W ist in Plannung.;;;;;;;;;;;x

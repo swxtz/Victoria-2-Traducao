@@ -1,0 +1,33 @@
+RALLY_POINT_NAVY_MERGE_INFO;Ativar ou desativar a mesclagem de frotas que chegam ao destino.\n(Os navios se fundirão com a maior unidade aqui.);Active ou désactive la fusion des flottes arrivant à destination.\n(Les navires s'intègrent à la plus grande flotte s'y trouvant déjà);Aktiviert oder deaktiviert das Vereinigen von Schiffen am Zielpunkt.\n(Schiffe werden sich hier mit der größten Einheit vereinigen.);;;;;;;;;;;x
+RALLY_POINT_NAVY_PROVINCE_MERGE_INFO;Todas as unidades navais se fundirão com a maior unidade quando chegarem aqui.;Toutes les unités navales fusionneront avec la plus grande à leur arrivée ici.;Alle Schiffe werden hier mit der größten Einheit vereinigt.;;;;;;;;;;;x
+BUDGET_INTERNALLY_SOLD_STOCKPILE;Estoque vendido para projetos de construção: §Y$VAL$§!;Stock vendu pour les projets de construction : §Y$VAL$§!;An Bauprojekte verkaufter Vorrat: §Y$VAL$§!;;;;;;;;;;;x
+OL_VIEW_RALLYPOINTS_NAVY_TOOLTIP;Todos os navios construídos nas proximidades irão em direção a §Y$PROV$§!;Tous les navires construits à proximité se dirigeront vers §Y$PROV$§!;Alle in der Nähe gebauten Schiffe werden nach §Y$PROV$§! aufbrechen.;;;;;;;;;;;x
+OL_VIEW_RALLYPOINTS_NAVY_MERGE_TOOLTIP;e tentará fundir com a maior unidade quando chegar aqui.; et tenteront de fusionner avec la plus grande unité à leur arrivée.;und werden versuchen sich dort mit der größten Einheit zu vereinigen.;;;;;;;;;;;x
+ARMY_SPLIT_AND_LOAD_DESC_1;§Y$UNIT$§! será dividido entre §G$NUM$§! navio(s):;§Y$UNIT$§! sera répartie entre §G$NUM$§! flotte(s):;§Y$UNIT$§! wird auf §G$NUM$§! Flotte(n) aufgeteilt:;;;;;;;;;;;x
+ARMY_SPLIT_AND_LOAD_DESC_2; - §Y$NAVY$§! (Capacidade de embarque: $NUM$ brigadas ); - §Y$NAVY$§! (Capacité d'embarquement : $NUM$ unités); - §Y$NAVY$§! (Ladevermögen: $NUM$ Brigaden);;;;;;;;;;;x
+ARMY_SPLIT_AND_LOAD_DESC_3;§RO resto do exército ($NUM$) não será embarcado.§!;§RLe reste de l'armée ($NUM$ unités) ne sera pas embarqué.§!;§RDie verbleibenden Truppenteile ($NUM$ Brigaden) werden nicht verladen.§!;;;;;;;;;;;x
+UW_NOT_POSSIBLE_TO_ATTACH;Não há unidades amigáveis para participar.;Il n'y a pas d'unités amies auxquelles on peut se joindre.;Hier gibt es keine befreundete Einheiten, denen Sie sich anschließen können.;;;;;;;;;;;x
+UW_UNITS_ATTACHED;As seguintes unidades estão anexadas.;Les unités suivantes se sont jointes.;Die folgenden Einheiten haben sich angeschlossen.;;;;;;;;;;;x
+UW_ATTACH_TO;Anexar-se à seguinte unidade $NAME$.;Se joindre à l'unité suivante : $NAME$.;Folgender Einheit anschließen: $NAME$.;;;;;;;;;;;x
+UW_DETACH_FROM;Desanexar da seguinte unidade $NAME$.;Se détacher de l'unité suivante : $NAME$.;Von folgender Einheit lösen: $NAME$.;;;;;;;;;;;x
+IW_SUPPLY_COST;Você precisa de §Y$VAL$§W¤ todos os dias para pagar pelos suprimentos desta unidade.;Vous avez besoin chaque jour de §Y$VAL$§W ¤ pour la maintenance de cette unité.;Sie benötigen jeden Tag §Y$VAL$§W¤ um den Unterhalt dieser Einheit zu finanzieren.;;;;;;;;;;;x
+HAS_NOT_CULTURE_CORE;$CUL$ NÃO é uma cultura central do(a) $WHERE$.\n;$CUL$ n'est PAS une culture de base de $WHERE$.\n;$CUL$ ist KEINE Kernkultur von $WHERE$.\n;;;;;;;;;;;x
+HAS_CULTURE_CORE;$CUL$ é uma cultura-núcleo do(a) $WHERE$.\n;$CUL$ est une culture de base de $WHERE$.\n;$CUL$ ist eine Kernkultur von $WHERE$.\n;;;;;;;;;;;x
+PROMOTION_EFFECT_FROM_ADMIN;Efeito de eficiência administrativa na velocidade de promoção: §Y$PERCENTAGE$§!;Influence de l'efficacité administrative sur la vitesse de promotion : §Y$PERCENTAGE$§!;Einfluss der Verwaltungseffizienz auf die Beförderungsgeschwindigkeit: §Y$PERCENTAGE$§!;;;;;;;;;;;x
+OUTLINER_TOOLTIP_FACTORY_OCCUPANCY;Nível de emprego nas fábricas locais: $PERC$;Niveau de l'emploi dans les usines locales : $PERC$;Beschäftigungsgrad in den lokalen Fabriken: $PERC$;;;;;;;;;;;x
+REVOLTALLIANCE_LOG;Uma revolução! Nossa aliança está quebrada!;Une révolution ! Notre alliance est rompue!;Eine Revolution! Unser Bündnis ist gekündigt!;;;;;;;;;;;x
+tut_5b_12b;Clique na guia de decisões para continuar.;Cliquez sur l'onglet Décisions pour continuer;Drücken Sie auf den Entscheidungs Reiter um fortzufahren.;;;;;;;;;;;x
+tut_5b_14b;Clique na guia de movimentos para continuar.;Cliquez sur l'onglet Mouvements pour continuer;Drücken Sie auf den Bewegungs Reiter um fortzufahren.;;;;;;;;;;;x
+Workforce;Mão de Obra;Main-d'oeuvre;Arbeitskräfte;;;;;;;;;;;x
+Ideology;Ideologia;Idéologie;Ideologie;;;;;;;;;;;x
+SELL;VENDER;VENDRE;VERKAUFE;;;;;;;;;;;x
+BUY;COMPRAR;ACHETER;KAUFE;;;;;;;;;;;x
+Start Research;Iniciar Pesquisa;Commencer la recherche;Beginne Forschung;;;;;;;;;;;x
+Maneuver;Manobra;Manœuvre;Manöver;;;;;;;;;;;x
+LEDGER;ESTATÍSTICAS;STATISTIQUES;Statistiken;;;;;;;;;;;x
+OK;OK;D'accord;OK;;;;;;;;;;;x
+TOPBAR_POPULATION;Nossa população masculina adulta é de $CURR$. Nossa população masculina adulta mudou em $CHANGE$ nos últimos §Y$DAYS$§! dias.;Notre population masculine adulte s'élève à $CURR$.\nNotre population masculine a évolué de $CHANGE$ adultes ces §Y$DAYS$§! derniers jours.;Unsere erwachsene männliche Bevölkerung beträgt $CURR$. Unsere erwachsene männliche Bevölkerung hat sich um $CHANGE$ in den letzten §y$DAYS$§! Tagen geändert.;;;;;;;;;;;x
+DIG_IN_TOOLTIP_1;Nível de escavação atual: $LEV$/$MAX$.;Niveau de retranchement actuel : $LEV$/$MAX$.;Aktueller Verschanzungsbonus: $LEV$/$MAX$.;;;;;;;;;;;x
+DIG_IN_TOOLTIP_2;Leva §Y$DAYS$§! dias para aumentar o nível de escavação por §G+$VAL$§!.;Il faut §Y$DAYS$§! jours pour augmenter le niveau de retranchement de §G+$VAL$§! .;Es dauert §Y$DAYS$§! Tage um den Verschanzungsbonus um §G+$VAL$§! zu erhöhen.;;;;;;;;;;;x
+in_bankrupcy;Falência;En faillite;In Insolvenz;;;;;;;;;;;x
+in_bankrupcy_desc;Estamos falidos!;Nous sommes en faillite !;Wir sind zahlungsunfähig!;;;;;;;;;;;x
