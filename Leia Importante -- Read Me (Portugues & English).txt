@@ -1,0 +1,6 @@
+-- Para instalar a tradução vc dever ir na pasta onde se localiza o jogo
+-- depois localizar a pasta "localisation"
+-- copiar os arquivos traduzidos para a pasta "localisation"
+-- abrir o jogo e se divertir 
+
+OBS: A Tradução nao vai traduzir mods pos nao fazem parte do jogo base
